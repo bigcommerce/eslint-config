@@ -1,0 +1,35 @@
+{
+  "name": "@bigcommerce/eslint-config",
+  "version": "0.0.1",
+  "description": "Default ESLint configuration used at BigCommerce",
+  "main": "index.json",
+  "files": [
+    "index.json",
+    "react.json"
+  ],
+  "author": "BigCommerce",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bigcommerce/eslint-config.git"
+  },
+  "scripts": {
+    "release": "npm run validate-commits && standard-version",
+    "validate-commits": "validate-commits"
+  },
+  "devDependencies": {
+    "@bigcommerce/validate-commits": "^2.0.2",
+    "eslint": "^6.1.0",
+    "eslint-find-rules": "^3.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "standard-version": "^4.3.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  }
+}
