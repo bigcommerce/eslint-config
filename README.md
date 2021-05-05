@@ -1,13 +1,14 @@
+# v2 - wip
+
 # @bigcommerce/eslint-config
 
-
-This package is a configuration preset for [ESLint](https://eslint.org/). At the moment it contains a set of rules applied to React projects at BigCommerce.
+This package is a configuration preset for [ESLint](https://eslint.org/).
 
 
 ## Install
 
 ```sh
-npm install --save-dev eslint eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks
+npm install --save-dev eslint prettier
 npm install --save-dev @bigcommerce/eslint-config
 ```
 
@@ -16,14 +17,23 @@ npm install --save-dev @bigcommerce/eslint-config
 
 Add `@bigcommerce/eslint-config` to your project's ESLint configuration file. i.e.:
 
+```js
+// .eslintrc.js
+require('@bigcommerce/eslint-config/patch');
+
+module.exports = {
+  extends: ['@bigcommerce/eslint-config'],
+};
+```
+
+This config also runs prettier via eslint, add the following to your `package.json`
 ```json
 {
-    "extends": "@bigcommerce/eslint-config"
+  "prettier": "@bigcommerce/eslint-config/prettier"
 }
 ```
 
 If possible, try not to override the preset unless you have a special reason.
-
 
 ## Release
 
