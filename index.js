@@ -1,27 +1,27 @@
 const { hasPackage } = require('./utils');
 
 module.exports = {
-  root: true,
   extends: ['./configs/base', './configs/jsdoc', './configs/prettier'],
   overrides: [
     {
-      files: ['**/*.spec.*', '**/spec.*', 'jest-setup.*'],
       extends: './configs/jest',
+      files: ['**/*.spec.*', '**/spec.*', 'jest-setup.*'],
     },
     hasPackage('react') && {
-      files: ['**/*.ts', '**/*.tsx', '**/*.js', '**/*.jsx'],
       extends: './configs/react',
+      files: ['**/*.ts', '**/*.tsx', '**/*.js', '**/*.jsx'],
     },
     hasPackage('typescript') && {
-      files: ['**/*.ts', '**/*.tsx'],
       extends: './configs/typescript',
+      files: ['**/*.ts', '**/*.tsx'],
     },
     {
-      files: '*.js',
       env: {
         es6: true,
         node: true,
       },
+      files: '*.js',
     },
   ].filter(Boolean),
+  root: true,
 };

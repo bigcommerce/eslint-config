@@ -4,18 +4,17 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
   ],
-  plugins: ['react-hooks'],
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
   },
+  plugins: ['react-hooks'],
   rules: {
+    // This rule is not compatible with Next.js's <Link /> components
+    'jsx-a11y/anchor-is-valid': 'off',
+    'react-hooks/exhaustive-deps': 'error',
+    'react-hooks/rules-of-hooks': 'error',
     'react/destructuring-assignment': 'error',
     'react/display-name': 'off',
     'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
@@ -28,10 +27,10 @@ module.exports = {
       },
     ],
     'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
+    'react/jsx-fragments': ['error', 'syntax'],
     'react/jsx-indent-props': ['error', 4],
     'react/jsx-no-bind': 'error',
     'react/jsx-no-useless-fragment': 'error',
-    'react/jsx-fragments': ['error', 'syntax'],
     'react/jsx-one-expression-per-line': [
       'error',
       {
@@ -44,10 +43,10 @@ module.exports = {
     'react/jsx-tag-spacing': [
       'error',
       {
-        closingSlash: 'never',
-        beforeSelfClosing: 'always',
         afterOpening: 'never',
         beforeClosing: 'never',
+        beforeSelfClosing: 'always',
+        closingSlash: 'never',
       },
     ],
     'react/no-redundant-should-component-update': 'error',
@@ -59,9 +58,10 @@ module.exports = {
     'react/prop-types': 'off',
     'react/self-closing-comp': 'error',
     'react/style-prop-object': 'error',
-    'react-hooks/exhaustive-deps': 'error',
-    'react-hooks/rules-of-hooks': 'error',
-    // This rule is not compatible with Next.js's <Link /> components
-    'jsx-a11y/anchor-is-valid': 'off',
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
   },
 };

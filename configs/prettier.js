@@ -7,13 +7,20 @@ function getRules() {
   const prettierConfigFile = resolveConfigFile.sync(process.cwd());
   const hasLocalConfig = prettierConfigFile ? dirname(prettierConfigFile) === process.cwd() : false;
 
+  const defaultRules = {
+    'prettier/prettier': ['error', defaultConfig, { usePrettierrc: false }],
+  };
+
+  if (process.env.NODE_ENV === 'test') {
+    return defaultRules;
+  }
+
   if (!hasLocalConfig) {
     throw new Error(`
       =================================================================================
       Please add "prettier": "@bigcommerce/eslint-config/prettier" to your package.json
       =================================================================================
-    `
-    );
+    `);
   }
 
   if (basename(prettierConfigFile) !== 'package.json') {
@@ -22,13 +29,10 @@ function getRules() {
       Please add "prettier": "@bigcommerce/eslint-config/prettier" to your package.json
       and remove any other prettier config file
       =================================================================================
-    `
-    );
+    `);
   }
 
-  return {
-    'prettier/prettier': ['error', defaultConfig, { usePrettierrc: false }],
-  };
+  return defaultRules;
 }
 
 module.exports = {
