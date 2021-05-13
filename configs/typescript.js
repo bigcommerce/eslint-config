@@ -1,4 +1,10 @@
+const {
+  configs: { all },
+} = require('@typescript-eslint/eslint-plugin');
+const pickBy = require('lodash.pickby');
 const { join } = require('path');
+
+const offRules = pickBy(all.rules, (v) => v === 'off');
 
 module.exports = {
   extends: [
@@ -13,6 +19,8 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   rules: {
+    // This disables every rule that is disabled by the typescript-eslint team.
+    ...offRules,
     '@typescript-eslint/array-type': [
       'error',
       {
@@ -26,8 +34,22 @@ module.exports = {
         assertionStyle: 'never',
       },
     ],
+    '@typescript-eslint/consistent-type-definitions': 'error',
+    '@typescript-eslint/dot-notation': [
+      'error',
+      {
+        allowKeywords: true,
+      },
+    ],
     '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-member-accessibility': [
+      'error',
+      {
+        accessibility: 'no-public',
+      },
+    ],
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/member-ordering': 'error',
     '@typescript-eslint/naming-convention': [
       'error',
       {
@@ -71,8 +93,47 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-explicit-any': 'error',
-    '@typescript-eslint/no-unused-vars': ['error', { ignoreRestSiblings: true }],
-    '@typescript-eslint/no-use-before-define': 'off',
+    '@typescript-eslint/no-namespace': [
+      'error',
+      {
+        allowDeclarations: true,
+      },
+    ],
+    '@typescript-eslint/no-unnecessary-type-assertion': 'error',
+    '@typescript-eslint/no-unused-expressions': [
+      'error',
+      {
+        allowTaggedTemplates: false,
+      },
+    ],
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      {
+        args: 'after-used',
+        ignoreRestSiblings: true,
+        vars: 'all',
+      },
+    ],
+    '@typescript-eslint/no-use-before-define': ['error', 'nofunc'],
+    '@typescript-eslint/no-useless-constructor': 'error',
+    '@typescript-eslint/prefer-for-of': 'error',
+    '@typescript-eslint/prefer-function-type': 'error',
+    '@typescript-eslint/require-await': 'error',
+    '@typescript-eslint/return-await': 'error',
+    '@typescript-eslint/unbound-method': 'off',
+    '@typescript-eslint/unified-signatures': 'error',
+    'consistent-return': 'off',
+    // import/named does not behave properly with Typescript imports
+    'import/named': 'off',
+    'no-throw-literal': 'error',
     'react/jsx-filename-extension': [1, { extensions: ['.tsx'] }],
+    'sort-keys': 'off',
+  },
+  settings: {
+    'import/resolver': {
+      typescript: {
+        alwaysTryTypes: true,
+      },
+    },
   },
 };

@@ -36,7 +36,6 @@ module.exports = {
         tsx: 'never',
       },
     ],
-    'import/named': 'off',
     'import/newline-after-import': 'error',
     'import/no-absolute-path': 'error',
     'import/no-amd': 'error',
