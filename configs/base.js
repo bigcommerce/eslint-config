@@ -25,6 +25,7 @@ module.exports = {
     'gettext/no-variable-string': 'error',
     'global-require': 'error',
     'guard-for-in': 'error',
+    'import/default': 'off',
     'import/dynamic-import-chunkname': 'error',
     'import/extensions': [
       'error',

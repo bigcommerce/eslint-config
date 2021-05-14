@@ -120,6 +120,13 @@ module.exports = {
     '@typescript-eslint/prefer-function-type': 'error',
     '@typescript-eslint/require-await': 'error',
     '@typescript-eslint/return-await': 'error',
+    '@typescript-eslint/strict-boolean-expressions': [
+      'error',
+      {
+        allowNumber: false,
+        allowString: false,
+      },
+    ],
     '@typescript-eslint/unbound-method': 'off',
     '@typescript-eslint/unified-signatures': 'error',
     'consistent-return': 'off',
