@@ -253,7 +253,7 @@ Object {
       "off",
     ],
     "import/default": Array [
-      2,
+      "off",
     ],
     "import/dynamic-import-chunkname": Array [
       "error",
@@ -1296,6 +1296,9 @@ Object {
     ],
     "no-void": Array [
       "error",
+      Object {
+        "allowAsStatement": true,
+      },
     ],
     "no-whitespace-before-property": Array [
       "off",
@@ -2131,7 +2134,7 @@ Object {
       "off",
     ],
     "import/default": Array [
-      2,
+      "off",
     ],
     "import/dynamic-import-chunkname": Array [
       "error",
@@ -3070,6 +3073,9 @@ Object {
     ],
     "no-void": Array [
       "error",
+      Object {
+        "allowAsStatement": true,
+      },
     ],
     "no-whitespace-before-property": Array [
       "off",
@@ -3904,7 +3910,7 @@ Object {
       "off",
     ],
     "import/default": Array [
-      2,
+      "off",
     ],
     "import/dynamic-import-chunkname": Array [
       "error",
@@ -4843,6 +4849,9 @@ Object {
     ],
     "no-void": Array [
       "error",
+      Object {
+        "allowAsStatement": true,
+      },
     ],
     "no-whitespace-before-property": Array [
       "off",
@@ -5803,7 +5812,7 @@ Object {
       "off",
     ],
     "camelcase": Array [
-      "error",
+      "off",
       Object {
         "ignoreDestructuring": false,
         "ignoreGlobals": false,
@@ -5931,7 +5940,7 @@ Object {
       "off",
     ],
     "import/default": Array [
-      2,
+      "off",
     ],
     "import/dynamic-import-chunkname": Array [
       "error",
@@ -6891,6 +6900,9 @@ Object {
     ],
     "no-void": Array [
       "error",
+      Object {
+        "allowAsStatement": true,
+      },
     ],
     "no-whitespace-before-property": Array [
       "off",
@@ -7900,7 +7912,7 @@ Object {
       "off",
     ],
     "camelcase": Array [
-      "error",
+      "off",
       Object {
         "ignoreDestructuring": false,
         "ignoreGlobals": false,
@@ -8028,7 +8040,7 @@ Object {
       "off",
     ],
     "import/default": Array [
-      2,
+      "off",
     ],
     "import/dynamic-import-chunkname": Array [
       "error",
@@ -8988,6 +9000,9 @@ Object {
     ],
     "no-void": Array [
       "error",
+      Object {
+        "allowAsStatement": true,
+      },
     ],
     "no-whitespace-before-property": Array [
       "off",

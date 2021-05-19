@@ -120,15 +120,10 @@ module.exports = {
     '@typescript-eslint/prefer-function-type': 'error',
     '@typescript-eslint/require-await': 'error',
     '@typescript-eslint/return-await': 'error',
-    '@typescript-eslint/strict-boolean-expressions': [
-      'error',
-      {
-        allowNumber: false,
-        allowString: false,
-      },
-    ],
     '@typescript-eslint/unbound-method': 'off',
     '@typescript-eslint/unified-signatures': 'error',
+    // We disable camelcase here so that it doesn't conflict with @typescript-eslint/naming-convention
+    camelcase: 'off',
     'consistent-return': 'off',
     // import/named does not behave properly with Typescript imports
     'import/named': 'off',

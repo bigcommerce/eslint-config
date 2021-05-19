@@ -263,7 +263,7 @@ module.exports = {
     ],
     'no-useless-return': 'error',
     'no-var': 'error',
-    'no-void': 'error',
+    'no-void': ['error', { allowAsStatement: true }],
     'object-shorthand': ['error', 'always', { avoidQuotes: true, ignoreConstructors: false }],
     'one-var': ['error', 'never'],
     'operator-assignment': ['error', 'always'],
