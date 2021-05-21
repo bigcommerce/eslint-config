@@ -7,14 +7,6 @@ function getRules() {
   const prettierConfigFile = resolveConfigFile.sync(process.cwd());
   const hasLocalConfig = prettierConfigFile ? dirname(prettierConfigFile) === process.cwd() : false;
 
-  const defaultRules = {
-    'prettier/prettier': ['error', defaultConfig, { usePrettierrc: false }],
-  };
-
-  if (process.env.NODE_ENV === 'test') {
-    return defaultRules;
-  }
-
   if (!hasLocalConfig) {
     throw new Error(`
       =================================================================================
@@ -32,7 +24,9 @@ function getRules() {
     `);
   }
 
-  return defaultRules;
+  return {
+    'prettier/prettier': ['error', defaultConfig, { usePrettierrc: false }],
+  };
 }
 
 module.exports = {

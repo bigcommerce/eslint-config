@@ -78,7 +78,8 @@ module.exports = {
     }
 
     return {
-      ":matches(JSXElement, JSXFragment) > JSXExpressionContainer > LogicalExpression[operator='&&']": checkNode,
+      ":matches(JSXElement, JSXFragment) > JSXExpressionContainer > LogicalExpression[operator='&&']":
+        checkNode,
     };
   },
 };

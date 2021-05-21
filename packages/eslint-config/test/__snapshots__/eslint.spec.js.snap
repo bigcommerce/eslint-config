@@ -339,6 +339,7 @@ Object {
           "index",
         ],
         "newlines-between": "always",
+        "warnOnUnassignedImports": false,
       },
     ],
     "indent": Array [
@@ -2216,6 +2217,7 @@ Object {
           "index",
         ],
         "newlines-between": "always",
+        "warnOnUnassignedImports": false,
       },
     ],
     "indent": Array [
@@ -3992,6 +3994,7 @@ Object {
           "index",
         ],
         "newlines-between": "always",
+        "warnOnUnassignedImports": false,
       },
     ],
     "indent": Array [
@@ -5517,6 +5520,7 @@ Object {
     "@typescript-eslint/dot-notation": Array [
       "error",
       Object {
+        "allowIndexSignaturePropertyAccess": false,
         "allowKeywords": true,
         "allowPattern": "",
         "allowPrivateClassPropertyAccess": false,
@@ -6026,6 +6030,7 @@ Object {
           "index",
         ],
         "newlines-between": "always",
+        "warnOnUnassignedImports": false,
       },
     ],
     "indent": Array [
@@ -7621,6 +7626,7 @@ Object {
     "@typescript-eslint/dot-notation": Array [
       "error",
       Object {
+        "allowIndexSignaturePropertyAccess": false,
         "allowKeywords": true,
         "allowPattern": "",
         "allowPrivateClassPropertyAccess": false,
@@ -8130,6 +8136,7 @@ Object {
           "index",
         ],
         "newlines-between": "always",
+        "warnOnUnassignedImports": false,
       },
     ],
     "indent": Array [

@@ -2,6 +2,7 @@
     "scopes": [
         "common",
         "config",
-        "plugin"
+        "plugin",
+        "release"
     ]
 }

@@ -37,13 +37,7 @@ If possible, try not to override the preset unless you have a special reason.
 
 ## Release
 
-To release:
-
-```sh
-npm run release
-```
-
-Please refer to the documentation of [standard-version](https://github.com/conventional-changelog/standard-version) for more options.
+Please refer to the documentation of [lerna](https://github.com/lerna/lerna) for release options.
 
 
 ## License
