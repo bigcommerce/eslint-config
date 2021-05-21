@@ -5464,6 +5464,7 @@ Object {
     "react",
     "jsx-a11y",
     "react-hooks",
+    "@bigcommerce",
     "@typescript-eslint",
   ],
   "reportUnusedDisableDirectives": true,
@@ -5473,6 +5474,9 @@ Object {
     ],
     "@babel/semi": Array [
       "off",
+    ],
+    "@bigcommerce/jsx-short-circuit-conditionals": Array [
+      "error",
     ],
     "@typescript-eslint/adjacent-overload-signatures": Array [
       "error",
@@ -7564,6 +7568,7 @@ Object {
     "react",
     "jsx-a11y",
     "react-hooks",
+    "@bigcommerce",
     "@typescript-eslint",
   ],
   "reportUnusedDisableDirectives": true,
@@ -7573,6 +7578,9 @@ Object {
     ],
     "@babel/semi": Array [
       "off",
+    ],
+    "@bigcommerce/jsx-short-circuit-conditionals": Array [
+      "error",
     ],
     "@typescript-eslint/adjacent-overload-signatures": Array [
       "error",

@@ -1,0 +1,17 @@
+{
+  "name": "@bigcommerce/eslint-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@typescript-eslint/experimental-utils": "^4.24.0",
+    "tsutils": "^3.21.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/parser": "^4.0.0",
+    "eslint": "^7.0.0",
+    "typescript": "^4.0.0"
+  },
+  "devDependencies": {
+    "endent": "^2.0.1"
+  }
+}

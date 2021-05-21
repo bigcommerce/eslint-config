@@ -7,6 +7,7 @@
     "index.js",
     "configs",
     "patch",
+    "plugin",
     "utils",
     "prettier",
     "prettier.config.js"
@@ -23,6 +24,7 @@
     "validate-commits": "validate-commits"
   },
   "dependencies": {
+    "@bigcommerce/eslint-plugin": "file:plugin",
     "@rushstack/eslint-patch": "^1.0.6",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
@@ -42,6 +44,7 @@
   },
   "devDependencies": {
     "@bigcommerce/validate-commits": "^2.0.2",
+    "endent": "^2.0.1",
     "eslint": "^7.25.0",
     "jest": "^26.6.3",
     "react": "^17.0.2",
