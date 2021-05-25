@@ -7,8 +7,8 @@ const rule = require('../rules/jsx-short-circuit-conditionals');
 const ruleTester = new ESLintUtils.RuleTester({
   parser: require.resolve('@typescript-eslint/parser'),
   parserOptions: {
-    tsconfigRootDir: process.cwd(),
-    project: './tsconfig.json',
+    tsconfigRootDir: __dirname,
+    project: '../tsconfig.json',
     ecmaFeatures: { jsx: true },
   },
 });
