@@ -1,14 +1,9 @@
 const { ESLint } = require('eslint');
 const { join } = require('path');
 
-expect.addSnapshotSerializer({
-  print(value, serialize) {
-    return serialize(value.replace(process.cwd(), '<rootDir>'));
-  },
-  test(value) {
-    return typeof value === 'string' && value.includes(process.cwd());
-  },
-});
+const eslintSerializer = require('./eslint-serializer');
+
+expect.addSnapshotSerializer(eslintSerializer);
 
 function getEslint() {
   return new ESLint({
