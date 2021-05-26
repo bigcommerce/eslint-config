@@ -163,6 +163,9 @@ Object {
     "default-case": Array [
       "error",
     ],
+    "default-param-last": Array [
+      "error",
+    ],
     "dot-location": Array [
       "off",
     ],
@@ -843,6 +846,9 @@ Object {
     "no-duplicate-case": Array [
       "error",
     ],
+    "no-duplicate-imports": Array [
+      "error",
+    ],
     "no-else-return": Array [
       "error",
       Object {
@@ -1244,12 +1250,6 @@ Object {
     ],
     "no-unused-expressions": Array [
       "error",
-      Object {
-        "allowShortCircuit": false,
-        "allowTaggedTemplates": false,
-        "allowTernary": false,
-        "enforceForJSX": false,
-      },
     ],
     "no-unused-labels": Array [
       "error",
@@ -2045,6 +2045,9 @@ Object {
     "default-case": Array [
       "error",
     ],
+    "default-param-last": Array [
+      "error",
+    ],
     "dot-location": Array [
       "off",
     ],
@@ -2621,6 +2624,9 @@ Object {
     "no-duplicate-case": Array [
       "error",
     ],
+    "no-duplicate-imports": Array [
+      "error",
+    ],
     "no-else-return": Array [
       "error",
       Object {
@@ -3022,12 +3028,6 @@ Object {
     ],
     "no-unused-expressions": Array [
       "error",
-      Object {
-        "allowShortCircuit": false,
-        "allowTaggedTemplates": false,
-        "allowTernary": false,
-        "enforceForJSX": false,
-      },
     ],
     "no-unused-labels": Array [
       "error",
@@ -3822,6 +3822,9 @@ Object {
     "default-case": Array [
       "error",
     ],
+    "default-param-last": Array [
+      "error",
+    ],
     "dot-location": Array [
       "off",
     ],
@@ -4398,6 +4401,9 @@ Object {
     "no-duplicate-case": Array [
       "error",
     ],
+    "no-duplicate-imports": Array [
+      "error",
+    ],
     "no-else-return": Array [
       "error",
       Object {
@@ -4799,12 +4805,6 @@ Object {
     ],
     "no-unused-expressions": Array [
       "error",
-      Object {
-        "allowShortCircuit": false,
-        "allowTaggedTemplates": false,
-        "allowTernary": false,
-        "enforceForJSX": false,
-      },
     ],
     "no-unused-labels": Array [
       "error",
@@ -5517,6 +5517,9 @@ Object {
     "@typescript-eslint/consistent-type-definitions": Array [
       "error",
     ],
+    "@typescript-eslint/default-param-last": Array [
+      "error",
+    ],
     "@typescript-eslint/dot-notation": Array [
       "error",
       Object {
@@ -5629,6 +5632,9 @@ Object {
     "@typescript-eslint/no-array-constructor": Array [
       "error",
     ],
+    "@typescript-eslint/no-duplicate-imports": Array [
+      "error",
+    ],
     "@typescript-eslint/no-empty-function": Array [
       "error",
     ],
@@ -5677,7 +5683,16 @@ Object {
     "@typescript-eslint/no-non-null-assertion": Array [
       "warn",
     ],
+    "@typescript-eslint/no-shadow": Array [
+      "error",
+      Object {
+        "hoist": "all",
+      },
+    ],
     "@typescript-eslint/no-this-alias": Array [
+      "error",
+    ],
+    "@typescript-eslint/no-throw-literal": Array [
       "error",
     ],
     "@typescript-eslint/no-unnecessary-type-assertion": Array [
@@ -5697,12 +5712,6 @@ Object {
     ],
     "@typescript-eslint/no-unused-expressions": Array [
       "error",
-      Object {
-        "allowShortCircuit": false,
-        "allowTaggedTemplates": false,
-        "allowTernary": false,
-        "enforceForJSX": false,
-      },
     ],
     "@typescript-eslint/no-unused-vars": Array [
       "error",
@@ -5862,7 +5871,7 @@ Object {
       "off",
     ],
     "dot-notation": Array [
-      "off",
+      "error",
       Object {
         "allowKeywords": true,
         "allowPattern": "",
@@ -6037,9 +6046,6 @@ Object {
       "off",
     ],
     "indent-legacy": Array [
-      "off",
-    ],
-    "init-declarations": Array [
       "off",
     ],
     "jsdoc/check-alignment": Array [
@@ -6328,9 +6334,6 @@ Object {
         "before": "always",
       },
     ],
-    "lines-between-class-members": Array [
-      "off",
-    ],
     "max-classes-per-file": Array [
       "error",
       1,
@@ -6516,9 +6519,6 @@ Object {
     "no-invalid-regexp": Array [
       "error",
     ],
-    "no-invalid-this": Array [
-      "off",
-    ],
     "no-irregular-whitespace": Array [
       "error",
     ],
@@ -6542,13 +6542,7 @@ Object {
       "error",
     ],
     "no-loop-func": Array [
-      "off",
-    ],
-    "no-loss-of-precision": Array [
-      "off",
-    ],
-    "no-magic-numbers": Array [
-      "off",
+      "error",
     ],
     "no-misleading-character-class": Array [
       "error",
@@ -6769,7 +6763,7 @@ Object {
       "except-parens",
     ],
     "no-return-await": Array [
-      "off",
+      "error",
     ],
     "no-script-url": Array [
       "error",
@@ -6856,12 +6850,6 @@ Object {
     ],
     "no-unused-expressions": Array [
       "off",
-      Object {
-        "allowShortCircuit": false,
-        "allowTaggedTemplates": false,
-        "allowTernary": false,
-        "enforceForJSX": false,
-      },
     ],
     "no-unused-labels": Array [
       "error",
@@ -7045,7 +7033,7 @@ Object {
       "off",
     ],
     "quotes": Array [
-      "off",
+      0,
     ],
     "radix": Array [
       "error",
@@ -7623,6 +7611,9 @@ Object {
     "@typescript-eslint/consistent-type-definitions": Array [
       "error",
     ],
+    "@typescript-eslint/default-param-last": Array [
+      "error",
+    ],
     "@typescript-eslint/dot-notation": Array [
       "error",
       Object {
@@ -7735,6 +7726,9 @@ Object {
     "@typescript-eslint/no-array-constructor": Array [
       "error",
     ],
+    "@typescript-eslint/no-duplicate-imports": Array [
+      "error",
+    ],
     "@typescript-eslint/no-empty-function": Array [
       "error",
     ],
@@ -7783,7 +7777,16 @@ Object {
     "@typescript-eslint/no-non-null-assertion": Array [
       "warn",
     ],
+    "@typescript-eslint/no-shadow": Array [
+      "error",
+      Object {
+        "hoist": "all",
+      },
+    ],
     "@typescript-eslint/no-this-alias": Array [
+      "error",
+    ],
+    "@typescript-eslint/no-throw-literal": Array [
       "error",
     ],
     "@typescript-eslint/no-unnecessary-type-assertion": Array [
@@ -7803,12 +7806,6 @@ Object {
     ],
     "@typescript-eslint/no-unused-expressions": Array [
       "error",
-      Object {
-        "allowShortCircuit": false,
-        "allowTaggedTemplates": false,
-        "allowTernary": false,
-        "enforceForJSX": false,
-      },
     ],
     "@typescript-eslint/no-unused-vars": Array [
       "error",
@@ -7968,7 +7965,7 @@ Object {
       "off",
     ],
     "dot-notation": Array [
-      "off",
+      "error",
       Object {
         "allowKeywords": true,
         "allowPattern": "",
@@ -8143,9 +8140,6 @@ Object {
       "off",
     ],
     "indent-legacy": Array [
-      "off",
-    ],
-    "init-declarations": Array [
       "off",
     ],
     "jsdoc/check-alignment": Array [
@@ -8434,9 +8428,6 @@ Object {
         "before": "always",
       },
     ],
-    "lines-between-class-members": Array [
-      "off",
-    ],
     "max-classes-per-file": Array [
       "error",
       1,
@@ -8622,9 +8613,6 @@ Object {
     "no-invalid-regexp": Array [
       "error",
     ],
-    "no-invalid-this": Array [
-      "off",
-    ],
     "no-irregular-whitespace": Array [
       "error",
     ],
@@ -8648,13 +8636,7 @@ Object {
       "error",
     ],
     "no-loop-func": Array [
-      "off",
-    ],
-    "no-loss-of-precision": Array [
-      "off",
-    ],
-    "no-magic-numbers": Array [
-      "off",
+      "error",
     ],
     "no-misleading-character-class": Array [
       "error",
@@ -8875,7 +8857,7 @@ Object {
       "except-parens",
     ],
     "no-return-await": Array [
-      "off",
+      "error",
     ],
     "no-script-url": Array [
       "error",
@@ -8962,12 +8944,6 @@ Object {
     ],
     "no-unused-expressions": Array [
       "off",
-      Object {
-        "allowShortCircuit": false,
-        "allowTaggedTemplates": false,
-        "allowTernary": false,
-        "enforceForJSX": false,
-      },
     ],
     "no-unused-labels": Array [
       "error",
@@ -9151,7 +9127,7 @@ Object {
       "off",
     ],
     "quotes": Array [
-      "off",
+      0,
     ],
     "radix": Array [
       "error",
