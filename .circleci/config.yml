@@ -1,0 +1,61 @@
+version: 2.1
+orbs:
+  node: circleci/node@1.1.4
+
+default_executor: &default_executor
+  executor:
+    name: node/default
+    tag: '14.16'
+
+commands:
+  install-dependencies:
+    steps:
+      - node/install-yarn:
+          version: 1.22.10
+
+      - node/with-cache:
+          cache-key: yarn.lock
+          cache-version: v1
+          include-branch-in-cache-key: false
+          steps:
+            - run:
+                name: yarn install
+                command: |
+                  CKSUM_BEFORE=$(cksum yarn.lock)
+                  yarn install
+                  CKSUM_AFTER=$(cksum yarn.lock)
+
+                  if [[ $CKSUM_BEFORE != $CKSUM_AFTER ]]; then
+                    echo "yarn.lock was modified unexpectedly - terminating"
+                    exit 1
+                  fi
+
+jobs:
+  test:
+    <<: *default_executor
+    steps:
+      - checkout
+      - install-dependencies
+      - run: yarn run test
+
+  lint:
+    <<: *default_executor
+    steps:
+      - checkout
+      - install-dependencies
+      - run: yarn run lint
+
+  validate-commits:
+    <<: *default_executor
+    steps:
+      - checkout
+      - install-dependencies
+      - run: yarn run validate-commits
+
+workflows:
+  version: 2
+  ci-checks:
+    jobs:
+      - test
+      - lint
+      - validate-commits
