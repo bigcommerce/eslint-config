@@ -1,6 +1,8 @@
 {
     "scopes": [
         "common",
-        "core"
+        "config",
+        "plugin",
+        "release"
     ]
 }
