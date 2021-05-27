@@ -5,4 +5,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 1.0.0-alpha.0 (2021-05-27)
 
-**Note:** Version bump only for package @bigcommerce/eslint-plugin
+### Features
+
+* **plugin:** adds jsx-short-circuit-conditionals ([af22c10](https://github.com/bigcommerce/eslint-config/commit/af22c10b7a13dcd6346cb4d4135d3105e97e7c18))
