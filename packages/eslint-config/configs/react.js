@@ -11,8 +11,6 @@ module.exports = {
   },
   plugins: ['react-hooks'],
   rules: {
-    // This rule is not compatible with Next.js's <Link /> components
-    'jsx-a11y/anchor-is-valid': 'off',
     'react-hooks/exhaustive-deps': 'error',
     'react-hooks/rules-of-hooks': 'error',
     'react/destructuring-assignment': 'error',
@@ -28,7 +26,6 @@ module.exports = {
     ],
     'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
     'react/jsx-fragments': ['error', 'syntax'],
-    'react/jsx-indent-props': ['error', 4],
     'react/jsx-no-bind': 'error',
     'react/jsx-no-useless-fragment': 'error',
     'react/jsx-one-expression-per-line': [
