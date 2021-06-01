@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.1](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.0.0-alpha.0...@bigcommerce/eslint-config@2.0.0-alpha.1) (2021-06-01)
+
+
+### Features
+
+* **config:** enable anchor-is-valid and remove jsx-ident-props ([ab1b6c3](https://github.com/bigcommerce/eslint-config/commit/ab1b6c3746df6701db06020d414321834c3a5afc))
+
+
+
+
+
 # 2.0.0-alpha.0 (2021-05-27)
 
 ### Features
