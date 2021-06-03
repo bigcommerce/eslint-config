@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.2](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.0.0-alpha.1...@bigcommerce/eslint-config@2.0.0-alpha.2) (2021-06-03)
+
+
+### Bug Fixes
+
+* **config:** allow triple-slash directives on .d.ts files ([eda4efb](https://github.com/bigcommerce/eslint-config/commit/eda4efb9c643754de66d32efa9e85532492ca19c))
+
+
+
+
+
 # [2.0.0-alpha.1](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.0.0-alpha.0...@bigcommerce/eslint-config@2.0.0-alpha.1) (2021-06-01)
 
 
