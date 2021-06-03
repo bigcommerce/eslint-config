@@ -38,6 +38,12 @@ it('keeps rules stable TSX', async () => {
   expect(output).toMatchSnapshot();
 });
 
+it('keeps rules stable *.d.ts', async () => {
+  const output = await getEslint().calculateConfigForFile(join(__dirname, 'file.tsx'));
+
+  expect(output).toMatchSnapshot();
+});
+
 it('keeps rules stable *.spec.*', async () => {
   const output = await getEslint().calculateConfigForFile(join(__dirname, 'spec.js'));
 

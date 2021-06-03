@@ -137,4 +137,22 @@ module.exports = {
       },
     },
   },
+  // We add an additional `/` marker for .d.ts files to allow for triple-slash directives
+  // eg: /// <reference path="..." />
+  // eslint-disable-next-line sort-keys
+  overrides: [
+    {
+      files: ['**/*.d.ts'],
+      rules: {
+        'spaced-comment': [
+          'error',
+          'always',
+          {
+            block: { balanced: true, exceptions: ['-', '+'], markers: ['=', '!'] },
+            line: { exceptions: ['-', '+'], markers: ['=', '!', '/'] },
+          },
+        ],
+      },
+    },
+  ],
 };
