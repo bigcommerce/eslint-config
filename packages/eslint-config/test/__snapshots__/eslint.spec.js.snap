@@ -1671,33 +1671,6 @@ Object {
     "space-unary-word-ops": Array [
       "off",
     ],
-    "spaced-comment": Array [
-      "error",
-      "always",
-      Object {
-        "block": Object {
-          "balanced": true,
-          "exceptions": Array [
-            "-",
-            "+",
-          ],
-          "markers": Array [
-            "=",
-            "!",
-          ],
-        },
-        "line": Object {
-          "exceptions": Array [
-            "-",
-            "+",
-          ],
-          "markers": Array [
-            "=",
-            "!",
-          ],
-        },
-      },
-    ],
     "standard/array-bracket-even-spacing": Array [
       "off",
     ],
@@ -3448,33 +3421,6 @@ Object {
     "space-unary-word-ops": Array [
       "off",
     ],
-    "spaced-comment": Array [
-      "error",
-      "always",
-      Object {
-        "block": Object {
-          "balanced": true,
-          "exceptions": Array [
-            "-",
-            "+",
-          ],
-          "markers": Array [
-            "=",
-            "!",
-          ],
-        },
-        "line": Object {
-          "exceptions": Array [
-            "-",
-            "+",
-          ],
-          "markers": Array [
-            "=",
-            "!",
-          ],
-        },
-      },
-    ],
     "standard/array-bracket-even-spacing": Array [
       "off",
     ],
@@ -5223,33 +5169,6 @@ Object {
     ],
     "space-unary-word-ops": Array [
       "off",
-    ],
-    "spaced-comment": Array [
-      "error",
-      "always",
-      Object {
-        "block": Object {
-          "balanced": true,
-          "exceptions": Array [
-            "-",
-            "+",
-          ],
-          "markers": Array [
-            "=",
-            "!",
-          ],
-        },
-        "line": Object {
-          "exceptions": Array [
-            "-",
-            "+",
-          ],
-          "markers": Array [
-            "=",
-            "!",
-          ],
-        },
-      },
     ],
     "standard/array-bracket-even-spacing": Array [
       "off",
@@ -7284,33 +7203,6 @@ Object {
     ],
     "space-unary-word-ops": Array [
       "off",
-    ],
-    "spaced-comment": Array [
-      "error",
-      "always",
-      Object {
-        "block": Object {
-          "balanced": true,
-          "exceptions": Array [
-            "-",
-            "+",
-          ],
-          "markers": Array [
-            "=",
-            "!",
-          ],
-        },
-        "line": Object {
-          "exceptions": Array [
-            "-",
-            "+",
-          ],
-          "markers": Array [
-            "=",
-            "!",
-          ],
-        },
-      },
     ],
     "standard/array-bracket-even-spacing": Array [
       "off",
@@ -9377,33 +9269,6 @@ Object {
     ],
     "space-unary-word-ops": Array [
       "off",
-    ],
-    "spaced-comment": Array [
-      "error",
-      "always",
-      Object {
-        "block": Object {
-          "balanced": true,
-          "exceptions": Array [
-            "-",
-            "+",
-          ],
-          "markers": Array [
-            "=",
-            "!",
-          ],
-        },
-        "line": Object {
-          "exceptions": Array [
-            "-",
-            "+",
-          ],
-          "markers": Array [
-            "=",
-            "!",
-          ],
-        },
-      },
     ],
     "standard/array-bracket-even-spacing": Array [
       "off",

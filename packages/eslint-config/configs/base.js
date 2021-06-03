@@ -299,14 +299,6 @@ module.exports = {
     'prefer-template': 'error',
     radix: 'error',
     'sort-imports': ['error', { ignoreCase: true, ignoreDeclarationSort: true }],
-    'spaced-comment': [
-      'error',
-      'always',
-      {
-        block: { balanced: true, exceptions: ['-', '+'], markers: ['=', '!'] },
-        line: { exceptions: ['-', '+'], markers: ['=', '!'] },
-      },
-    ],
     strict: 'error',
     'symbol-description': 'error',
     'valid-jsdoc': ['error', { requireParamDescription: false, requireReturnDescription: false }],
