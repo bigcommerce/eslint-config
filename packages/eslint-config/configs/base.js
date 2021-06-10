@@ -241,6 +241,14 @@ module.exports = {
           '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
         selector: 'WithStatement',
       },
+      {
+        message: 'Property setters are not allowed',
+        selector: 'MethodDefinition[kind="set"]',
+      },
+      {
+        message: 'Property getters are not allowed',
+        selector: 'MethodDefinition[kind="get"]',
+      },
     ],
     'no-return-assign': ['error', 'except-parens'],
     'no-return-await': 'error',
