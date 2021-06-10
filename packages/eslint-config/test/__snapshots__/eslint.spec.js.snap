@@ -19,6 +19,7 @@ Object {
     "sourceType": "module",
   },
   "plugins": Array [
+    "switch-case",
     "gettext",
     "import",
     "jsdoc",
@@ -1558,6 +1559,15 @@ Object {
           "var",
         ],
       },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "case",
+        ],
+        "prev": Array [
+          "case",
+        ],
+      },
     ],
     "prefer-arrow-callback": Array [
       "off",
@@ -1895,6 +1905,13 @@ Object {
     "strict": Array [
       "error",
     ],
+    "switch-case/newline-between-switch-case": Array [
+      "error",
+      "always",
+      Object {
+        "fallthrough": "never",
+      },
+    ],
     "switch-colon-spacing": Array [
       "off",
     ],
@@ -2123,6 +2140,7 @@ Object {
     "sourceType": "module",
   },
   "plugins": Array [
+    "switch-case",
     "gettext",
     "import",
     "jsdoc",
@@ -3501,6 +3519,15 @@ Object {
           "var",
         ],
       },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "case",
+        ],
+        "prev": Array [
+          "case",
+        ],
+      },
     ],
     "prefer-arrow-callback": Array [
       "off",
@@ -3819,6 +3846,13 @@ Object {
     ],
     "strict": Array [
       "error",
+    ],
+    "switch-case/newline-between-switch-case": Array [
+      "error",
+      "always",
+      Object {
+        "fallthrough": "never",
+      },
     ],
     "switch-colon-spacing": Array [
       "off",
@@ -4014,6 +4048,7 @@ Object {
     "sourceType": "module",
   },
   "plugins": Array [
+    "switch-case",
     "gettext",
     "import",
     "jsdoc",
@@ -5286,6 +5321,15 @@ Object {
           "var",
         ],
       },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "case",
+        ],
+        "prev": Array [
+          "case",
+        ],
+      },
     ],
     "prefer-arrow-callback": Array [
       "off",
@@ -5604,6 +5648,13 @@ Object {
     ],
     "strict": Array [
       "error",
+    ],
+    "switch-case/newline-between-switch-case": Array [
+      "error",
+      "always",
+      Object {
+        "fallthrough": "never",
+      },
     ],
     "switch-colon-spacing": Array [
       "off",
@@ -5798,6 +5849,7 @@ Object {
     "sourceType": "module",
   },
   "plugins": Array [
+    "switch-case",
     "gettext",
     "import",
     "jsdoc",
@@ -7070,6 +7122,15 @@ Object {
           "var",
         ],
       },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "case",
+        ],
+        "prev": Array [
+          "case",
+        ],
+      },
     ],
     "prefer-arrow-callback": Array [
       "off",
@@ -7388,6 +7449,13 @@ Object {
     ],
     "strict": Array [
       "error",
+    ],
+    "switch-case/newline-between-switch-case": Array [
+      "error",
+      "always",
+      Object {
+        "fallthrough": "never",
+      },
     ],
     "switch-colon-spacing": Array [
       "off",
@@ -7583,6 +7651,7 @@ Object {
     "sourceType": "module",
   },
   "plugins": Array [
+    "switch-case",
     "gettext",
     "import",
     "jsdoc",
@@ -9122,6 +9191,15 @@ Object {
           "var",
         ],
       },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "case",
+        ],
+        "prev": Array [
+          "case",
+        ],
+      },
     ],
     "prefer-arrow-callback": Array [
       "off",
@@ -9457,6 +9535,13 @@ Object {
     ],
     "strict": Array [
       "error",
+    ],
+    "switch-case/newline-between-switch-case": Array [
+      "error",
+      "always",
+      Object {
+        "fallthrough": "never",
+      },
     ],
     "switch-colon-spacing": Array [
       "off",
@@ -9684,6 +9769,7 @@ Object {
     "sourceType": "module",
   },
   "plugins": Array [
+    "switch-case",
     "gettext",
     "import",
     "jsdoc",
@@ -11223,6 +11309,15 @@ Object {
           "var",
         ],
       },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "case",
+        ],
+        "prev": Array [
+          "case",
+        ],
+      },
     ],
     "prefer-arrow-callback": Array [
       "off",
@@ -11558,6 +11653,13 @@ Object {
     ],
     "strict": Array [
       "error",
+    ],
+    "switch-case/newline-between-switch-case": Array [
+      "error",
+      "always",
+      Object {
+        "fallthrough": "never",
+      },
     ],
     "switch-colon-spacing": Array [
       "off",

@@ -8,7 +8,7 @@ module.exports = {
     ecmaVersion: 2020,
     sourceType: 'module',
   },
-  plugins: ['import', 'gettext'],
+  plugins: ['import', 'gettext', 'switch-case'],
   reportUnusedDisableDirectives: true,
   rules: {
     'array-callback-return': 'error',
@@ -299,6 +299,11 @@ module.exports = {
         next: ['const', 'let', 'var'],
         prev: ['const', 'let', 'var'],
       },
+      {
+        blankLine: 'any',
+        next: ['case'],
+        prev: ['case'],
+      },
     ],
     'prefer-arrow-callback': ['error', { allowNamedFunctions: false, allowUnboundThis: true }],
     'prefer-const': ['error', { destructuring: 'any', ignoreReadBeforeAssign: true }],
@@ -316,6 +321,7 @@ module.exports = {
       },
     ],
     strict: 'error',
+    'switch-case/newline-between-switch-case': ['error', 'always', { fallthrough: 'never' }],
     'symbol-description': 'error',
     'valid-jsdoc': ['error', { requireParamDescription: false, requireReturnDescription: false }],
     'valid-typeof': ['error', { requireStringLiterals: true }],
