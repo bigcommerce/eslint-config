@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.3](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.0.0-alpha.2...@bigcommerce/eslint-config@2.0.0-alpha.3) (2021-06-11)
+
+
+### Bug Fixes
+
+* **config:** switch case fallthrough no longer requires a linebreak ([69c78dd](https://github.com/bigcommerce/eslint-config/commit/69c78ddc7236e3486e9011f63c4d81ba0f3ec420))
+
+
+### Features
+
+* **config:** disallow getters and setters ([9023e20](https://github.com/bigcommerce/eslint-config/commit/9023e20d806f1b8b888e9d0e1fadc5b334cd2dbb))
+
+
+
+
+
 # [2.0.0-alpha.2](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.0.0-alpha.1...@bigcommerce/eslint-config@2.0.0-alpha.2) (2021-06-03)
 
 
