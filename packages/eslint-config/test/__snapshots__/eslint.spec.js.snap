@@ -19,6 +19,7 @@ Object {
     "sourceType": "module",
   },
   "plugins": Array [
+    "switch-case",
     "gettext",
     "import",
     "jsdoc",
@@ -1316,6 +1317,14 @@ Object {
         "message": "\`with\` is disallowed in strict mode because it makes code impossible to predict and optimize.",
         "selector": "WithStatement",
       },
+      Object {
+        "message": "Property setters are not allowed",
+        "selector": "MethodDefinition[kind=\\"set\\"]",
+      },
+      Object {
+        "message": "Property getters are not allowed",
+        "selector": "MethodDefinition[kind=\\"get\\"]",
+      },
     ],
     "no-return-assign": Array [
       "error",
@@ -1548,6 +1557,15 @@ Object {
           "const",
           "let",
           "var",
+        ],
+      },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "case",
+        ],
+        "prev": Array [
+          "case",
         ],
       },
     ],
@@ -1887,6 +1905,13 @@ Object {
     "strict": Array [
       "error",
     ],
+    "switch-case/newline-between-switch-case": Array [
+      "error",
+      "always",
+      Object {
+        "fallthrough": "never",
+      },
+    ],
     "switch-colon-spacing": Array [
       "off",
     ],
@@ -2115,6 +2140,7 @@ Object {
     "sourceType": "module",
   },
   "plugins": Array [
+    "switch-case",
     "gettext",
     "import",
     "jsdoc",
@@ -3254,6 +3280,14 @@ Object {
         "message": "\`with\` is disallowed in strict mode because it makes code impossible to predict and optimize.",
         "selector": "WithStatement",
       },
+      Object {
+        "message": "Property setters are not allowed",
+        "selector": "MethodDefinition[kind=\\"set\\"]",
+      },
+      Object {
+        "message": "Property getters are not allowed",
+        "selector": "MethodDefinition[kind=\\"get\\"]",
+      },
     ],
     "no-return-assign": Array [
       "error",
@@ -3483,6 +3517,15 @@ Object {
           "const",
           "let",
           "var",
+        ],
+      },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "case",
+        ],
+        "prev": Array [
+          "case",
         ],
       },
     ],
@@ -3803,6 +3846,13 @@ Object {
     ],
     "strict": Array [
       "error",
+    ],
+    "switch-case/newline-between-switch-case": Array [
+      "error",
+      "always",
+      Object {
+        "fallthrough": "never",
+      },
     ],
     "switch-colon-spacing": Array [
       "off",
@@ -3998,6 +4048,7 @@ Object {
     "sourceType": "module",
   },
   "plugins": Array [
+    "switch-case",
     "gettext",
     "import",
     "jsdoc",
@@ -5031,6 +5082,14 @@ Object {
         "message": "\`with\` is disallowed in strict mode because it makes code impossible to predict and optimize.",
         "selector": "WithStatement",
       },
+      Object {
+        "message": "Property setters are not allowed",
+        "selector": "MethodDefinition[kind=\\"set\\"]",
+      },
+      Object {
+        "message": "Property getters are not allowed",
+        "selector": "MethodDefinition[kind=\\"get\\"]",
+      },
     ],
     "no-return-assign": Array [
       "error",
@@ -5260,6 +5319,15 @@ Object {
           "const",
           "let",
           "var",
+        ],
+      },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "case",
+        ],
+        "prev": Array [
+          "case",
         ],
       },
     ],
@@ -5580,6 +5648,13 @@ Object {
     ],
     "strict": Array [
       "error",
+    ],
+    "switch-case/newline-between-switch-case": Array [
+      "error",
+      "always",
+      Object {
+        "fallthrough": "never",
+      },
     ],
     "switch-colon-spacing": Array [
       "off",
@@ -5774,6 +5849,7 @@ Object {
     "sourceType": "module",
   },
   "plugins": Array [
+    "switch-case",
     "gettext",
     "import",
     "jsdoc",
@@ -6807,6 +6883,14 @@ Object {
         "message": "\`with\` is disallowed in strict mode because it makes code impossible to predict and optimize.",
         "selector": "WithStatement",
       },
+      Object {
+        "message": "Property setters are not allowed",
+        "selector": "MethodDefinition[kind=\\"set\\"]",
+      },
+      Object {
+        "message": "Property getters are not allowed",
+        "selector": "MethodDefinition[kind=\\"get\\"]",
+      },
     ],
     "no-return-assign": Array [
       "error",
@@ -7036,6 +7120,15 @@ Object {
           "const",
           "let",
           "var",
+        ],
+      },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "case",
+        ],
+        "prev": Array [
+          "case",
         ],
       },
     ],
@@ -7356,6 +7449,13 @@ Object {
     ],
     "strict": Array [
       "error",
+    ],
+    "switch-case/newline-between-switch-case": Array [
+      "error",
+      "always",
+      Object {
+        "fallthrough": "never",
+      },
     ],
     "switch-colon-spacing": Array [
       "off",
@@ -7551,6 +7651,7 @@ Object {
     "sourceType": "module",
   },
   "plugins": Array [
+    "switch-case",
     "gettext",
     "import",
     "jsdoc",
@@ -8848,6 +8949,14 @@ Object {
         "message": "\`with\` is disallowed in strict mode because it makes code impossible to predict and optimize.",
         "selector": "WithStatement",
       },
+      Object {
+        "message": "Property setters are not allowed",
+        "selector": "MethodDefinition[kind=\\"set\\"]",
+      },
+      Object {
+        "message": "Property getters are not allowed",
+        "selector": "MethodDefinition[kind=\\"get\\"]",
+      },
     ],
     "no-return-assign": Array [
       "error",
@@ -9080,6 +9189,15 @@ Object {
           "const",
           "let",
           "var",
+        ],
+      },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "case",
+        ],
+        "prev": Array [
+          "case",
         ],
       },
     ],
@@ -9417,6 +9535,13 @@ Object {
     ],
     "strict": Array [
       "error",
+    ],
+    "switch-case/newline-between-switch-case": Array [
+      "error",
+      "always",
+      Object {
+        "fallthrough": "never",
+      },
     ],
     "switch-colon-spacing": Array [
       "off",
@@ -9644,6 +9769,7 @@ Object {
     "sourceType": "module",
   },
   "plugins": Array [
+    "switch-case",
     "gettext",
     "import",
     "jsdoc",
@@ -10941,6 +11067,14 @@ Object {
         "message": "\`with\` is disallowed in strict mode because it makes code impossible to predict and optimize.",
         "selector": "WithStatement",
       },
+      Object {
+        "message": "Property setters are not allowed",
+        "selector": "MethodDefinition[kind=\\"set\\"]",
+      },
+      Object {
+        "message": "Property getters are not allowed",
+        "selector": "MethodDefinition[kind=\\"get\\"]",
+      },
     ],
     "no-return-assign": Array [
       "error",
@@ -11173,6 +11307,15 @@ Object {
           "const",
           "let",
           "var",
+        ],
+      },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "case",
+        ],
+        "prev": Array [
+          "case",
         ],
       },
     ],
@@ -11510,6 +11653,13 @@ Object {
     ],
     "strict": Array [
       "error",
+    ],
+    "switch-case/newline-between-switch-case": Array [
+      "error",
+      "always",
+      Object {
+        "fallthrough": "never",
+      },
     ],
     "switch-colon-spacing": Array [
       "off",
