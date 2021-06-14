@@ -37,6 +37,7 @@ jobs:
       - checkout
       - install-dependencies
       - run: yarn run test
+      - run: yarn eslint-config-prettier packages/eslint-config/index.js
 
   lint:
     <<: *default_executor
