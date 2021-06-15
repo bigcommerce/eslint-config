@@ -15,37 +15,11 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react/destructuring-assignment': 'error',
     'react/display-name': 'off',
-    'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
-    'react/jsx-curly-newline': ['error', 'consistent'],
-    'react/jsx-curly-spacing': [
-      'error',
-      {
-        children: true,
-        when: 'never',
-      },
-    ],
-    'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
     'react/jsx-fragments': ['error', 'syntax'],
     'react/jsx-no-bind': 'error',
     'react/jsx-no-useless-fragment': 'error',
-    'react/jsx-one-expression-per-line': [
-      'error',
-      {
-        allow: 'single-child',
-      },
-    ],
     'react/jsx-pascal-case': 'error',
-    'react/jsx-props-no-multi-spaces': 'error',
     'react/jsx-sort-props': 'error',
-    'react/jsx-tag-spacing': [
-      'error',
-      {
-        afterOpening: 'never',
-        beforeClosing: 'never',
-        beforeSelfClosing: 'always',
-        closingSlash: 'never',
-      },
-    ],
     'react/no-redundant-should-component-update': 'error',
     'react/no-this-in-sfc': 'error',
     'react/no-unsafe': 'error',

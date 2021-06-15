@@ -1631,22 +1631,16 @@ Object {
       "off",
     ],
     "react/jsx-closing-bracket-location": Array [
-      "error",
-      "line-aligned",
+      "off",
     ],
     "react/jsx-closing-tag-location": Array [
       "off",
     ],
     "react/jsx-curly-newline": Array [
-      "error",
-      "consistent",
+      "off",
     ],
     "react/jsx-curly-spacing": Array [
-      "error",
-      Object {
-        "children": true,
-        "when": "never",
-      },
+      "off",
     ],
     "react/jsx-equals-spacing": Array [
       "off",
@@ -1660,8 +1654,7 @@ Object {
       },
     ],
     "react/jsx-first-prop-new-line": Array [
-      "error",
-      "multiline-multiprop",
+      "off",
     ],
     "react/jsx-fragments": Array [
       "error",
@@ -1701,16 +1694,13 @@ Object {
       "error",
     ],
     "react/jsx-one-expression-per-line": Array [
-      "error",
-      Object {
-        "allow": "single-child",
-      },
+      "off",
     ],
     "react/jsx-pascal-case": Array [
       "error",
     ],
     "react/jsx-props-no-multi-spaces": Array [
-      "error",
+      "off",
     ],
     "react/jsx-sort-props": Array [
       "error",
@@ -1719,13 +1709,7 @@ Object {
       "off",
     ],
     "react/jsx-tag-spacing": Array [
-      "error",
-      Object {
-        "afterOpening": "never",
-        "beforeClosing": "never",
-        "beforeSelfClosing": "always",
-        "closingSlash": "never",
-      },
+      "off",
     ],
     "react/jsx-uses-react": Array [
       2,
@@ -3588,29 +3572,22 @@ Object {
       "off",
     ],
     "react/jsx-closing-bracket-location": Array [
-      "error",
-      "line-aligned",
+      "off",
     ],
     "react/jsx-closing-tag-location": Array [
       "off",
     ],
     "react/jsx-curly-newline": Array [
-      "error",
-      "consistent",
+      "off",
     ],
     "react/jsx-curly-spacing": Array [
-      "error",
-      Object {
-        "children": true,
-        "when": "never",
-      },
+      "off",
     ],
     "react/jsx-equals-spacing": Array [
       "off",
     ],
     "react/jsx-first-prop-new-line": Array [
-      "error",
-      "multiline-multiprop",
+      "off",
     ],
     "react/jsx-fragments": Array [
       "error",
@@ -3650,16 +3627,13 @@ Object {
       "error",
     ],
     "react/jsx-one-expression-per-line": Array [
-      "error",
-      Object {
-        "allow": "single-child",
-      },
+      "off",
     ],
     "react/jsx-pascal-case": Array [
       "error",
     ],
     "react/jsx-props-no-multi-spaces": Array [
-      "error",
+      "off",
     ],
     "react/jsx-sort-props": Array [
       "error",
@@ -3668,13 +3642,7 @@ Object {
       "off",
     ],
     "react/jsx-tag-spacing": Array [
-      "error",
-      Object {
-        "afterOpening": "never",
-        "beforeClosing": "never",
-        "beforeSelfClosing": "always",
-        "closingSlash": "never",
-      },
+      "off",
     ],
     "react/jsx-uses-react": Array [
       2,
@@ -5390,29 +5358,22 @@ Object {
       "off",
     ],
     "react/jsx-closing-bracket-location": Array [
-      "error",
-      "line-aligned",
+      "off",
     ],
     "react/jsx-closing-tag-location": Array [
       "off",
     ],
     "react/jsx-curly-newline": Array [
-      "error",
-      "consistent",
+      "off",
     ],
     "react/jsx-curly-spacing": Array [
-      "error",
-      Object {
-        "children": true,
-        "when": "never",
-      },
+      "off",
     ],
     "react/jsx-equals-spacing": Array [
       "off",
     ],
     "react/jsx-first-prop-new-line": Array [
-      "error",
-      "multiline-multiprop",
+      "off",
     ],
     "react/jsx-fragments": Array [
       "error",
@@ -5452,16 +5413,13 @@ Object {
       "error",
     ],
     "react/jsx-one-expression-per-line": Array [
-      "error",
-      Object {
-        "allow": "single-child",
-      },
+      "off",
     ],
     "react/jsx-pascal-case": Array [
       "error",
     ],
     "react/jsx-props-no-multi-spaces": Array [
-      "error",
+      "off",
     ],
     "react/jsx-sort-props": Array [
       "error",
@@ -5470,13 +5428,7 @@ Object {
       "off",
     ],
     "react/jsx-tag-spacing": Array [
-      "error",
-      Object {
-        "afterOpening": "never",
-        "beforeClosing": "never",
-        "beforeSelfClosing": "always",
-        "closingSlash": "never",
-      },
+      "off",
     ],
     "react/jsx-uses-react": Array [
       2,
@@ -7191,29 +7143,22 @@ Object {
       "off",
     ],
     "react/jsx-closing-bracket-location": Array [
-      "error",
-      "line-aligned",
+      "off",
     ],
     "react/jsx-closing-tag-location": Array [
       "off",
     ],
     "react/jsx-curly-newline": Array [
-      "error",
-      "consistent",
+      "off",
     ],
     "react/jsx-curly-spacing": Array [
-      "error",
-      Object {
-        "children": true,
-        "when": "never",
-      },
+      "off",
     ],
     "react/jsx-equals-spacing": Array [
       "off",
     ],
     "react/jsx-first-prop-new-line": Array [
-      "error",
-      "multiline-multiprop",
+      "off",
     ],
     "react/jsx-fragments": Array [
       "error",
@@ -7253,16 +7198,13 @@ Object {
       "error",
     ],
     "react/jsx-one-expression-per-line": Array [
-      "error",
-      Object {
-        "allow": "single-child",
-      },
+      "off",
     ],
     "react/jsx-pascal-case": Array [
       "error",
     ],
     "react/jsx-props-no-multi-spaces": Array [
-      "error",
+      "off",
     ],
     "react/jsx-sort-props": Array [
       "error",
@@ -7271,13 +7213,7 @@ Object {
       "off",
     ],
     "react/jsx-tag-spacing": Array [
-      "error",
-      Object {
-        "afterOpening": "never",
-        "beforeClosing": "never",
-        "beforeSelfClosing": "always",
-        "closingSlash": "never",
-      },
+      "off",
     ],
     "react/jsx-uses-react": Array [
       2,
@@ -9263,22 +9199,16 @@ Object {
       "off",
     ],
     "react/jsx-closing-bracket-location": Array [
-      "error",
-      "line-aligned",
+      "off",
     ],
     "react/jsx-closing-tag-location": Array [
       "off",
     ],
     "react/jsx-curly-newline": Array [
-      "error",
-      "consistent",
+      "off",
     ],
     "react/jsx-curly-spacing": Array [
-      "error",
-      Object {
-        "children": true,
-        "when": "never",
-      },
+      "off",
     ],
     "react/jsx-equals-spacing": Array [
       "off",
@@ -9292,8 +9222,7 @@ Object {
       },
     ],
     "react/jsx-first-prop-new-line": Array [
-      "error",
-      "multiline-multiprop",
+      "off",
     ],
     "react/jsx-fragments": Array [
       "error",
@@ -9333,16 +9262,13 @@ Object {
       "error",
     ],
     "react/jsx-one-expression-per-line": Array [
-      "error",
-      Object {
-        "allow": "single-child",
-      },
+      "off",
     ],
     "react/jsx-pascal-case": Array [
       "error",
     ],
     "react/jsx-props-no-multi-spaces": Array [
-      "error",
+      "off",
     ],
     "react/jsx-sort-props": Array [
       "error",
@@ -9351,13 +9277,7 @@ Object {
       "off",
     ],
     "react/jsx-tag-spacing": Array [
-      "error",
-      Object {
-        "afterOpening": "never",
-        "beforeClosing": "never",
-        "beforeSelfClosing": "always",
-        "closingSlash": "never",
-      },
+      "off",
     ],
     "react/jsx-uses-react": Array [
       2,
@@ -11381,22 +11301,16 @@ Object {
       "off",
     ],
     "react/jsx-closing-bracket-location": Array [
-      "error",
-      "line-aligned",
+      "off",
     ],
     "react/jsx-closing-tag-location": Array [
       "off",
     ],
     "react/jsx-curly-newline": Array [
-      "error",
-      "consistent",
+      "off",
     ],
     "react/jsx-curly-spacing": Array [
-      "error",
-      Object {
-        "children": true,
-        "when": "never",
-      },
+      "off",
     ],
     "react/jsx-equals-spacing": Array [
       "off",
@@ -11410,8 +11324,7 @@ Object {
       },
     ],
     "react/jsx-first-prop-new-line": Array [
-      "error",
-      "multiline-multiprop",
+      "off",
     ],
     "react/jsx-fragments": Array [
       "error",
@@ -11451,16 +11364,13 @@ Object {
       "error",
     ],
     "react/jsx-one-expression-per-line": Array [
-      "error",
-      Object {
-        "allow": "single-child",
-      },
+      "off",
     ],
     "react/jsx-pascal-case": Array [
       "error",
     ],
     "react/jsx-props-no-multi-spaces": Array [
-      "error",
+      "off",
     ],
     "react/jsx-sort-props": Array [
       "error",
@@ -11469,13 +11379,7 @@ Object {
       "off",
     ],
     "react/jsx-tag-spacing": Array [
-      "error",
-      Object {
-        "afterOpening": "never",
-        "beforeClosing": "never",
-        "beforeSelfClosing": "always",
-        "closingSlash": "never",
-      },
+      "off",
     ],
     "react/jsx-uses-react": Array [
       2,
