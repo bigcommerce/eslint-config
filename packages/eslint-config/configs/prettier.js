@@ -25,7 +25,7 @@ function getRules() {
   }
 
   return {
-    'prettier/prettier': ['error', defaultConfig, { usePrettierrc: false }],
+    'prettier/prettier': ['warn', defaultConfig, { usePrettierrc: false }],
   };
 }
 
