@@ -12,7 +12,7 @@ module.exports = {
         optionalDependencies: false,
       },
     ],
-    'jest-formatting/padding-around-all': 'error',
+    'jest-formatting/padding-around-all': 'warn',
     'jest/no-done-callback': 'off',
     'jest/no-duplicate-hooks': 'off',
     'jest/no-if': 'error',

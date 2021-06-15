@@ -19,7 +19,7 @@ module.exports = {
     'react/jsx-no-bind': 'error',
     'react/jsx-no-useless-fragment': 'error',
     'react/jsx-pascal-case': 'error',
-    'react/jsx-sort-props': 'error',
+    'react/jsx-sort-props': 'warn',
     'react/no-redundant-should-component-update': 'error',
     'react/no-this-in-sfc': 'error',
     'react/no-unsafe': 'error',

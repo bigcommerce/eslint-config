@@ -38,7 +38,7 @@ module.exports = {
         tsx: 'never',
       },
     ],
-    'import/newline-after-import': 'error',
+    'import/newline-after-import': 'warn',
     'import/no-absolute-path': 'error',
     'import/no-amd': 'error',
     'import/no-dynamic-require': 'error',
@@ -48,7 +48,7 @@ module.exports = {
     'import/no-unresolved': ['error', { caseSensitive: true, commonjs: true }],
     'import/no-webpack-loader-syntax': 'error',
     'import/order': [
-      'error',
+      'warn',
       {
         alphabetize: { caseInsensitive: true, order: 'asc' },
         groups: [['builtin', 'external'], 'internal', 'parent', 'sibling', 'index'],
@@ -256,7 +256,6 @@ module.exports = {
     'no-self-compare': 'error',
     'no-sequences': 'error',
     'no-shadow': ['error', { hoist: 'all' }],
-    'no-spaced-func': 'error',
     'no-template-curly-in-string': 'error',
     'no-undef-init': 'error',
     'no-underscore-dangle': ['error', { allowAfterSuper: true, allowAfterThis: true }],
@@ -278,7 +277,7 @@ module.exports = {
     'one-var': ['error', 'never'],
     'operator-assignment': ['error', 'always'],
     'padding-line-between-statements': [
-      'error',
+      'warn',
       {
         blankLine: 'always',
         next: 'return',
@@ -313,7 +312,7 @@ module.exports = {
     radix: 'error',
     'sort-imports': ['error', { ignoreCase: true, ignoreDeclarationSort: true }],
     'spaced-comment': [
-      'error',
+      'warn',
       'always',
       {
         block: { balanced: true, exceptions: ['-', '+'], markers: ['=', '!'] },
@@ -321,7 +320,7 @@ module.exports = {
       },
     ],
     strict: 'error',
-    'switch-case/newline-between-switch-case': ['error', 'always', { fallthrough: 'never' }],
+    'switch-case/newline-between-switch-case': ['warn', 'always', { fallthrough: 'never' }],
     'symbol-description': 'error',
     'valid-jsdoc': ['error', { requireParamDescription: false, requireReturnDescription: false }],
     'valid-typeof': ['error', { requireStringLiterals: true }],

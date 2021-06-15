@@ -1,5 +1,3 @@
-# v2 - wip
-
 # @bigcommerce/eslint-config
 
 This package is a configuration preset for [ESLint](https://eslint.org/).
@@ -33,7 +31,11 @@ This config also runs prettier via eslint, add the following to your `package.js
 }
 ```
 
-If possible, try not to override the preset unless you have a special reason.
+Stylistic rules are considered `warnings` for better developer experience, however, we recommend
+running CI with:
+```
+eslint --max-warnings 0
+```
 
 ## Release
 

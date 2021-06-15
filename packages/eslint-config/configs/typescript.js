@@ -145,7 +145,7 @@ module.exports = {
       files: ['**/*.d.ts'],
       rules: {
         'spaced-comment': [
-          'error',
+          'warn',
           'always',
           {
             block: { balanced: true, exceptions: ['-', '+'], markers: ['=', '!'] },
