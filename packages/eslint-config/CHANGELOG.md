@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.4](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.0.0-alpha.3...@bigcommerce/eslint-config@2.0.0-alpha.4) (2021-06-15)
+
+
+### Bug Fixes
+
+* **config:** remove rules conflicting with prettier ([bd917e9](https://github.com/bigcommerce/eslint-config/commit/bd917e93cea8ad11dd46044024d5bf54d88682be))
+
+
+### Features
+
+* **config:** stylistic rules are now warnings ([0dae5ac](https://github.com/bigcommerce/eslint-config/commit/0dae5ac18809d800e0813c3a134223103d8da744))
+
+
+
+
+
 # [2.0.0-alpha.3](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.0.0-alpha.2...@bigcommerce/eslint-config@2.0.0-alpha.3) (2021-06-11)
 
 
