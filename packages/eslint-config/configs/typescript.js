@@ -127,7 +127,6 @@ module.exports = {
     'no-unused-vars': 'off',
     'no-use-before-define': 'off',
     'no-useless-constructor': 'off',
-    'react/jsx-filename-extension': [1, { extensions: ['.tsx'] }],
     'sort-keys': 'off',
   },
   settings: {

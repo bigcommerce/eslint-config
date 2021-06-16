@@ -35,4 +35,13 @@ module.exports = {
       version: 'detect',
     },
   },
+  // eslint-disable-next-line sort-keys
+  overrides: [
+    {
+      files: ['**/*.ts'],
+      rules: {
+        'react/jsx-filename-extension': [1, { extensions: ['.tsx'] }],
+      },
+    },
+  ],
 };

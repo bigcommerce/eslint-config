@@ -11315,14 +11315,6 @@ Object {
     "react/jsx-equals-spacing": Array [
       "off",
     ],
-    "react/jsx-filename-extension": Array [
-      1,
-      Object {
-        "extensions": Array [
-          ".tsx",
-        ],
-      },
-    ],
     "react/jsx-first-prop-new-line": Array [
       "off",
     ],
