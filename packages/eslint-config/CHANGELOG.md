@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.5](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.0.0-alpha.4...@bigcommerce/eslint-config@2.0.0-alpha.5) (2021-06-21)
+
+
+### Bug Fixes
+
+* **config:** move jsx-file-extension rule to react config ([c38e49c](https://github.com/bigcommerce/eslint-config/commit/c38e49c2947eefe6b8326b49c7ca16bcda843f70))
+
+
+
+
+
 # [2.0.0-alpha.4](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.0.0-alpha.3...@bigcommerce/eslint-config@2.0.0-alpha.4) (2021-06-15)
 
 
