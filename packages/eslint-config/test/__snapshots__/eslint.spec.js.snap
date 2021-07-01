@@ -255,6 +255,9 @@ Object {
     "@typescript-eslint/no-throw-literal": Array [
       "error",
     ],
+    "@typescript-eslint/no-unnecessary-condition": Array [
+      "error",
+    ],
     "@typescript-eslint/no-unnecessary-type-assertion": Array [
       "error",
     ],
@@ -7823,6 +7826,9 @@ Object {
     "@typescript-eslint/no-throw-literal": Array [
       "error",
     ],
+    "@typescript-eslint/no-unnecessary-condition": Array [
+      "error",
+    ],
     "@typescript-eslint/no-unnecessary-type-assertion": Array [
       "error",
     ],
@@ -9923,6 +9929,9 @@ Object {
       "error",
     ],
     "@typescript-eslint/no-throw-literal": Array [
+      "error",
+    ],
+    "@typescript-eslint/no-unnecessary-condition": Array [
       "error",
     ],
     "@typescript-eslint/no-unnecessary-type-assertion": Array [
