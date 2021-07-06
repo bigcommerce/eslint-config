@@ -1,9 +1,12 @@
+const { hasPackage } = require('../utils');
+
 module.exports = {
   extends: [
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
-  ],
+    hasPackage('next') && 'plugin:@next/next/recommended',
+  ].filter(Boolean),
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
