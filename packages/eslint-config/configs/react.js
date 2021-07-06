@@ -11,6 +11,8 @@ module.exports = {
   },
   plugins: ['react-hooks'],
   rules: {
+    // Remove when https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/pull/757 gets released
+    'jsx-a11y/no-onchange': 'off',
     'react-hooks/exhaustive-deps': 'error',
     'react-hooks/rules-of-hooks': 'error',
     'react/destructuring-assignment': 'error',

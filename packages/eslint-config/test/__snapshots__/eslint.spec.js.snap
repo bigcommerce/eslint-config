@@ -841,7 +841,7 @@ Object {
       },
     ],
     "jsx-a11y/no-onchange": Array [
-      "error",
+      "off",
     ],
     "jsx-a11y/no-redundant-roles": Array [
       "error",
@@ -2788,7 +2788,7 @@ Object {
       },
     ],
     "jsx-a11y/no-onchange": Array [
-      "error",
+      "off",
     ],
     "jsx-a11y/no-redundant-roles": Array [
       "error",
@@ -4574,7 +4574,7 @@ Object {
       },
     ],
     "jsx-a11y/no-onchange": Array [
-      "error",
+      "off",
     ],
     "jsx-a11y/no-redundant-roles": Array [
       "error",
@@ -6359,7 +6359,7 @@ Object {
       },
     ],
     "jsx-a11y/no-onchange": Array [
-      "error",
+      "off",
     ],
     "jsx-a11y/no-redundant-roles": Array [
       "error",
@@ -8409,7 +8409,7 @@ Object {
       },
     ],
     "jsx-a11y/no-onchange": Array [
-      "error",
+      "off",
     ],
     "jsx-a11y/no-redundant-roles": Array [
       "error",
@@ -10511,7 +10511,7 @@ Object {
       },
     ],
     "jsx-a11y/no-onchange": Array [
-      "error",
+      "off",
     ],
     "jsx-a11y/no-redundant-roles": Array [
       "error",
