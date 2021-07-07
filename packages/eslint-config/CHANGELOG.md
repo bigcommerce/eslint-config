@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.6](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.0.0-alpha.5...@bigcommerce/eslint-config@2.0.0-alpha.6) (2021-07-07)
+
+
+### Bug Fixes
+
+* **config:** disable jsx-a11y/no-onchange ([0d3533a](https://github.com/bigcommerce/eslint-config/commit/0d3533a43e5ccedac8be71380c493cf52618bc82))
+
+
+### Features
+
+* **config:** add nextjs rules ([d0670f9](https://github.com/bigcommerce/eslint-config/commit/d0670f911eb166aa0ba93ba69a3aa690fc0d7891))
+
+
+
+
+
 # [2.0.0-alpha.5](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.0.0-alpha.4...@bigcommerce/eslint-config@2.0.0-alpha.5) (2021-06-21)
 
 

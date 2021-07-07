@@ -1,6 +1,6 @@
 {
   "name": "@bigcommerce/eslint-config",
-  "version": "2.0.0-alpha.5",
+  "version": "2.0.0-alpha.6",
   "description": "Default ESLint configuration used at BigCommerce",
   "main": "index.json",
   "files": [
