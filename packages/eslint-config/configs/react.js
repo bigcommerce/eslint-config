@@ -21,7 +21,12 @@ module.exports = {
     'react/destructuring-assignment': 'error',
     'react/display-name': 'off',
     'react/jsx-fragments': ['error', 'syntax'],
-    'react/jsx-no-bind': 'error',
+    'react/jsx-no-bind': [
+      'error',
+      {
+        allowArrowFunctions: true,
+      },
+    ],
     'react/jsx-no-useless-fragment': 'error',
     'react/jsx-pascal-case': 'error',
     'react/jsx-sort-props': 'warn',
