@@ -96,6 +96,7 @@ module.exports = {
     ],
     '@typescript-eslint/no-shadow': ['error', { hoist: 'all' }],
     '@typescript-eslint/no-throw-literal': ['error'],
+    '@typescript-eslint/no-unnecessary-condition': 'error',
     '@typescript-eslint/no-unnecessary-type-assertion': 'error',
     '@typescript-eslint/no-unused-expressions': 'error',
     '@typescript-eslint/no-unused-vars': [
