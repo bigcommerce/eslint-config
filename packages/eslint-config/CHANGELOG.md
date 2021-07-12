@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.7](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.0.0-alpha.6...@bigcommerce/eslint-config@2.0.0-alpha.7) (2021-07-12)
+
+
+### Features
+
+* **config:** allow arrow functions react/jsx-no-bind ([87e9df5](https://github.com/bigcommerce/eslint-config/commit/87e9df54122ede694567163e470d420522a6dc11))
+
+
+
+
+
 # [2.0.0-alpha.6](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.0.0-alpha.5...@bigcommerce/eslint-config@2.0.0-alpha.6) (2021-07-07)
 
 
