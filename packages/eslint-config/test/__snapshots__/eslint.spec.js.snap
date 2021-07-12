@@ -1717,6 +1717,13 @@ Object {
     ],
     "react/jsx-no-bind": Array [
       "error",
+      Object {
+        "allowArrowFunctions": true,
+        "allowBind": false,
+        "allowFunctions": false,
+        "ignoreDOMComponents": false,
+        "ignoreRefs": false,
+      },
     ],
     "react/jsx-no-comment-textnodes": Array [
       2,
@@ -3687,6 +3694,13 @@ Object {
     ],
     "react/jsx-no-bind": Array [
       "error",
+      Object {
+        "allowArrowFunctions": true,
+        "allowBind": false,
+        "allowFunctions": false,
+        "ignoreDOMComponents": false,
+        "ignoreRefs": false,
+      },
     ],
     "react/jsx-no-comment-textnodes": Array [
       2,
@@ -5510,6 +5524,13 @@ Object {
     ],
     "react/jsx-no-bind": Array [
       "error",
+      Object {
+        "allowArrowFunctions": true,
+        "allowBind": false,
+        "allowFunctions": false,
+        "ignoreDOMComponents": false,
+        "ignoreRefs": false,
+      },
     ],
     "react/jsx-no-comment-textnodes": Array [
       2,
@@ -7332,6 +7353,13 @@ Object {
     ],
     "react/jsx-no-bind": Array [
       "error",
+      Object {
+        "allowArrowFunctions": true,
+        "allowBind": false,
+        "allowFunctions": false,
+        "ignoreDOMComponents": false,
+        "ignoreRefs": false,
+      },
     ],
     "react/jsx-no-comment-textnodes": Array [
       2,
@@ -9436,6 +9464,13 @@ Object {
     ],
     "react/jsx-no-bind": Array [
       "error",
+      Object {
+        "allowArrowFunctions": true,
+        "allowBind": false,
+        "allowFunctions": false,
+        "ignoreDOMComponents": false,
+        "ignoreRefs": false,
+      },
     ],
     "react/jsx-no-comment-textnodes": Array [
       2,
@@ -11570,6 +11605,13 @@ Object {
     ],
     "react/jsx-no-bind": Array [
       "error",
+      Object {
+        "allowArrowFunctions": true,
+        "allowBind": false,
+        "allowFunctions": false,
+        "ignoreDOMComponents": false,
+        "ignoreRefs": false,
+      },
     ],
     "react/jsx-no-comment-textnodes": Array [
       2,
