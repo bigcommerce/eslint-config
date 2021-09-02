@@ -26,7 +26,6 @@ Object {
     "prettier",
     "react",
     "jsx-a11y",
-    "@next/next",
     "react-hooks",
     "@bigcommerce",
     "@typescript-eslint",
@@ -41,42 +40,6 @@ Object {
     ],
     "@bigcommerce/jsx-short-circuit-conditionals": Array [
       "error",
-    ],
-    "@next/next/google-font-display": Array [
-      1,
-    ],
-    "@next/next/google-font-preconnect": Array [
-      1,
-    ],
-    "@next/next/link-passhref": Array [
-      1,
-    ],
-    "@next/next/no-css-tags": Array [
-      1,
-    ],
-    "@next/next/no-document-import-in-page": Array [
-      2,
-    ],
-    "@next/next/no-head-import-in-document": Array [
-      2,
-    ],
-    "@next/next/no-html-link-for-pages": Array [
-      1,
-    ],
-    "@next/next/no-img-element": Array [
-      1,
-    ],
-    "@next/next/no-page-custom-font": Array [
-      1,
-    ],
-    "@next/next/no-sync-scripts": Array [
-      1,
-    ],
-    "@next/next/no-title-in-document-head": Array [
-      1,
-    ],
-    "@next/next/no-unwanted-polyfillio": Array [
-      1,
     ],
     "@typescript-eslint/adjacent-overload-signatures": Array [
       "error",
@@ -2180,7 +2143,6 @@ Object {
     "jest",
     "react",
     "jsx-a11y",
-    "@next/next",
     "react-hooks",
   ],
   "reportUnusedDisableDirectives": true,
@@ -2190,42 +2152,6 @@ Object {
     ],
     "@babel/semi": Array [
       "off",
-    ],
-    "@next/next/google-font-display": Array [
-      1,
-    ],
-    "@next/next/google-font-preconnect": Array [
-      1,
-    ],
-    "@next/next/link-passhref": Array [
-      1,
-    ],
-    "@next/next/no-css-tags": Array [
-      1,
-    ],
-    "@next/next/no-document-import-in-page": Array [
-      2,
-    ],
-    "@next/next/no-head-import-in-document": Array [
-      2,
-    ],
-    "@next/next/no-html-link-for-pages": Array [
-      1,
-    ],
-    "@next/next/no-img-element": Array [
-      1,
-    ],
-    "@next/next/no-page-custom-font": Array [
-      1,
-    ],
-    "@next/next/no-sync-scripts": Array [
-      1,
-    ],
-    "@next/next/no-title-in-document-head": Array [
-      1,
-    ],
-    "@next/next/no-unwanted-polyfillio": Array [
-      1,
     ],
     "@typescript-eslint/brace-style": Array [
       "off",
@@ -4114,7 +4040,6 @@ Object {
     "prettier",
     "react",
     "jsx-a11y",
-    "@next/next",
     "react-hooks",
   ],
   "reportUnusedDisableDirectives": true,
@@ -4124,42 +4049,6 @@ Object {
     ],
     "@babel/semi": Array [
       "off",
-    ],
-    "@next/next/google-font-display": Array [
-      1,
-    ],
-    "@next/next/google-font-preconnect": Array [
-      1,
-    ],
-    "@next/next/link-passhref": Array [
-      1,
-    ],
-    "@next/next/no-css-tags": Array [
-      1,
-    ],
-    "@next/next/no-document-import-in-page": Array [
-      2,
-    ],
-    "@next/next/no-head-import-in-document": Array [
-      2,
-    ],
-    "@next/next/no-html-link-for-pages": Array [
-      1,
-    ],
-    "@next/next/no-img-element": Array [
-      1,
-    ],
-    "@next/next/no-page-custom-font": Array [
-      1,
-    ],
-    "@next/next/no-sync-scripts": Array [
-      1,
-    ],
-    "@next/next/no-title-in-document-head": Array [
-      1,
-    ],
-    "@next/next/no-unwanted-polyfillio": Array [
-      1,
     ],
     "@typescript-eslint/brace-style": Array [
       "off",
@@ -5943,7 +5832,6 @@ Object {
     "prettier",
     "react",
     "jsx-a11y",
-    "@next/next",
     "react-hooks",
   ],
   "reportUnusedDisableDirectives": true,
@@ -5953,42 +5841,6 @@ Object {
     ],
     "@babel/semi": Array [
       "off",
-    ],
-    "@next/next/google-font-display": Array [
-      1,
-    ],
-    "@next/next/google-font-preconnect": Array [
-      1,
-    ],
-    "@next/next/link-passhref": Array [
-      1,
-    ],
-    "@next/next/no-css-tags": Array [
-      1,
-    ],
-    "@next/next/no-document-import-in-page": Array [
-      2,
-    ],
-    "@next/next/no-head-import-in-document": Array [
-      2,
-    ],
-    "@next/next/no-html-link-for-pages": Array [
-      1,
-    ],
-    "@next/next/no-img-element": Array [
-      1,
-    ],
-    "@next/next/no-page-custom-font": Array [
-      1,
-    ],
-    "@next/next/no-sync-scripts": Array [
-      1,
-    ],
-    "@next/next/no-title-in-document-head": Array [
-      1,
-    ],
-    "@next/next/no-unwanted-polyfillio": Array [
-      1,
     ],
     "@typescript-eslint/brace-style": Array [
       "off",
@@ -7773,7 +7625,6 @@ Object {
     "prettier",
     "react",
     "jsx-a11y",
-    "@next/next",
     "react-hooks",
     "@bigcommerce",
     "@typescript-eslint",
@@ -7788,42 +7639,6 @@ Object {
     ],
     "@bigcommerce/jsx-short-circuit-conditionals": Array [
       "error",
-    ],
-    "@next/next/google-font-display": Array [
-      1,
-    ],
-    "@next/next/google-font-preconnect": Array [
-      1,
-    ],
-    "@next/next/link-passhref": Array [
-      1,
-    ],
-    "@next/next/no-css-tags": Array [
-      1,
-    ],
-    "@next/next/no-document-import-in-page": Array [
-      2,
-    ],
-    "@next/next/no-head-import-in-document": Array [
-      2,
-    ],
-    "@next/next/no-html-link-for-pages": Array [
-      1,
-    ],
-    "@next/next/no-img-element": Array [
-      1,
-    ],
-    "@next/next/no-page-custom-font": Array [
-      1,
-    ],
-    "@next/next/no-sync-scripts": Array [
-      1,
-    ],
-    "@next/next/no-title-in-document-head": Array [
-      1,
-    ],
-    "@next/next/no-unwanted-polyfillio": Array [
-      1,
     ],
     "@typescript-eslint/adjacent-overload-signatures": Array [
       "error",
@@ -9922,7 +9737,6 @@ Object {
     "prettier",
     "react",
     "jsx-a11y",
-    "@next/next",
     "react-hooks",
     "@bigcommerce",
     "@typescript-eslint",
@@ -9937,42 +9751,6 @@ Object {
     ],
     "@bigcommerce/jsx-short-circuit-conditionals": Array [
       "error",
-    ],
-    "@next/next/google-font-display": Array [
-      1,
-    ],
-    "@next/next/google-font-preconnect": Array [
-      1,
-    ],
-    "@next/next/link-passhref": Array [
-      1,
-    ],
-    "@next/next/no-css-tags": Array [
-      1,
-    ],
-    "@next/next/no-document-import-in-page": Array [
-      2,
-    ],
-    "@next/next/no-head-import-in-document": Array [
-      2,
-    ],
-    "@next/next/no-html-link-for-pages": Array [
-      1,
-    ],
-    "@next/next/no-img-element": Array [
-      1,
-    ],
-    "@next/next/no-page-custom-font": Array [
-      1,
-    ],
-    "@next/next/no-sync-scripts": Array [
-      1,
-    ],
-    "@next/next/no-title-in-document-head": Array [
-      1,
-    ],
-    "@next/next/no-unwanted-polyfillio": Array [
-      1,
     ],
     "@typescript-eslint/adjacent-overload-signatures": Array [
       "error",
