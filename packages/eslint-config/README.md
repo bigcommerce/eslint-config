@@ -37,6 +37,19 @@ running CI with:
 eslint --max-warnings 0
 ```
 
+## Usage with Next.js
+
+Make sure to also extend from next's `core-web-vitals`.
+
+```js
+// .eslintrc.js
+require('@bigcommerce/eslint-config/patch');
+
+module.exports = {
+  extends: ['@bigcommerce/eslint-config', 'next/core-web-vitals'],
+};
+```
+
 ## Release
 
 Please refer to the documentation of [lerna](https://github.com/lerna/lerna) for release options.
