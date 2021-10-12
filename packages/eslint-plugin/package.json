@@ -14,7 +14,7 @@
     "directory": "packages/eslint-plugin"
   },
   "dependencies": {
-    "@typescript-eslint/experimental-utils": "^4.24.0",
+    "@typescript-eslint/experimental-utils": "^5.0.0",
     "tsutils": "^3.21.0"
   },
   "peerDependencies": {
