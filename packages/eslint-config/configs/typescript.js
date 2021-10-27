@@ -109,6 +109,34 @@ module.exports = {
     ],
     '@typescript-eslint/no-use-before-define': ['error', 'nofunc'],
     '@typescript-eslint/no-useless-constructor': 'error',
+    '@typescript-eslint/padding-line-between-statements': [
+      'warn',
+      {
+        blankLine: 'always',
+        next: 'return',
+        prev: '*',
+      },
+      {
+        blankLine: 'always',
+        next: ['block', 'block-like', 'class', 'const', 'let', 'var', 'interface'],
+        prev: '*',
+      },
+      {
+        blankLine: 'always',
+        next: '*',
+        prev: ['block', 'block-like', 'class', 'const', 'let', 'var', 'interface'],
+      },
+      {
+        blankLine: 'any',
+        next: ['const', 'let', 'var'],
+        prev: ['const', 'let', 'var'],
+      },
+      {
+        blankLine: 'any',
+        next: ['case'],
+        prev: ['case'],
+      },
+    ],
     '@typescript-eslint/prefer-for-of': 'error',
     '@typescript-eslint/prefer-function-type': 'error',
     '@typescript-eslint/require-await': 'error',
@@ -128,6 +156,7 @@ module.exports = {
     'no-unused-vars': 'off',
     'no-use-before-define': 'off',
     'no-useless-constructor': 'off',
+    'padding-line-between-statements': 'off',
     'sort-keys': 'off',
   },
   settings: {

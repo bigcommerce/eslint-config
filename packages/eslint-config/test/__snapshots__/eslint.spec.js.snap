@@ -306,6 +306,62 @@ Object {
     "@typescript-eslint/object-curly-spacing": Array [
       "off",
     ],
+    "@typescript-eslint/padding-line-between-statements": Array [
+      "warn",
+      Object {
+        "blankLine": "always",
+        "next": "return",
+        "prev": "*",
+      },
+      Object {
+        "blankLine": "always",
+        "next": Array [
+          "block",
+          "block-like",
+          "class",
+          "const",
+          "let",
+          "var",
+          "interface",
+        ],
+        "prev": "*",
+      },
+      Object {
+        "blankLine": "always",
+        "next": "*",
+        "prev": Array [
+          "block",
+          "block-like",
+          "class",
+          "const",
+          "let",
+          "var",
+          "interface",
+        ],
+      },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "const",
+          "let",
+          "var",
+        ],
+        "prev": Array [
+          "const",
+          "let",
+          "var",
+        ],
+      },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "case",
+        ],
+        "prev": Array [
+          "case",
+        ],
+      },
+    ],
     "@typescript-eslint/prefer-as-const": Array [
       "error",
     ],
@@ -1538,7 +1594,7 @@ Object {
       "off",
     ],
     "padding-line-between-statements": Array [
-      "warn",
+      "off",
       Object {
         "blankLine": "always",
         "next": "return",
@@ -7954,6 +8010,62 @@ Object {
     "@typescript-eslint/object-curly-spacing": Array [
       "off",
     ],
+    "@typescript-eslint/padding-line-between-statements": Array [
+      "warn",
+      Object {
+        "blankLine": "always",
+        "next": "return",
+        "prev": "*",
+      },
+      Object {
+        "blankLine": "always",
+        "next": Array [
+          "block",
+          "block-like",
+          "class",
+          "const",
+          "let",
+          "var",
+          "interface",
+        ],
+        "prev": "*",
+      },
+      Object {
+        "blankLine": "always",
+        "next": "*",
+        "prev": Array [
+          "block",
+          "block-like",
+          "class",
+          "const",
+          "let",
+          "var",
+          "interface",
+        ],
+      },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "const",
+          "let",
+          "var",
+        ],
+        "prev": Array [
+          "const",
+          "let",
+          "var",
+        ],
+      },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "case",
+        ],
+        "prev": Array [
+          "case",
+        ],
+      },
+    ],
     "@typescript-eslint/prefer-as-const": Array [
       "error",
     ],
@@ -9186,7 +9298,7 @@ Object {
       "off",
     ],
     "padding-line-between-statements": Array [
-      "warn",
+      "off",
       Object {
         "blankLine": "always",
         "next": "return",
@@ -10082,6 +10194,62 @@ Object {
     "@typescript-eslint/object-curly-spacing": Array [
       "off",
     ],
+    "@typescript-eslint/padding-line-between-statements": Array [
+      "warn",
+      Object {
+        "blankLine": "always",
+        "next": "return",
+        "prev": "*",
+      },
+      Object {
+        "blankLine": "always",
+        "next": Array [
+          "block",
+          "block-like",
+          "class",
+          "const",
+          "let",
+          "var",
+          "interface",
+        ],
+        "prev": "*",
+      },
+      Object {
+        "blankLine": "always",
+        "next": "*",
+        "prev": Array [
+          "block",
+          "block-like",
+          "class",
+          "const",
+          "let",
+          "var",
+          "interface",
+        ],
+      },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "const",
+          "let",
+          "var",
+        ],
+        "prev": Array [
+          "const",
+          "let",
+          "var",
+        ],
+      },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "case",
+        ],
+        "prev": Array [
+          "case",
+        ],
+      },
+    ],
     "@typescript-eslint/prefer-as-const": Array [
       "error",
     ],
@@ -11314,7 +11482,7 @@ Object {
       "off",
     ],
     "padding-line-between-statements": Array [
-      "warn",
+      "off",
       Object {
         "blankLine": "always",
         "next": "return",
