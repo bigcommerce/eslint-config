@@ -1,34 +1,48 @@
 version: 2.1
 orbs:
-  node: circleci/node@1.1.4
+  node: circleci/node@4.7.0
 
 default_executor: &default_executor
   executor:
     name: node/default
-    tag: '14.16'
+    tag: '14.17'
 
 commands:
   install-dependencies:
+    parameters:
+      cache-version:
+        type: string
+        default: v1
+        description: Change the cache version if you need to clear the cache for any reason.
+
     steps:
       - node/install-yarn:
           version: 1.22.10
 
-      - node/with-cache:
-          cache-key: yarn.lock
-          cache-version: v1
-          include-branch-in-cache-key: false
-          steps:
-            - run:
-                name: yarn install
-                command: |
-                  CKSUM_BEFORE=$(cksum yarn.lock)
-                  yarn install
-                  CKSUM_AFTER=$(cksum yarn.lock)
+      - restore_cache:
+          keys:
+            - node-deps-<<parameters.cache-version>>-{{ checksum "package.json" }}-{{ checksum "yarn.lock" }}
+            - node-deps-<<parameters.cache-version>>-{{ checksum "package.json" }}
+            - node-deps-<<parameters.cache-version>>
 
-                  if [[ $CKSUM_BEFORE != $CKSUM_AFTER ]]; then
-                    echo "yarn.lock was modified unexpectedly - terminating"
-                    exit 1
-                  fi
+      - run:
+          name: yarn install
+          command: |
+              CKSUM_BEFORE=$(cksum yarn.lock)
+              yarn install
+              CKSUM_AFTER=$(cksum yarn.lock)
+            
+              if [[ $CKSUM_BEFORE != $CKSUM_AFTER ]]; then
+                echo "yarn.lock was modified unexpectedly - terminating"
+                exit 1
+              fi
+      
+      - save_cache:
+          key: node-deps-<<parameters.cache-version>>-{{ checksum "package.json" }}-{{ checksum "yarn.lock" }}
+          paths:
+            - node_modules
+            - packages/eslint-config/node_modules
+            - packages/eslint-plugin/node_modules
 
 jobs:
   test:
