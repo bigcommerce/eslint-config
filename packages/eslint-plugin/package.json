@@ -14,16 +14,16 @@
     "directory": "packages/eslint-plugin"
   },
   "dependencies": {
-    "@typescript-eslint/experimental-utils": "^4.24.0",
+    "@typescript-eslint/experimental-utils": "^5.2.0",
     "tsutils": "^3.21.0"
   },
   "peerDependencies": {
-    "@typescript-eslint/parser": "^4.0.0",
-    "eslint": "^7.0.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint": "^8.0.0",
     "typescript": "^4.0.0"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^4.22.0",
-    "endent": "^2.0.1"
+    "@typescript-eslint/parser": "^5.2.0",
+    "endent": "^2.1.0"
   }
 }
