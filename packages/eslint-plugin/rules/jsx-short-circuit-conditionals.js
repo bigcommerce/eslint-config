@@ -8,6 +8,7 @@ module.exports = {
   meta: {
     type: 'problem',
     fixable: true,
+    hasSuggestions: true,
   },
   docs: {
     description: 'Disallows usage of string / number while short-circuiting jsx',

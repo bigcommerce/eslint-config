@@ -225,6 +225,9 @@ Object {
     "@typescript-eslint/no-inferrable-types": Array [
       "error",
     ],
+    "@typescript-eslint/no-loss-of-precision": Array [
+      "error",
+    ],
     "@typescript-eslint/no-misused-new": Array [
       "error",
     ],
@@ -259,6 +262,12 @@ Object {
       "error",
     ],
     "@typescript-eslint/no-unnecessary-type-assertion": Array [
+      "error",
+    ],
+    "@typescript-eslint/no-unnecessary-type-constraint": Array [
+      "error",
+    ],
+    "@typescript-eslint/no-unsafe-argument": Array [
       "error",
     ],
     "@typescript-eslint/no-unsafe-assignment": Array [
@@ -297,6 +306,62 @@ Object {
     "@typescript-eslint/object-curly-spacing": Array [
       "off",
     ],
+    "@typescript-eslint/padding-line-between-statements": Array [
+      "warn",
+      Object {
+        "blankLine": "always",
+        "next": "return",
+        "prev": "*",
+      },
+      Object {
+        "blankLine": "always",
+        "next": Array [
+          "block",
+          "block-like",
+          "class",
+          "const",
+          "let",
+          "var",
+          "interface",
+        ],
+        "prev": "*",
+      },
+      Object {
+        "blankLine": "always",
+        "next": "*",
+        "prev": Array [
+          "block",
+          "block-like",
+          "class",
+          "const",
+          "let",
+          "var",
+          "interface",
+        ],
+      },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "const",
+          "let",
+          "var",
+        ],
+        "prev": Array [
+          "const",
+          "let",
+          "var",
+        ],
+      },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "case",
+        ],
+        "prev": Array [
+          "case",
+        ],
+      },
+    ],
     "@typescript-eslint/prefer-as-const": Array [
       "error",
     ],
@@ -307,9 +372,6 @@ Object {
       "error",
     ],
     "@typescript-eslint/prefer-namespace-keyword": Array [
-      "error",
-    ],
-    "@typescript-eslint/prefer-regexp-exec": Array [
       "error",
     ],
     "@typescript-eslint/quotes": Array [
@@ -578,6 +640,7 @@ Object {
       "error",
       Object {
         "caseSensitive": true,
+        "caseSensitiveStrict": false,
         "commonjs": true,
       },
     ],
@@ -1107,6 +1170,9 @@ Object {
     "no-loop-func": Array [
       "error",
     ],
+    "no-loss-of-precision": Array [
+      "off",
+    ],
     "no-misleading-character-class": Array [
       "error",
     ],
@@ -1147,6 +1213,9 @@ Object {
       "off",
     ],
     "no-new-wrappers": Array [
+      "error",
+    ],
+    "no-nonoctal-decimal-escape": Array [
       "error",
     ],
     "no-obj-calls": Array [
@@ -1419,6 +1488,9 @@ Object {
     "no-unsafe-negation": Array [
       "off",
     ],
+    "no-unsafe-optional-chaining": Array [
+      "error",
+    ],
     "no-unused-expressions": Array [
       "off",
     ],
@@ -1436,6 +1508,9 @@ Object {
     "no-use-before-define": Array [
       "off",
       "nofunc",
+    ],
+    "no-useless-backreference": Array [
+      "error",
     ],
     "no-useless-catch": Array [
       "error",
@@ -1519,7 +1594,7 @@ Object {
       "off",
     ],
     "padding-line-between-statements": Array [
-      "warn",
+      "off",
       Object {
         "blankLine": "always",
         "next": "return",
@@ -2077,7 +2152,6 @@ Object {
     "import/extensions": Array [
       ".ts",
       ".tsx",
-      ".d.ts",
       ".js",
       ".jsx",
     ],
@@ -2089,7 +2163,6 @@ Object {
       "@typescript-eslint/parser": Array [
         ".ts",
         ".tsx",
-        ".d.ts",
       ],
     },
     "import/resolver": Object {
@@ -2097,7 +2170,6 @@ Object {
         "extensions": Array [
           ".ts",
           ".tsx",
-          ".d.ts",
           ".js",
           ".jsx",
         ],
@@ -2432,6 +2504,7 @@ Object {
       "error",
       Object {
         "caseSensitive": true,
+        "caseSensitiveStrict": false,
         "commonjs": true,
       },
     ],
@@ -2532,16 +2605,10 @@ Object {
     "jest/no-test-return-statement": Array [
       "error",
     ],
-    "jest/no-try-expect": Array [
-      "error",
-    ],
     "jest/prefer-hooks-on-top": Array [
       "error",
     ],
-    "jest/prefer-to-be-null": Array [
-      "error",
-    ],
-    "jest/prefer-to-be-undefined": Array [
+    "jest/prefer-to-be": Array [
       "error",
     ],
     "jest/prefer-to-contain": Array [
@@ -2553,7 +2620,7 @@ Object {
     "jest/prefer-todo": Array [
       "error",
     ],
-    "jest/valid-describe": Array [
+    "jest/valid-describe-callback": Array [
       "error",
     ],
     "jest/valid-expect": Array [
@@ -3061,6 +3128,9 @@ Object {
     "no-loop-func": Array [
       "error",
     ],
+    "no-loss-of-precision": Array [
+      "error",
+    ],
     "no-misleading-character-class": Array [
       "error",
     ],
@@ -3101,6 +3171,9 @@ Object {
       "error",
     ],
     "no-new-wrappers": Array [
+      "error",
+    ],
+    "no-nonoctal-decimal-escape": Array [
       "error",
     ],
     "no-obj-calls": Array [
@@ -3370,6 +3443,9 @@ Object {
     "no-unsafe-negation": Array [
       "error",
     ],
+    "no-unsafe-optional-chaining": Array [
+      "error",
+    ],
     "no-unused-expressions": Array [
       "error",
     ],
@@ -3387,6 +3463,9 @@ Object {
     "no-use-before-define": Array [
       "error",
       "nofunc",
+    ],
+    "no-useless-backreference": Array [
+      "error",
     ],
     "no-useless-catch": Array [
       "error",
@@ -4325,6 +4404,7 @@ Object {
       "error",
       Object {
         "caseSensitive": true,
+        "caseSensitiveStrict": false,
         "commonjs": true,
       },
     ],
@@ -4854,6 +4934,9 @@ Object {
     "no-loop-func": Array [
       "error",
     ],
+    "no-loss-of-precision": Array [
+      "error",
+    ],
     "no-misleading-character-class": Array [
       "error",
     ],
@@ -4894,6 +4977,9 @@ Object {
       "error",
     ],
     "no-new-wrappers": Array [
+      "error",
+    ],
+    "no-nonoctal-decimal-escape": Array [
       "error",
     ],
     "no-obj-calls": Array [
@@ -5163,6 +5249,9 @@ Object {
     "no-unsafe-negation": Array [
       "error",
     ],
+    "no-unsafe-optional-chaining": Array [
+      "error",
+    ],
     "no-unused-expressions": Array [
       "error",
     ],
@@ -5180,6 +5269,9 @@ Object {
     "no-use-before-define": Array [
       "error",
       "nofunc",
+    ],
+    "no-useless-backreference": Array [
+      "error",
     ],
     "no-useless-catch": Array [
       "error",
@@ -6117,6 +6209,7 @@ Object {
       "error",
       Object {
         "caseSensitive": true,
+        "caseSensitiveStrict": false,
         "commonjs": true,
       },
     ],
@@ -6646,6 +6739,9 @@ Object {
     "no-loop-func": Array [
       "error",
     ],
+    "no-loss-of-precision": Array [
+      "error",
+    ],
     "no-misleading-character-class": Array [
       "error",
     ],
@@ -6686,6 +6782,9 @@ Object {
       "error",
     ],
     "no-new-wrappers": Array [
+      "error",
+    ],
+    "no-nonoctal-decimal-escape": Array [
       "error",
     ],
     "no-obj-calls": Array [
@@ -6955,6 +7054,9 @@ Object {
     "no-unsafe-negation": Array [
       "error",
     ],
+    "no-unsafe-optional-chaining": Array [
+      "error",
+    ],
     "no-unused-expressions": Array [
       "error",
     ],
@@ -6972,6 +7074,9 @@ Object {
     "no-use-before-define": Array [
       "error",
       "nofunc",
+    ],
+    "no-useless-backreference": Array [
+      "error",
     ],
     "no-useless-catch": Array [
       "error",
@@ -7824,6 +7929,9 @@ Object {
     "@typescript-eslint/no-inferrable-types": Array [
       "error",
     ],
+    "@typescript-eslint/no-loss-of-precision": Array [
+      "error",
+    ],
     "@typescript-eslint/no-misused-new": Array [
       "error",
     ],
@@ -7858,6 +7966,12 @@ Object {
       "error",
     ],
     "@typescript-eslint/no-unnecessary-type-assertion": Array [
+      "error",
+    ],
+    "@typescript-eslint/no-unnecessary-type-constraint": Array [
+      "error",
+    ],
+    "@typescript-eslint/no-unsafe-argument": Array [
       "error",
     ],
     "@typescript-eslint/no-unsafe-assignment": Array [
@@ -7896,6 +8010,62 @@ Object {
     "@typescript-eslint/object-curly-spacing": Array [
       "off",
     ],
+    "@typescript-eslint/padding-line-between-statements": Array [
+      "warn",
+      Object {
+        "blankLine": "always",
+        "next": "return",
+        "prev": "*",
+      },
+      Object {
+        "blankLine": "always",
+        "next": Array [
+          "block",
+          "block-like",
+          "class",
+          "const",
+          "let",
+          "var",
+          "interface",
+        ],
+        "prev": "*",
+      },
+      Object {
+        "blankLine": "always",
+        "next": "*",
+        "prev": Array [
+          "block",
+          "block-like",
+          "class",
+          "const",
+          "let",
+          "var",
+          "interface",
+        ],
+      },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "const",
+          "let",
+          "var",
+        ],
+        "prev": Array [
+          "const",
+          "let",
+          "var",
+        ],
+      },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "case",
+        ],
+        "prev": Array [
+          "case",
+        ],
+      },
+    ],
     "@typescript-eslint/prefer-as-const": Array [
       "error",
     ],
@@ -7906,9 +8076,6 @@ Object {
       "error",
     ],
     "@typescript-eslint/prefer-namespace-keyword": Array [
-      "error",
-    ],
-    "@typescript-eslint/prefer-regexp-exec": Array [
       "error",
     ],
     "@typescript-eslint/quotes": Array [
@@ -8177,6 +8344,7 @@ Object {
       "error",
       Object {
         "caseSensitive": true,
+        "caseSensitiveStrict": false,
         "commonjs": true,
       },
     ],
@@ -8706,6 +8874,9 @@ Object {
     "no-loop-func": Array [
       "error",
     ],
+    "no-loss-of-precision": Array [
+      "off",
+    ],
     "no-misleading-character-class": Array [
       "error",
     ],
@@ -8746,6 +8917,9 @@ Object {
       "off",
     ],
     "no-new-wrappers": Array [
+      "error",
+    ],
+    "no-nonoctal-decimal-escape": Array [
       "error",
     ],
     "no-obj-calls": Array [
@@ -9018,6 +9192,9 @@ Object {
     "no-unsafe-negation": Array [
       "off",
     ],
+    "no-unsafe-optional-chaining": Array [
+      "error",
+    ],
     "no-unused-expressions": Array [
       "off",
     ],
@@ -9035,6 +9212,9 @@ Object {
     "no-use-before-define": Array [
       "off",
       "nofunc",
+    ],
+    "no-useless-backreference": Array [
+      "error",
     ],
     "no-useless-catch": Array [
       "error",
@@ -9118,7 +9298,7 @@ Object {
       "off",
     ],
     "padding-line-between-statements": Array [
-      "warn",
+      "off",
       Object {
         "blankLine": "always",
         "next": "return",
@@ -9675,7 +9855,6 @@ Object {
     "import/extensions": Array [
       ".ts",
       ".tsx",
-      ".d.ts",
       ".js",
       ".jsx",
     ],
@@ -9687,7 +9866,6 @@ Object {
       "@typescript-eslint/parser": Array [
         ".ts",
         ".tsx",
-        ".d.ts",
       ],
     },
     "import/resolver": Object {
@@ -9695,7 +9873,6 @@ Object {
         "extensions": Array [
           ".ts",
           ".tsx",
-          ".d.ts",
           ".js",
           ".jsx",
         ],
@@ -9936,6 +10113,9 @@ Object {
     "@typescript-eslint/no-inferrable-types": Array [
       "error",
     ],
+    "@typescript-eslint/no-loss-of-precision": Array [
+      "error",
+    ],
     "@typescript-eslint/no-misused-new": Array [
       "error",
     ],
@@ -9970,6 +10150,12 @@ Object {
       "error",
     ],
     "@typescript-eslint/no-unnecessary-type-assertion": Array [
+      "error",
+    ],
+    "@typescript-eslint/no-unnecessary-type-constraint": Array [
+      "error",
+    ],
+    "@typescript-eslint/no-unsafe-argument": Array [
       "error",
     ],
     "@typescript-eslint/no-unsafe-assignment": Array [
@@ -10008,6 +10194,62 @@ Object {
     "@typescript-eslint/object-curly-spacing": Array [
       "off",
     ],
+    "@typescript-eslint/padding-line-between-statements": Array [
+      "warn",
+      Object {
+        "blankLine": "always",
+        "next": "return",
+        "prev": "*",
+      },
+      Object {
+        "blankLine": "always",
+        "next": Array [
+          "block",
+          "block-like",
+          "class",
+          "const",
+          "let",
+          "var",
+          "interface",
+        ],
+        "prev": "*",
+      },
+      Object {
+        "blankLine": "always",
+        "next": "*",
+        "prev": Array [
+          "block",
+          "block-like",
+          "class",
+          "const",
+          "let",
+          "var",
+          "interface",
+        ],
+      },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "const",
+          "let",
+          "var",
+        ],
+        "prev": Array [
+          "const",
+          "let",
+          "var",
+        ],
+      },
+      Object {
+        "blankLine": "any",
+        "next": Array [
+          "case",
+        ],
+        "prev": Array [
+          "case",
+        ],
+      },
+    ],
     "@typescript-eslint/prefer-as-const": Array [
       "error",
     ],
@@ -10018,9 +10260,6 @@ Object {
       "error",
     ],
     "@typescript-eslint/prefer-namespace-keyword": Array [
-      "error",
-    ],
-    "@typescript-eslint/prefer-regexp-exec": Array [
       "error",
     ],
     "@typescript-eslint/quotes": Array [
@@ -10289,6 +10528,7 @@ Object {
       "error",
       Object {
         "caseSensitive": true,
+        "caseSensitiveStrict": false,
         "commonjs": true,
       },
     ],
@@ -10818,6 +11058,9 @@ Object {
     "no-loop-func": Array [
       "error",
     ],
+    "no-loss-of-precision": Array [
+      "off",
+    ],
     "no-misleading-character-class": Array [
       "error",
     ],
@@ -10858,6 +11101,9 @@ Object {
       "off",
     ],
     "no-new-wrappers": Array [
+      "error",
+    ],
+    "no-nonoctal-decimal-escape": Array [
       "error",
     ],
     "no-obj-calls": Array [
@@ -11130,6 +11376,9 @@ Object {
     "no-unsafe-negation": Array [
       "off",
     ],
+    "no-unsafe-optional-chaining": Array [
+      "error",
+    ],
     "no-unused-expressions": Array [
       "off",
     ],
@@ -11147,6 +11396,9 @@ Object {
     "no-use-before-define": Array [
       "off",
       "nofunc",
+    ],
+    "no-useless-backreference": Array [
+      "error",
     ],
     "no-useless-catch": Array [
       "error",
@@ -11230,7 +11482,7 @@ Object {
       "off",
     ],
     "padding-line-between-statements": Array [
-      "warn",
+      "off",
       Object {
         "blankLine": "always",
         "next": "return",
@@ -11779,7 +12031,6 @@ Object {
     "import/extensions": Array [
       ".ts",
       ".tsx",
-      ".d.ts",
       ".js",
       ".jsx",
     ],
@@ -11791,7 +12042,6 @@ Object {
       "@typescript-eslint/parser": Array [
         ".ts",
         ".tsx",
-        ".d.ts",
       ],
     },
     "import/resolver": Object {
@@ -11799,7 +12049,6 @@ Object {
         "extensions": Array [
           ".ts",
           ".tsx",
-          ".d.ts",
           ".js",
           ".jsx",
         ],

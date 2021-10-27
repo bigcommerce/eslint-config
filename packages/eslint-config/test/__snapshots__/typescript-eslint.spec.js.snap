@@ -55,6 +55,9 @@ Object {
     "@typescript-eslint/consistent-type-definitions": Array [
       "error",
     ],
+    "@typescript-eslint/consistent-type-exports": Array [
+      "error",
+    ],
     "@typescript-eslint/consistent-type-imports": Array [
       "error",
     ],
@@ -148,9 +151,6 @@ Object {
     "@typescript-eslint/no-for-in-array": Array [
       "error",
     ],
-    "@typescript-eslint/no-implicit-any-catch": Array [
-      "error",
-    ],
     "@typescript-eslint/no-implied-eval": Array [
       "error",
     ],
@@ -172,6 +172,9 @@ Object {
     "@typescript-eslint/no-magic-numbers": Array [
       "error",
     ],
+    "@typescript-eslint/no-meaningless-void-operator": Array [
+      "error",
+    ],
     "@typescript-eslint/no-misused-new": Array [
       "error",
     ],
@@ -179,6 +182,9 @@ Object {
       "error",
     ],
     "@typescript-eslint/no-namespace": Array [
+      "error",
+    ],
+    "@typescript-eslint/no-non-null-asserted-nullish-coalescing": Array [
       "error",
     ],
     "@typescript-eslint/no-non-null-asserted-optional-chain": Array [
@@ -194,6 +200,9 @@ Object {
       "error",
     ],
     "@typescript-eslint/no-require-imports": Array [
+      "error",
+    ],
+    "@typescript-eslint/no-restricted-imports": Array [
       "error",
     ],
     "@typescript-eslint/no-shadow": Array [
@@ -262,6 +271,9 @@ Object {
     "@typescript-eslint/object-curly-spacing": Array [
       "error",
     ],
+    "@typescript-eslint/padding-line-between-statements": Array [
+      "error",
+    ],
     "@typescript-eslint/prefer-as-const": Array [
       "error",
     ],
@@ -299,6 +311,9 @@ Object {
       "error",
     ],
     "@typescript-eslint/prefer-regexp-exec": Array [
+      "error",
+    ],
+    "@typescript-eslint/prefer-return-this-type": Array [
       "error",
     ],
     "@typescript-eslint/prefer-string-starts-ends-with": Array [
@@ -454,6 +469,9 @@ Object {
     "no-redeclare": Array [
       "off",
     ],
+    "no-restricted-imports": Array [
+      "off",
+    ],
     "no-return-await": Array [
       "off",
     ],
@@ -494,6 +512,9 @@ Object {
       "error",
     ],
     "object-curly-spacing": Array [
+      "off",
+    ],
+    "padding-line-between-statements": Array [
       "off",
     ],
     "prefer-const": Array [
