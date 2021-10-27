@@ -1,6 +1,6 @@
 {
   "name": "@bigcommerce/eslint-config",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Default ESLint configuration used at BigCommerce",
   "main": "index.json",
   "files": [
@@ -20,7 +20,7 @@
     "directory": "packages/eslint-config"
   },
   "dependencies": {
-    "@bigcommerce/eslint-plugin": "^1.0.0",
+    "@bigcommerce/eslint-plugin": "^1.0.1",
     "@rushstack/eslint-patch": "^1.0.9",
     "@typescript-eslint/eslint-plugin": "^5.2.0",
     "@typescript-eslint/parser": "^5.2.0",
