@@ -22,7 +22,7 @@
   "devDependencies": {
     "@bigcommerce/validate-commits": "^2.0.2",
     "enhanced-resolve": "^5.8.3",
-    "eslint": "^8.1.0",
+    "eslint": "^8.2.0",
     "jest": "^27.3.1",
     "lerna": "^4.0.0",
     "typescript": "^4.4.4"
