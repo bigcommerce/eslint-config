@@ -704,9 +704,6 @@ Object {
     "jsdoc/require-returns-type": Array [
       "error",
     ],
-    "jsx-a11y/accessible-emoji": Array [
-      "error",
-    ],
     "jsx-a11y/alt-text": Array [
       "error",
     ],
@@ -817,6 +814,9 @@ Object {
     "jsx-a11y/no-interactive-element-to-noninteractive-role": Array [
       "error",
       Object {
+        "canvas": Array [
+          "img",
+        ],
         "tr": Array [
           "none",
           "presentation",
@@ -863,6 +863,10 @@ Object {
     "jsx-a11y/no-noninteractive-element-to-interactive-role": Array [
       "error",
       Object {
+        "fieldset": Array [
+          "radiogroup",
+          "presentation",
+        ],
         "li": Array [
           "menuitem",
           "option",
@@ -2662,9 +2666,6 @@ Object {
     "jsdoc/require-returns-type": Array [
       "error",
     ],
-    "jsx-a11y/accessible-emoji": Array [
-      "error",
-    ],
     "jsx-a11y/alt-text": Array [
       "error",
     ],
@@ -2775,6 +2776,9 @@ Object {
     "jsx-a11y/no-interactive-element-to-noninteractive-role": Array [
       "error",
       Object {
+        "canvas": Array [
+          "img",
+        ],
         "tr": Array [
           "none",
           "presentation",
@@ -2821,6 +2825,10 @@ Object {
     "jsx-a11y/no-noninteractive-element-to-interactive-role": Array [
       "error",
       Object {
+        "fieldset": Array [
+          "radiogroup",
+          "presentation",
+        ],
         "li": Array [
           "menuitem",
           "option",
@@ -4468,9 +4476,6 @@ Object {
     "jsdoc/require-returns-type": Array [
       "error",
     ],
-    "jsx-a11y/accessible-emoji": Array [
-      "error",
-    ],
     "jsx-a11y/alt-text": Array [
       "error",
     ],
@@ -4581,6 +4586,9 @@ Object {
     "jsx-a11y/no-interactive-element-to-noninteractive-role": Array [
       "error",
       Object {
+        "canvas": Array [
+          "img",
+        ],
         "tr": Array [
           "none",
           "presentation",
@@ -4627,6 +4635,10 @@ Object {
     "jsx-a11y/no-noninteractive-element-to-interactive-role": Array [
       "error",
       Object {
+        "fieldset": Array [
+          "radiogroup",
+          "presentation",
+        ],
         "li": Array [
           "menuitem",
           "option",
@@ -6273,9 +6285,6 @@ Object {
     "jsdoc/require-returns-type": Array [
       "error",
     ],
-    "jsx-a11y/accessible-emoji": Array [
-      "error",
-    ],
     "jsx-a11y/alt-text": Array [
       "error",
     ],
@@ -6386,6 +6395,9 @@ Object {
     "jsx-a11y/no-interactive-element-to-noninteractive-role": Array [
       "error",
       Object {
+        "canvas": Array [
+          "img",
+        ],
         "tr": Array [
           "none",
           "presentation",
@@ -6432,6 +6444,10 @@ Object {
     "jsx-a11y/no-noninteractive-element-to-interactive-role": Array [
       "error",
       Object {
+        "fieldset": Array [
+          "radiogroup",
+          "presentation",
+        ],
         "li": Array [
           "menuitem",
           "option",
@@ -8408,9 +8424,6 @@ Object {
     "jsdoc/require-returns-type": Array [
       "error",
     ],
-    "jsx-a11y/accessible-emoji": Array [
-      "error",
-    ],
     "jsx-a11y/alt-text": Array [
       "error",
     ],
@@ -8521,6 +8534,9 @@ Object {
     "jsx-a11y/no-interactive-element-to-noninteractive-role": Array [
       "error",
       Object {
+        "canvas": Array [
+          "img",
+        ],
         "tr": Array [
           "none",
           "presentation",
@@ -8567,6 +8583,10 @@ Object {
     "jsx-a11y/no-noninteractive-element-to-interactive-role": Array [
       "error",
       Object {
+        "fieldset": Array [
+          "radiogroup",
+          "presentation",
+        ],
         "li": Array [
           "menuitem",
           "option",
@@ -10592,9 +10612,6 @@ Object {
     "jsdoc/require-returns-type": Array [
       "error",
     ],
-    "jsx-a11y/accessible-emoji": Array [
-      "error",
-    ],
     "jsx-a11y/alt-text": Array [
       "error",
     ],
@@ -10705,6 +10722,9 @@ Object {
     "jsx-a11y/no-interactive-element-to-noninteractive-role": Array [
       "error",
       Object {
+        "canvas": Array [
+          "img",
+        ],
         "tr": Array [
           "none",
           "presentation",
@@ -10751,6 +10771,10 @@ Object {
     "jsx-a11y/no-noninteractive-element-to-interactive-role": Array [
       "error",
       Object {
+        "fieldset": Array [
+          "radiogroup",
+          "presentation",
+        ],
         "li": Array [
           "menuitem",
           "option",
