@@ -28,15 +28,15 @@ commands:
       - run:
           name: yarn install
           command: |
-              CKSUM_BEFORE=$(cksum yarn.lock)
-              yarn install
-              CKSUM_AFTER=$(cksum yarn.lock)
-            
-              if [[ $CKSUM_BEFORE != $CKSUM_AFTER ]]; then
-                echo "yarn.lock was modified unexpectedly - terminating"
-                exit 1
-              fi
-      
+            CKSUM_BEFORE=$(cksum yarn.lock)
+            yarn install
+            CKSUM_AFTER=$(cksum yarn.lock)
+
+            if [[ $CKSUM_BEFORE != $CKSUM_AFTER ]]; then
+              echo "yarn.lock was modified unexpectedly - terminating"
+              exit 1
+            fi
+
       - save_cache:
           key: node-deps-<<parameters.cache-version>>-{{ checksum "package.json" }}-{{ checksum "yarn.lock" }}
           paths:
@@ -50,6 +50,17 @@ jobs:
     steps:
       - checkout
       - install-dependencies
+      - run: yarn run test
+      - run: yarn eslint-config-prettier packages/eslint-config/index.js
+
+  test-no-lockfile:
+    <<: *default_executor
+    steps:
+      - checkout
+      - node/install-yarn:
+          version: 1.22.10
+      - run: rm yarn.lock
+      - run: yarn install
       - run: yarn run test
       - run: yarn eslint-config-prettier packages/eslint-config/index.js
 
@@ -74,3 +85,13 @@ workflows:
       - test
       - lint
       - validate-commits
+  rules-check:
+    triggers:
+      - schedule:
+          cron: '0 0 * * 1'
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - test-no-lockfile
