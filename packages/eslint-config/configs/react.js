@@ -29,6 +29,15 @@ module.exports = {
     'react/jsx-sort-props': 'warn',
     'react/no-redundant-should-component-update': 'error',
     'react/no-this-in-sfc': 'error',
+    'react/no-unescaped-entities': [
+      'error',
+      {
+        forbid: [
+          { alternatives: ['&gt;'], char: '>' },
+          { alternatives: ['&#125;'], char: '}' },
+        ],
+      },
+    ],
     'react/no-unsafe': 'error',
     'react/no-unused-state': 'error',
     'react/prefer-es6-class': 'error',
