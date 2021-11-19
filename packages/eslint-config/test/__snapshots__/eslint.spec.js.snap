@@ -1840,7 +1840,23 @@ Object {
       "error",
     ],
     "react/no-unescaped-entities": Array [
-      2,
+      "error",
+      Object {
+        "forbid": Array [
+          Object {
+            "alternatives": Array [
+              "&gt;",
+            ],
+            "char": ">",
+          },
+          Object {
+            "alternatives": Array [
+              "&#125;",
+            ],
+            "char": "}",
+          },
+        ],
+      },
     ],
     "react/no-unknown-property": Array [
       2,
@@ -3788,7 +3804,23 @@ Object {
       "error",
     ],
     "react/no-unescaped-entities": Array [
-      2,
+      "error",
+      Object {
+        "forbid": Array [
+          Object {
+            "alternatives": Array [
+              "&gt;",
+            ],
+            "char": ">",
+          },
+          Object {
+            "alternatives": Array [
+              "&#125;",
+            ],
+            "char": "}",
+          },
+        ],
+      },
     ],
     "react/no-unknown-property": Array [
       2,
@@ -5598,7 +5630,23 @@ Object {
       "error",
     ],
     "react/no-unescaped-entities": Array [
-      2,
+      "error",
+      Object {
+        "forbid": Array [
+          Object {
+            "alternatives": Array [
+              "&gt;",
+            ],
+            "char": ">",
+          },
+          Object {
+            "alternatives": Array [
+              "&#125;",
+            ],
+            "char": "}",
+          },
+        ],
+      },
     ],
     "react/no-unknown-property": Array [
       2,
@@ -7407,7 +7455,23 @@ Object {
       "error",
     ],
     "react/no-unescaped-entities": Array [
-      2,
+      "error",
+      Object {
+        "forbid": Array [
+          Object {
+            "alternatives": Array [
+              "&gt;",
+            ],
+            "char": ">",
+          },
+          Object {
+            "alternatives": Array [
+              "&#125;",
+            ],
+            "char": "}",
+          },
+        ],
+      },
     ],
     "react/no-unknown-property": Array [
       2,
@@ -9560,7 +9624,23 @@ Object {
       "error",
     ],
     "react/no-unescaped-entities": Array [
-      2,
+      "error",
+      Object {
+        "forbid": Array [
+          Object {
+            "alternatives": Array [
+              "&gt;",
+            ],
+            "char": ">",
+          },
+          Object {
+            "alternatives": Array [
+              "&#125;",
+            ],
+            "char": "}",
+          },
+        ],
+      },
     ],
     "react/no-unknown-property": Array [
       2,
@@ -11740,7 +11820,23 @@ Object {
       "error",
     ],
     "react/no-unescaped-entities": Array [
-      2,
+      "error",
+      Object {
+        "forbid": Array [
+          Object {
+            "alternatives": Array [
+              "&gt;",
+            ],
+            "char": ">",
+          },
+          Object {
+            "alternatives": Array [
+              "&#125;",
+            ],
+            "char": "}",
+          },
+        ],
+      },
     ],
     "react/no-unknown-property": Array [
       2,
