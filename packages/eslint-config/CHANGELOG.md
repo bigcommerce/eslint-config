@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.2.0...@bigcommerce/eslint-config@2.3.0) (2021-12-13)
+
+
+### Features
+
+* **config:** FE-00 unescaped entities denylist ([e82c9d4](https://github.com/bigcommerce/eslint-config/commit/e82c9d41b3bf29ba88596fc1fe96fbd312c791e3))
+
+
+
+
+
 # [2.2.0](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.1.0...@bigcommerce/eslint-config@2.2.0) (2021-11-10)
 
 **Note:** Version bump only for package @bigcommerce/eslint-config
