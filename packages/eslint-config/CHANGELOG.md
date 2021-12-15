@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.3.1](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.3.0...@bigcommerce/eslint-config@2.3.1) (2021-12-15)
+
+
+### Bug Fixes
+
+* **config:** FE-00 incorrect entrypoint ([fa6f798](https://github.com/bigcommerce/eslint-config/commit/fa6f798bd44842d7b5791136e28c1ec5409301e0))
+
+
+
+
+
 # [2.3.0](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.2.0...@bigcommerce/eslint-config@2.3.0) (2021-12-13)
 
 
