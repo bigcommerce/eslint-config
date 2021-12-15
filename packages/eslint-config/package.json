@@ -2,7 +2,7 @@
   "name": "@bigcommerce/eslint-config",
   "version": "2.3.0",
   "description": "Default ESLint configuration used at BigCommerce",
-  "main": "index.json",
+  "main": "index.js",
   "files": [
     "index.js",
     "configs",
