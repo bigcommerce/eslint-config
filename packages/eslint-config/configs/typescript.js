@@ -147,6 +147,7 @@ module.exports = {
     // @typescript-eslint version
     camelcase: 'off',
     'consistent-return': 'off',
+    'default-case': 'off',
     'default-param-last': 'off',
     'import/named': 'off',
     'no-duplicate-imports': 'off',
