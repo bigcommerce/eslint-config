@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.4.0](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.3.1...@bigcommerce/eslint-config@2.4.0) (2022-03-10)
+
+
+### Features
+
+* **config:** FE-00 disable default-case for ts files ([e8eeea9](https://github.com/bigcommerce/eslint-config/commit/e8eeea910730a492fd7ce28ca72c5758372bd510))
+
+
+
+
+
 ## [2.3.1](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.3.0...@bigcommerce/eslint-config@2.3.1) (2021-12-15)
 
 
