@@ -484,7 +484,8 @@ Object {
       "off",
     ],
     "curly": Array [
-      0,
+      "error",
+      "all",
     ],
     "default-case": Array [
       "off",
@@ -2364,7 +2365,8 @@ Object {
       "error",
     ],
     "curly": Array [
-      0,
+      "error",
+      "all",
     ],
     "default-case": Array [
       "error",
@@ -4288,7 +4290,8 @@ Object {
       "error",
     ],
     "curly": Array [
-      0,
+      "error",
+      "all",
     ],
     "default-case": Array [
       "error",
@@ -6113,7 +6116,8 @@ Object {
       "error",
     ],
     "curly": Array [
-      0,
+      "error",
+      "all",
     ],
     "default-case": Array [
       "error",
@@ -8268,7 +8272,8 @@ Object {
       "off",
     ],
     "curly": Array [
-      0,
+      "error",
+      "all",
     ],
     "default-case": Array [
       "off",
@@ -10472,7 +10477,8 @@ Object {
       "off",
     ],
     "curly": Array [
-      0,
+      "error",
+      "all",
     ],
     "default-case": Array [
       "off",
