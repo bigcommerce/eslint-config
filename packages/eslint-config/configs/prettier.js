@@ -25,6 +25,7 @@ function getRules() {
   }
 
   return {
+    "curly": ["error", "all"],
     'prettier/prettier': ['warn', defaultConfig, { usePrettierrc: false }],
   };
 }
