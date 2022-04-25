@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.5.0](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.4.0...@bigcommerce/eslint-config@2.5.0) (2022-04-25)
+
+
+### Features
+
+* **config:** FE-00 add curly rule ([c88b375](https://github.com/bigcommerce/eslint-config/commit/c88b3755fb70586241e794f27fe06b8752c4b9e9))
+
+
+
+
+
 # [2.4.0](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.3.1...@bigcommerce/eslint-config@2.4.0) (2022-03-10)
 
 
