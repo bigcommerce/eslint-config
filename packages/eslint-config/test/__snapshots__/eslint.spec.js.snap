@@ -1719,6 +1719,14 @@ Object {
     "react/jsx-closing-tag-location": Array [
       "off",
     ],
+    "react/jsx-curly-brace-presence": Array [
+      "error",
+      Object {
+        "children": "never",
+        "propElementValues": "always",
+        "props": "never",
+      },
+    ],
     "react/jsx-curly-newline": Array [
       "off",
     ],
@@ -3692,6 +3700,14 @@ Object {
     "react/jsx-closing-tag-location": Array [
       "off",
     ],
+    "react/jsx-curly-brace-presence": Array [
+      "error",
+      Object {
+        "children": "never",
+        "propElementValues": "always",
+        "props": "never",
+      },
+    ],
     "react/jsx-curly-newline": Array [
       "off",
     ],
@@ -5519,6 +5535,14 @@ Object {
     "react/jsx-closing-tag-location": Array [
       "off",
     ],
+    "react/jsx-curly-brace-presence": Array [
+      "error",
+      Object {
+        "children": "never",
+        "propElementValues": "always",
+        "props": "never",
+      },
+    ],
     "react/jsx-curly-newline": Array [
       "off",
     ],
@@ -7344,6 +7368,14 @@ Object {
     ],
     "react/jsx-closing-tag-location": Array [
       "off",
+    ],
+    "react/jsx-curly-brace-presence": Array [
+      "error",
+      Object {
+        "children": "never",
+        "propElementValues": "always",
+        "props": "never",
+      },
     ],
     "react/jsx-curly-newline": Array [
       "off",
@@ -9506,6 +9538,14 @@ Object {
     ],
     "react/jsx-closing-tag-location": Array [
       "off",
+    ],
+    "react/jsx-curly-brace-presence": Array [
+      "error",
+      Object {
+        "children": "never",
+        "propElementValues": "always",
+        "props": "never",
+      },
     ],
     "react/jsx-curly-newline": Array [
       "off",
@@ -11711,6 +11751,14 @@ Object {
     ],
     "react/jsx-closing-tag-location": Array [
       "off",
+    ],
+    "react/jsx-curly-brace-presence": Array [
+      "error",
+      Object {
+        "children": "never",
+        "propElementValues": "always",
+        "props": "never",
+      },
     ],
     "react/jsx-curly-newline": Array [
       "off",

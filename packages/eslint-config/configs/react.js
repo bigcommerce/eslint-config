@@ -17,6 +17,14 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react/destructuring-assignment': 'error',
     'react/display-name': 'off',
+    'react/jsx-curly-brace-presence': [
+      'error',
+      {
+        children: 'never',
+        propElementValues: 'always',
+        props: 'never',
+      },
+    ],
     'react/jsx-fragments': ['error', 'syntax'],
     'react/jsx-no-bind': [
       'error',
