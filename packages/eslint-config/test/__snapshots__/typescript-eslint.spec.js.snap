@@ -118,6 +118,9 @@ Object {
     "@typescript-eslint/no-dupe-class-members": Array [
       "error",
     ],
+    "@typescript-eslint/no-duplicate-enum-values": Array [
+      "error",
+    ],
     "@typescript-eslint/no-duplicate-imports": Array [
       "error",
     ],
@@ -193,10 +196,10 @@ Object {
     "@typescript-eslint/no-non-null-assertion": Array [
       "error",
     ],
-    "@typescript-eslint/no-parameter-properties": Array [
+    "@typescript-eslint/no-redeclare": Array [
       "error",
     ],
-    "@typescript-eslint/no-redeclare": Array [
+    "@typescript-eslint/no-redundant-type-constituents": Array [
       "error",
     ],
     "@typescript-eslint/no-require-imports": Array [
@@ -262,6 +265,9 @@ Object {
     "@typescript-eslint/no-useless-constructor": Array [
       "error",
     ],
+    "@typescript-eslint/no-useless-empty-export": Array [
+      "error",
+    ],
     "@typescript-eslint/no-var-requires": Array [
       "error",
     ],
@@ -272,6 +278,9 @@ Object {
       "error",
     ],
     "@typescript-eslint/padding-line-between-statements": Array [
+      "error",
+    ],
+    "@typescript-eslint/parameter-properties": Array [
       "error",
     ],
     "@typescript-eslint/prefer-as-const": Array [
@@ -347,6 +356,9 @@ Object {
       "error",
     ],
     "@typescript-eslint/sort-type-union-intersection-members": Array [
+      "error",
+    ],
+    "@typescript-eslint/space-before-blocks": Array [
       "error",
     ],
     "@typescript-eslint/space-before-function-paren": Array [
@@ -533,6 +545,9 @@ Object {
       "off",
     ],
     "semi": Array [
+      "off",
+    ],
+    "space-before-blocks": Array [
       "off",
     ],
     "space-before-function-paren": Array [

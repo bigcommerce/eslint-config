@@ -392,6 +392,9 @@ Object {
     "@typescript-eslint/semi": Array [
       "off",
     ],
+    "@typescript-eslint/space-before-blocks": Array [
+      "off",
+    ],
     "@typescript-eslint/space-before-function-paren": Array [
       "off",
     ],
@@ -1430,6 +1433,7 @@ Object {
       Object {
         "builtinGlobals": false,
         "hoist": "all",
+        "ignoreOnInitialization": false,
       },
     ],
     "no-shadow-restricted-names": Array [
@@ -2146,6 +2150,9 @@ Object {
     "vue/operator-linebreak": Array [
       "off",
     ],
+    "vue/quote-props": Array [
+      "off",
+    ],
     "vue/script-indent": Array [
       "off",
     ],
@@ -2288,6 +2295,9 @@ Object {
       0,
     ],
     "@typescript-eslint/semi": Array [
+      "off",
+    ],
+    "@typescript-eslint/space-before-blocks": Array [
       "off",
     ],
     "@typescript-eslint/space-before-function-paren": Array [
@@ -3417,6 +3427,7 @@ Object {
       Object {
         "builtinGlobals": false,
         "hoist": "all",
+        "ignoreOnInitialization": false,
       },
     ],
     "no-shadow-restricted-names": Array [
@@ -4110,6 +4121,9 @@ Object {
       "off",
     ],
     "vue/operator-linebreak": Array [
+      "off",
+    ],
+    "vue/quote-props": Array [
       "off",
     ],
     "vue/script-indent": Array [
@@ -4223,6 +4237,9 @@ Object {
     "@typescript-eslint/semi": Array [
       "off",
     ],
+    "@typescript-eslint/space-before-blocks": Array [
+      "off",
+    ],
     "@typescript-eslint/space-before-function-paren": Array [
       "off",
     ],
@@ -5252,6 +5269,7 @@ Object {
       Object {
         "builtinGlobals": false,
         "hoist": "all",
+        "ignoreOnInitialization": false,
       },
     ],
     "no-shadow-restricted-names": Array [
@@ -5945,6 +5963,9 @@ Object {
       "off",
     ],
     "vue/operator-linebreak": Array [
+      "off",
+    ],
+    "vue/quote-props": Array [
       "off",
     ],
     "vue/script-indent": Array [
@@ -6057,6 +6078,9 @@ Object {
     "@typescript-eslint/semi": Array [
       "off",
     ],
+    "@typescript-eslint/space-before-blocks": Array [
+      "off",
+    ],
     "@typescript-eslint/space-before-function-paren": Array [
       "off",
     ],
@@ -7086,6 +7110,7 @@ Object {
       Object {
         "builtinGlobals": false,
         "hoist": "all",
+        "ignoreOnInitialization": false,
       },
     ],
     "no-shadow-restricted-names": Array [
@@ -7779,6 +7804,9 @@ Object {
       "off",
     ],
     "vue/operator-linebreak": Array [
+      "off",
+    ],
+    "vue/quote-props": Array [
       "off",
     ],
     "vue/script-indent": Array [
@@ -8210,6 +8238,9 @@ Object {
       "error",
     ],
     "@typescript-eslint/semi": Array [
+      "off",
+    ],
+    "@typescript-eslint/space-before-blocks": Array [
       "off",
     ],
     "@typescript-eslint/space-before-function-paren": Array [
@@ -9250,6 +9281,7 @@ Object {
       Object {
         "builtinGlobals": false,
         "hoist": "all",
+        "ignoreOnInitialization": false,
       },
     ],
     "no-shadow-restricted-names": Array [
@@ -9965,6 +9997,9 @@ Object {
     "vue/operator-linebreak": Array [
       "off",
     ],
+    "vue/quote-props": Array [
+      "off",
+    ],
     "vue/script-indent": Array [
       "off",
     ],
@@ -10423,6 +10458,9 @@ Object {
       "error",
     ],
     "@typescript-eslint/semi": Array [
+      "off",
+    ],
+    "@typescript-eslint/space-before-blocks": Array [
       "off",
     ],
     "@typescript-eslint/space-before-function-paren": Array [
@@ -11463,6 +11501,7 @@ Object {
       Object {
         "builtinGlobals": false,
         "hoist": "all",
+        "ignoreOnInitialization": false,
       },
     ],
     "no-shadow-restricted-names": Array [
@@ -12168,6 +12207,9 @@ Object {
       "off",
     ],
     "vue/operator-linebreak": Array [
+      "off",
+    ],
+    "vue/quote-props": Array [
       "off",
     ],
     "vue/script-indent": Array [
