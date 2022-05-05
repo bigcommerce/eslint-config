@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.6.0](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.5.0...@bigcommerce/eslint-config@2.6.0) (2022-05-05)
+
+
+### Bug Fixes
+
+* **config:** FE-00 Allow functions returning promises to be passed into jsx attributes that expect void return ([e5b1da8](https://github.com/bigcommerce/eslint-config/commit/e5b1da8857ebe274040576b0ceb0f07c01e81033))
+* **config:** FE-00 Ignore naming convention for objectLiteralProperty and typeProperty ([29fa538](https://github.com/bigcommerce/eslint-config/commit/29fa5387b75e8010de39d31bcb1743650c00608a))
+
+
+### Features
+
+* **config:** FE-00 add eslint rule for curly braces presence ([d2ba14a](https://github.com/bigcommerce/eslint-config/commit/d2ba14a147e9086159a09bedd79dfd9b78456cd3))
+
+
+
+
+
 # [2.5.0](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.4.0...@bigcommerce/eslint-config@2.5.0) (2022-04-25)
 
 
