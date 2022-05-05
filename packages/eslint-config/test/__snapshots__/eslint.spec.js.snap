@@ -243,6 +243,11 @@ Object {
     ],
     "@typescript-eslint/no-misused-promises": Array [
       "error",
+      Object {
+        "checksVoidReturn": Object {
+          "attributes": false,
+        },
+      },
     ],
     "@typescript-eslint/no-namespace": Array [
       "error",
@@ -8101,6 +8106,11 @@ Object {
     ],
     "@typescript-eslint/no-misused-promises": Array [
       "error",
+      Object {
+        "checksVoidReturn": Object {
+          "attributes": false,
+        },
+      },
     ],
     "@typescript-eslint/no-namespace": Array [
       "error",
@@ -10331,6 +10341,11 @@ Object {
     ],
     "@typescript-eslint/no-misused-promises": Array [
       "error",
+      Object {
+        "checksVoidReturn": Object {
+          "attributes": false,
+        },
+      },
     ],
     "@typescript-eslint/no-namespace": Array [
       "error",
