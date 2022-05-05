@@ -85,6 +85,11 @@ module.exports = {
         modifiers: ['unused'],
         selector: 'parameter',
       },
+      {
+        format: null,
+        modifiers: ['requiresQuotes'],
+        selector: ['objectLiteralProperty', 'typeProperty'],
+      },
     ],
     '@typescript-eslint/no-duplicate-imports': 'error',
     '@typescript-eslint/no-explicit-any': 'error',

@@ -188,6 +188,16 @@ Object {
         ],
         "selector": "parameter",
       },
+      Object {
+        "format": null,
+        "modifiers": Array [
+          "requiresQuotes",
+        ],
+        "selector": Array [
+          "objectLiteralProperty",
+          "typeProperty",
+        ],
+      },
     ],
     "@typescript-eslint/no-array-constructor": Array [
       "error",
@@ -8036,6 +8046,16 @@ Object {
         ],
         "selector": "parameter",
       },
+      Object {
+        "format": null,
+        "modifiers": Array [
+          "requiresQuotes",
+        ],
+        "selector": Array [
+          "objectLiteralProperty",
+          "typeProperty",
+        ],
+      },
     ],
     "@typescript-eslint/no-array-constructor": Array [
       "error",
@@ -10255,6 +10275,16 @@ Object {
           "unused",
         ],
         "selector": "parameter",
+      },
+      Object {
+        "format": null,
+        "modifiers": Array [
+          "requiresQuotes",
+        ],
+        "selector": Array [
+          "objectLiteralProperty",
+          "typeProperty",
+        ],
       },
     ],
     "@typescript-eslint/no-array-constructor": Array [
