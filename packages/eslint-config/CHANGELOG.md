@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.6.1](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.6.0...@bigcommerce/eslint-config@2.6.1) (2022-05-18)
+
+
+### Bug Fixes
+
+* **config:** FE-00 don't add jest rules if jest is not installed ([09e97c8](https://github.com/bigcommerce/eslint-config/commit/09e97c8b4eb96f3f0c30c35b1ae533e98a8336da))
+
+
+
+
+
 # [2.6.0](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.5.0...@bigcommerce/eslint-config@2.6.0) (2022-05-05)
 
 
