@@ -3,7 +3,7 @@ const { hasPackage } = require('./utils');
 module.exports = {
   extends: ['./configs/base', './configs/jsdoc', './configs/prettier'],
   overrides: [
-    {
+    hasPackage('jest') && {
       extends: './configs/jest',
       files: ['**/*.spec.*', '**/spec.*', 'jest-setup.*'],
     },
