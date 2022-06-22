@@ -223,7 +223,7 @@ Object {
       "off",
     ],
     "func-names": Array [
-      "warn",
+      "error",
     ],
     "function-call-argument-newline": Array [
       "off",

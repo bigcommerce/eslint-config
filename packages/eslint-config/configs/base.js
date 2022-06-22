@@ -21,7 +21,7 @@ module.exports = {
     'default-param-last': 'error',
     'dot-notation': ['error', { allowKeywords: true }],
     eqeqeq: ['error', 'smart'],
-    'func-names': 'warn',
+    'func-names': 'error',
     'getter-return': ['error', { allowImplicit: true }],
     'gettext/no-variable-string': 'error',
     'global-require': 'error',
