@@ -5,7 +5,7 @@ orbs:
 default_executor: &default_executor
   executor:
     name: node/default
-    tag: '14.17'
+    tag: '16.18'
 
 commands:
   install-dependencies:
