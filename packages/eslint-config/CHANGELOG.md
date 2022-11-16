@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.6.2](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.6.1...@bigcommerce/eslint-config@2.6.2) (2022-11-16)
+
+
+### Bug Fixes
+
+* **config:** FE-00 Mark `func-names` rule as error ([d34937c](https://github.com/bigcommerce/eslint-config/commit/d34937c8b10446883e9fafe4deaa0a5212c215bc))
+
+
+
+
+
 ## [2.6.1](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.6.0...@bigcommerce/eslint-config@2.6.1) (2022-05-18)
 
 
