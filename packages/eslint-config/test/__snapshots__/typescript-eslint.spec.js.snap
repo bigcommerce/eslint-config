@@ -34,6 +34,9 @@ Object {
     "@typescript-eslint/ban-types": Array [
       "error",
     ],
+    "@typescript-eslint/block-spacing": Array [
+      "error",
+    ],
     "@typescript-eslint/brace-style": Array [
       "error",
     ],
@@ -44,6 +47,9 @@ Object {
       "error",
     ],
     "@typescript-eslint/comma-spacing": Array [
+      "error",
+    ],
+    "@typescript-eslint/consistent-generic-constructors": Array [
       "error",
     ],
     "@typescript-eslint/consistent-indexed-object-style": Array [
@@ -85,7 +91,13 @@ Object {
     "@typescript-eslint/init-declarations": Array [
       "error",
     ],
+    "@typescript-eslint/key-spacing": Array [
+      "error",
+    ],
     "@typescript-eslint/keyword-spacing": Array [
+      "error",
+    ],
+    "@typescript-eslint/lines-around-comment": Array [
       "error",
     ],
     "@typescript-eslint/lines-between-class-members": Array [
@@ -121,9 +133,6 @@ Object {
     "@typescript-eslint/no-duplicate-enum-values": Array [
       "error",
     ],
-    "@typescript-eslint/no-duplicate-imports": Array [
-      "error",
-    ],
     "@typescript-eslint/no-dynamic-delete": Array [
       "error",
     ],
@@ -157,6 +166,9 @@ Object {
     "@typescript-eslint/no-implied-eval": Array [
       "error",
     ],
+    "@typescript-eslint/no-import-type-side-effects": Array [
+      "error",
+    ],
     "@typescript-eslint/no-inferrable-types": Array [
       "error",
     ],
@@ -182,6 +194,9 @@ Object {
       "error",
     ],
     "@typescript-eslint/no-misused-promises": Array [
+      "error",
+    ],
+    "@typescript-eslint/no-mixed-enums": Array [
       "error",
     ],
     "@typescript-eslint/no-namespace": Array [
@@ -245,6 +260,9 @@ Object {
       "error",
     ],
     "@typescript-eslint/no-unsafe-call": Array [
+      "error",
+    ],
+    "@typescript-eslint/no-unsafe-declaration-merging": Array [
       "error",
     ],
     "@typescript-eslint/no-unsafe-member-access": Array [
@@ -355,7 +373,7 @@ Object {
     "@typescript-eslint/semi": Array [
       "error",
     ],
-    "@typescript-eslint/sort-type-union-intersection-members": Array [
+    "@typescript-eslint/sort-type-constituents": Array [
       "error",
     ],
     "@typescript-eslint/space-before-blocks": Array [
@@ -388,6 +406,9 @@ Object {
     "@typescript-eslint/unified-signatures": Array [
       "error",
     ],
+    "block-spacing": Array [
+      "off",
+    ],
     "brace-style": Array [
       "off",
     ],
@@ -418,7 +439,13 @@ Object {
     "init-declarations": Array [
       "off",
     ],
+    "key-spacing": Array [
+      "off",
+    ],
     "keyword-spacing": Array [
+      "off",
+    ],
+    "lines-around-comment": Array [
       "off",
     ],
     "lines-between-class-members": Array [
@@ -437,9 +464,6 @@ Object {
       "off",
     ],
     "no-dupe-keys": Array [
-      "off",
-    ],
-    "no-duplicate-imports": Array [
       "off",
     ],
     "no-empty-function": Array [

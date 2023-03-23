@@ -21,6 +21,8 @@ module.exports = {
       },
     ],
     '@typescript-eslint/await-thenable': 'error',
+    '@typescript-eslint/block-spacing': 'off',
+    '@typescript-eslint/consistent-generic-constructors': 'off',
     '@typescript-eslint/consistent-type-assertions': [
       'error',
       {
@@ -43,6 +45,8 @@ module.exports = {
       },
     ],
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/key-spacing': 'off',
+    '@typescript-eslint/lines-around-comment': 'off',
     '@typescript-eslint/member-ordering': 'error',
     '@typescript-eslint/naming-convention': [
       'error',
