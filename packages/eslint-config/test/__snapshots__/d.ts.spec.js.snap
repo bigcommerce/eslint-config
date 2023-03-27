@@ -59,6 +59,9 @@ Object {
     "@typescript-eslint/ban-types": Array [
       "error",
     ],
+    "@typescript-eslint/block-spacing": Array [
+      "off",
+    ],
     "@typescript-eslint/brace-style": Array [
       "off",
     ],
@@ -66,6 +69,9 @@ Object {
       "off",
     ],
     "@typescript-eslint/comma-spacing": Array [
+      "off",
+    ],
+    "@typescript-eslint/consistent-generic-constructors": Array [
       "off",
     ],
     "@typescript-eslint/consistent-type-assertions": Array [
@@ -108,7 +114,13 @@ Object {
     "@typescript-eslint/indent": Array [
       "off",
     ],
+    "@typescript-eslint/key-spacing": Array [
+      "off",
+    ],
     "@typescript-eslint/keyword-spacing": Array [
+      "off",
+    ],
+    "@typescript-eslint/lines-around-comment": Array [
       "off",
     ],
     "@typescript-eslint/member-delimiter-style": Array [
