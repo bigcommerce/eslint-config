@@ -20,12 +20,12 @@
     "validate-commits": "validate-commits"
   },
   "devDependencies": {
-    "@bigcommerce/validate-commits": "^2.0.2",
-    "enhanced-resolve": "^5.9.3",
-    "eslint": "^8.14.0",
-    "jest": "^27.3.1",
-    "lerna": "^4.0.0",
-    "typescript": "^5.0.2"
+    "@bigcommerce/validate-commits": "^2.3.3",
+    "enhanced-resolve": "^5.15.0",
+    "eslint": "^8.52.0",
+    "jest": "^29.7.0",
+    "lerna": "^7.4.1",
+    "typescript": "^5.2.2"
   },
   "dependencies": {}
 }
