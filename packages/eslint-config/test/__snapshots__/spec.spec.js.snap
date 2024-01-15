@@ -466,9 +466,6 @@ Object {
     "jsdoc/implements-on-classes": Array [
       "error",
     ],
-    "jsdoc/newline-after-description": Array [
-      "error",
-    ],
     "jsdoc/require-param-name": Array [
       "error",
     ],
