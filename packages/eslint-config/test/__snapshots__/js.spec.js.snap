@@ -15,7 +15,7 @@ Object {
     "ecmaFeatures": Object {
       "jsx": true,
     },
-    "ecmaVersion": 2020,
+    "ecmaVersion": "latest",
     "sourceType": "module",
   },
   "plugins": Array [
