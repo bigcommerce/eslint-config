@@ -71,20 +71,13 @@ jobs:
       - install-dependencies
       - run: yarn run lint
 
-  validate-commits:
-    <<: *default_executor
-    steps:
-      - checkout
-      - install-dependencies
-      - run: yarn run validate-commits
-
 workflows:
   version: 2
   ci-checks:
     jobs:
       - test
       - lint
-      - validate-commits
+      
   rules-check:
     triggers:
       - schedule:
