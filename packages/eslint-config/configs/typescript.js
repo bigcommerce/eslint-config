@@ -2,10 +2,9 @@ const { join } = require('path');
 
 module.exports = {
   extends: [
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:import/typescript',
+    'plugin:@typescript-eslint/stylistic-type-checked',
+    'plugin:@typescript-eslint/strict-type-checked',
     'plugin:@bigcommerce/recommended',
   ],
   parser: '@typescript-eslint/parser',
@@ -95,6 +94,7 @@ module.exports = {
         selector: ['objectLiteralProperty', 'typeProperty'],
       },
     ],
+    '@typescript-eslint/no-confusing-void-expression': ['error', { ignoreArrowShorthand: true }],
     '@typescript-eslint/no-duplicate-imports': 'error',
     '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/no-misused-promises': [
@@ -112,7 +112,6 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-shadow': ['error', { hoist: 'all' }],
-    '@typescript-eslint/no-throw-literal': ['error'],
     '@typescript-eslint/no-unnecessary-condition': 'error',
     '@typescript-eslint/no-unnecessary-type-assertion': 'error',
     '@typescript-eslint/no-unused-expressions': 'error',
@@ -157,6 +156,7 @@ module.exports = {
     '@typescript-eslint/prefer-for-of': 'error',
     '@typescript-eslint/prefer-function-type': 'error',
     '@typescript-eslint/require-await': 'error',
+    '@typescript-eslint/restrict-template-expressions': ['error', { allowNumber: true }],
     '@typescript-eslint/return-await': 'error',
     '@typescript-eslint/unbound-method': 'off',
     '@typescript-eslint/unified-signatures': 'error',
@@ -169,7 +169,7 @@ module.exports = {
     'import/named': 'off',
     'no-duplicate-imports': 'off',
     'no-shadow': 'off',
-    'no-throw-literal': 'error',
+    'no-throw-literal': 'off',
     'no-unused-expressions': 'off',
     'no-unused-vars': 'off',
     'no-use-before-define': 'off',
