@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`keeps rules stable JSX 1`] = `
+exports[`keeps rules stable 1`] = `
 {
   "env": {
     "browser": true,
@@ -299,7 +299,10 @@ exports[`keeps rules stable JSX 1`] = `
       "error",
     ],
     "import/no-duplicates": [
-      1,
+      "warn",
+      {
+        "prefer-inline": true,
+      },
     ],
     "import/no-dynamic-require": [
       "error",

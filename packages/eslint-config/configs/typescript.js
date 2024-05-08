@@ -95,7 +95,6 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-confusing-void-expression': ['error', { ignoreArrowShorthand: true }],
-    '@typescript-eslint/no-duplicate-imports': 'error',
     '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/no-misused-promises': [
       'error',
