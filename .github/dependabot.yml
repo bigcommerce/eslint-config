@@ -10,3 +10,9 @@ updates:
     schedule:
       interval: 'weekly'
       day: 'tuesday'
+    ignore:
+      # Incompatible with Jest 29, remove when Jest 30 is available
+      - dependency-name: 'prettier'
+        update-types: ['version-update:semver-major']
+      - dependency-name: 'eslint-plugin-prettier'
+        update-types: ['version-update:semver-major']
