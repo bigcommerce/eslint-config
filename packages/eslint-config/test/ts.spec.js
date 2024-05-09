@@ -1,9 +1,17 @@
 const { join } = require('path');
 
-const { getEslint } = require('./getEslint');
+const { getTSEslint } = require('./getEslint');
 
-it('keeps rules stable TS', async () => {
-  const output = await getEslint().calculateConfigForFile(join(__dirname, 'file.ts'));
+const fileName = join(__dirname, '__fixtures__', 'file_ts.ts');
+
+it('keeps rules stable', async () => {
+  const output = await getTSEslint().calculateConfigForFile(fileName);
 
   expect(output).toMatchSnapshot();
+});
+
+it('checks that the rules are working', async () => {
+  const [result] = await getTSEslint().lintFiles([fileName]);
+
+  expect(result.messages).toEqual([]);
 });

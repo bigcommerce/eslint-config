@@ -1,5 +1,4 @@
 /* eslint-disable sort-keys */
-const { ESLintUtils } = require('@typescript-eslint/experimental-utils');
 const tsutils = require('tsutils');
 const ts = require('typescript');
 
@@ -16,7 +15,7 @@ module.exports = {
     recommended: true,
   },
   create(context) {
-    const parserServices = ESLintUtils.getParserServices(context);
+    const { parserServices } = context.sourceCode;
     const typeChecker = parserServices.program.getTypeChecker();
 
     function checkNode(node) {

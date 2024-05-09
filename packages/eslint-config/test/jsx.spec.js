@@ -2,8 +2,16 @@ const { join } = require('path');
 
 const { getEslint } = require('./getEslint');
 
-it('keeps rules stable JSX', async () => {
-  const output = await getEslint().calculateConfigForFile(join(__dirname, 'file.jsx'));
+const fileName = join(__dirname, '__fixtures__', 'file_jsx.jsx');
+
+it('keeps rules stable', async () => {
+  const output = await getEslint().calculateConfigForFile(fileName);
 
   expect(output).toMatchSnapshot();
+});
+
+it('checks that the rules are working', async () => {
+  const [result] = await getEslint().lintFiles([fileName]);
+
+  expect(result.messages).toEqual([]);
 });

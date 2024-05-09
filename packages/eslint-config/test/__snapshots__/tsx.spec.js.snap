@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`keeps rules stable TSX 1`] = `
+exports[`keeps rules stable 1`] = `
 {
   "env": {
     "browser": true,
@@ -15,7 +15,7 @@ exports[`keeps rules stable TSX 1`] = `
       "jsx": true,
     },
     "ecmaVersion": "latest",
-    "project": "<rootDir>/tsconfig.json",
+    "project": "<rootDir>/packages/eslint-config/test/__fixtures__/tsconfig.json",
     "sourceType": "module",
   },
   "plugins": [
@@ -55,6 +55,12 @@ exports[`keeps rules stable TSX 1`] = `
     ],
     "@typescript-eslint/ban-ts-comment": [
       "error",
+      {
+        "minimumDescriptionLength": 10,
+      },
+    ],
+    "@typescript-eslint/ban-tslint-comment": [
+      "error",
     ],
     "@typescript-eslint/ban-types": [
       "error",
@@ -65,6 +71,9 @@ exports[`keeps rules stable TSX 1`] = `
     "@typescript-eslint/brace-style": [
       "off",
     ],
+    "@typescript-eslint/class-literal-property-style": [
+      "error",
+    ],
     "@typescript-eslint/comma-dangle": [
       "off",
     ],
@@ -73,6 +82,9 @@ exports[`keeps rules stable TSX 1`] = `
     ],
     "@typescript-eslint/consistent-generic-constructors": [
       "off",
+    ],
+    "@typescript-eslint/consistent-indexed-object-style": [
+      "error",
     ],
     "@typescript-eslint/consistent-type-assertions": [
       "error",
@@ -214,7 +226,28 @@ exports[`keeps rules stable TSX 1`] = `
     "@typescript-eslint/no-array-constructor": [
       "error",
     ],
-    "@typescript-eslint/no-duplicate-imports": [
+    "@typescript-eslint/no-array-delete": [
+      "error",
+    ],
+    "@typescript-eslint/no-base-to-string": [
+      "error",
+    ],
+    "@typescript-eslint/no-confusing-non-null-assertion": [
+      "error",
+    ],
+    "@typescript-eslint/no-confusing-void-expression": [
+      "error",
+      {
+        "ignoreArrowShorthand": true,
+      },
+    ],
+    "@typescript-eslint/no-duplicate-enum-values": [
+      "error",
+    ],
+    "@typescript-eslint/no-duplicate-type-constituents": [
+      "error",
+    ],
+    "@typescript-eslint/no-dynamic-delete": [
       "error",
     ],
     "@typescript-eslint/no-empty-function": [
@@ -233,6 +266,9 @@ exports[`keeps rules stable TSX 1`] = `
       "off",
     ],
     "@typescript-eslint/no-extra-semi": [
+      "off",
+    ],
+    "@typescript-eslint/no-extraneous-class": [
       "error",
     ],
     "@typescript-eslint/no-floating-promises": [
@@ -247,7 +283,13 @@ exports[`keeps rules stable TSX 1`] = `
     "@typescript-eslint/no-inferrable-types": [
       "error",
     ],
+    "@typescript-eslint/no-invalid-void-type": [
+      "error",
+    ],
     "@typescript-eslint/no-loss-of-precision": [
+      "error",
+    ],
+    "@typescript-eslint/no-meaningless-void-operator": [
       "error",
     ],
     "@typescript-eslint/no-misused-new": [
@@ -261,17 +303,26 @@ exports[`keeps rules stable TSX 1`] = `
         },
       },
     ],
+    "@typescript-eslint/no-mixed-enums": [
+      "error",
+    ],
     "@typescript-eslint/no-namespace": [
       "error",
       {
         "allowDeclarations": true,
       },
     ],
+    "@typescript-eslint/no-non-null-asserted-nullish-coalescing": [
+      "error",
+    ],
     "@typescript-eslint/no-non-null-asserted-optional-chain": [
       "error",
     ],
     "@typescript-eslint/no-non-null-assertion": [
-      "warn",
+      "error",
+    ],
+    "@typescript-eslint/no-redundant-type-constituents": [
+      "error",
     ],
     "@typescript-eslint/no-shadow": [
       "error",
@@ -282,10 +333,13 @@ exports[`keeps rules stable TSX 1`] = `
     "@typescript-eslint/no-this-alias": [
       "error",
     ],
-    "@typescript-eslint/no-throw-literal": [
+    "@typescript-eslint/no-unnecessary-boolean-literal-compare": [
       "error",
     ],
     "@typescript-eslint/no-unnecessary-condition": [
+      "error",
+    ],
+    "@typescript-eslint/no-unnecessary-type-arguments": [
       "error",
     ],
     "@typescript-eslint/no-unnecessary-type-assertion": [
@@ -301,6 +355,12 @@ exports[`keeps rules stable TSX 1`] = `
       "error",
     ],
     "@typescript-eslint/no-unsafe-call": [
+      "error",
+    ],
+    "@typescript-eslint/no-unsafe-declaration-merging": [
+      "error",
+    ],
+    "@typescript-eslint/no-unsafe-enum-comparison": [
       "error",
     ],
     "@typescript-eslint/no-unsafe-member-access": [
@@ -327,11 +387,20 @@ exports[`keeps rules stable TSX 1`] = `
     "@typescript-eslint/no-useless-constructor": [
       "error",
     ],
+    "@typescript-eslint/no-useless-template-literals": [
+      "error",
+    ],
     "@typescript-eslint/no-var-requires": [
+      "error",
+    ],
+    "@typescript-eslint/non-nullable-type-assertion-style": [
       "error",
     ],
     "@typescript-eslint/object-curly-spacing": [
       "off",
+    ],
+    "@typescript-eslint/only-throw-error": [
+      "error",
     ],
     "@typescript-eslint/padding-line-between-statements": [
       "warn",
@@ -398,7 +467,34 @@ exports[`keeps rules stable TSX 1`] = `
     "@typescript-eslint/prefer-function-type": [
       "error",
     ],
+    "@typescript-eslint/prefer-includes": [
+      "error",
+    ],
+    "@typescript-eslint/prefer-literal-enum-member": [
+      "error",
+    ],
     "@typescript-eslint/prefer-namespace-keyword": [
+      "error",
+    ],
+    "@typescript-eslint/prefer-nullish-coalescing": [
+      "error",
+    ],
+    "@typescript-eslint/prefer-optional-chain": [
+      "error",
+    ],
+    "@typescript-eslint/prefer-promise-reject-errors": [
+      "error",
+    ],
+    "@typescript-eslint/prefer-reduce-type-parameter": [
+      "error",
+    ],
+    "@typescript-eslint/prefer-return-this-type": [
+      "error",
+    ],
+    "@typescript-eslint/prefer-string-starts-ends-with": [
+      "error",
+    ],
+    "@typescript-eslint/prefer-ts-expect-error": [
       "error",
     ],
     "@typescript-eslint/quotes": [
@@ -409,9 +505,19 @@ exports[`keeps rules stable TSX 1`] = `
     ],
     "@typescript-eslint/restrict-plus-operands": [
       "error",
+      {
+        "allowAny": false,
+        "allowBoolean": false,
+        "allowNullish": false,
+        "allowNumberAndString": false,
+        "allowRegExp": false,
+      },
     ],
     "@typescript-eslint/restrict-template-expressions": [
       "error",
+      {
+        "allowNumber": true,
+      },
     ],
     "@typescript-eslint/return-await": [
       "error",
@@ -438,6 +544,9 @@ exports[`keeps rules stable TSX 1`] = `
       "off",
     ],
     "@typescript-eslint/unified-signatures": [
+      "error",
+    ],
+    "@typescript-eslint/use-unknown-in-catch-callback-variable": [
       "error",
     ],
     "array-bracket-newline": [
@@ -527,7 +636,7 @@ exports[`keeps rules stable TSX 1`] = `
       "off",
     ],
     "dot-notation": [
-      "error",
+      "off",
       {
         "allowKeywords": true,
         "allowPattern": "",
@@ -647,7 +756,10 @@ exports[`keeps rules stable TSX 1`] = `
       "error",
     ],
     "import/no-duplicates": [
-      1,
+      "warn",
+      {
+        "prefer-inline": true,
+      },
     ],
     "import/no-dynamic-require": [
       "error",
@@ -684,7 +796,9 @@ exports[`keeps rules stable TSX 1`] = `
         "alphabetize": {
           "caseInsensitive": true,
           "order": "asc",
+          "orderImportKind": "ignore",
         },
+        "distinctGroup": true,
         "groups": [
           [
             "builtin",
@@ -734,6 +848,9 @@ exports[`keeps rules stable TSX 1`] = `
     ],
     "jsx-a11y/alt-text": [
       "error",
+    ],
+    "jsx-a11y/anchor-ambiguous-text": [
+      "off",
     ],
     "jsx-a11y/anchor-has-content": [
       "error",
@@ -999,6 +1116,9 @@ exports[`keeps rules stable TSX 1`] = `
     "max-len": [
       0,
     ],
+    "max-statements-per-line": [
+      "off",
+    ],
     "multiline-ternary": [
       "off",
     ],
@@ -1234,6 +1354,9 @@ exports[`keeps rules stable TSX 1`] = `
     ],
     "no-new-func": [
       "error",
+    ],
+    "no-new-native-nonconstructor": [
+      "off",
     ],
     "no-new-object": [
       "error",
@@ -1482,7 +1605,7 @@ exports[`keeps rules stable TSX 1`] = `
       "off",
     ],
     "no-throw-literal": [
-      "error",
+      "off",
     ],
     "no-trailing-spaces": [
       "off",
@@ -1500,6 +1623,9 @@ exports[`keeps rules stable TSX 1`] = `
         "allowAfterThis": true,
         "allowAfterThisConstructor": false,
         "allowFunctionParams": true,
+        "allowInArrayDestructuring": true,
+        "allowInObjectDestructuring": true,
+        "enforceInClassFields": false,
         "enforceInMethodNames": false,
       },
     ],
@@ -1696,6 +1822,9 @@ exports[`keeps rules stable TSX 1`] = `
     ],
     "prefer-numeric-literals": [
       "error",
+    ],
+    "prefer-promise-reject-errors": [
+      "off",
     ],
     "prefer-rest-params": [
       "error",
@@ -2041,9 +2170,6 @@ exports[`keeps rules stable TSX 1`] = `
     "template-tag-spacing": [
       "off",
     ],
-    "unicode-bom": [
-      "off",
-    ],
     "unicorn/empty-brace-spaces": [
       "off",
     ],
@@ -2052,6 +2178,9 @@ exports[`keeps rules stable TSX 1`] = `
     ],
     "unicorn/number-literal-case": [
       "off",
+    ],
+    "unicorn/template-indent": [
+      0,
     ],
     "use-isnan": [
       "error",
@@ -2067,7 +2196,7 @@ exports[`keeps rules stable TSX 1`] = `
       },
     ],
     "valid-typeof": [
-      "off",
+      "error",
       {
         "requireStringLiterals": true,
       },
@@ -2079,6 +2208,9 @@ exports[`keeps rules stable TSX 1`] = `
       "off",
     ],
     "vue/array-bracket-spacing": [
+      "off",
+    ],
+    "vue/array-element-newline": [
       "off",
     ],
     "vue/arrow-spacing": [
@@ -2139,6 +2271,9 @@ exports[`keeps rules stable TSX 1`] = `
       0,
     ],
     "vue/multiline-html-element-content-newline": [
+      "off",
+    ],
+    "vue/multiline-ternary": [
       "off",
     ],
     "vue/mustache-interpolation-spacing": [
@@ -2202,6 +2337,8 @@ exports[`keeps rules stable TSX 1`] = `
   "settings": {
     "import/extensions": [
       ".ts",
+      ".cts",
+      ".mts",
       ".tsx",
       ".js",
       ".jsx",
@@ -2213,6 +2350,8 @@ exports[`keeps rules stable TSX 1`] = `
     "import/parsers": {
       "@typescript-eslint/parser": [
         ".ts",
+        ".cts",
+        ".mts",
         ".tsx",
       ],
     },
@@ -2220,6 +2359,8 @@ exports[`keeps rules stable TSX 1`] = `
       "node": {
         "extensions": [
           ".ts",
+          ".cts",
+          ".mts",
           ".tsx",
           ".js",
           ".jsx",

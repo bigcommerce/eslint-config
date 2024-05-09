@@ -16,7 +16,7 @@
   "scripts": {
     "lint": "eslint . --ext .js",
     "release": "lerna publish --sign-git-commit --sign-git-tag --git-remote upstream --pre-dist-tag next",
-    "test": "jest",
+    "test": "jest --projects packages/*",
     "validate-commits": "validate-commits"
   },
   "devDependencies": {

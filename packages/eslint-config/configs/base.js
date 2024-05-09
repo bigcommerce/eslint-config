@@ -41,6 +41,7 @@ module.exports = {
     'import/newline-after-import': 'warn',
     'import/no-absolute-path': 'error',
     'import/no-amd': 'error',
+    'import/no-duplicates': ['warn', { 'prefer-inline': true }],
     'import/no-dynamic-require': 'error',
     'import/no-extraneous-dependencies': 'error',
     'import/no-mutable-exports': 'error',

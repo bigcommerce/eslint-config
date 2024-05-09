@@ -13,9 +13,9 @@ module.exports = {
       },
     ],
     'jest-formatting/padding-around-all': 'warn',
+    'jest/no-conditional-in-test': 'error',
     'jest/no-done-callback': 'off',
     'jest/no-duplicate-hooks': 'off',
-    'jest/no-if': 'error',
     'jest/no-restricted-matchers': [
       'error',
       {

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`keeps rules stable JSX 1`] = `
+exports[`keeps rules stable 1`] = `
 {
   "env": {
     "browser": true,
@@ -35,6 +35,9 @@ exports[`keeps rules stable JSX 1`] = `
     "@babel/semi": [
       "off",
     ],
+    "@typescript-eslint/block-spacing": [
+      "off",
+    ],
     "@typescript-eslint/brace-style": [
       "off",
     ],
@@ -50,8 +53,14 @@ exports[`keeps rules stable JSX 1`] = `
     "@typescript-eslint/indent": [
       "off",
     ],
+    "@typescript-eslint/key-spacing": [
+      "off",
+    ],
     "@typescript-eslint/keyword-spacing": [
       "off",
+    ],
+    "@typescript-eslint/lines-around-comment": [
+      0,
     ],
     "@typescript-eslint/member-delimiter-style": [
       "off",
@@ -290,7 +299,10 @@ exports[`keeps rules stable JSX 1`] = `
       "error",
     ],
     "import/no-duplicates": [
-      1,
+      "warn",
+      {
+        "prefer-inline": true,
+      },
     ],
     "import/no-dynamic-require": [
       "error",
@@ -327,7 +339,9 @@ exports[`keeps rules stable JSX 1`] = `
         "alphabetize": {
           "caseInsensitive": true,
           "order": "asc",
+          "orderImportKind": "ignore",
         },
+        "distinctGroup": true,
         "groups": [
           [
             "builtin",
@@ -377,6 +391,9 @@ exports[`keeps rules stable JSX 1`] = `
     ],
     "jsx-a11y/alt-text": [
       "error",
+    ],
+    "jsx-a11y/anchor-ambiguous-text": [
+      "off",
     ],
     "jsx-a11y/anchor-has-content": [
       "error",
@@ -641,6 +658,9 @@ exports[`keeps rules stable JSX 1`] = `
     ],
     "max-len": [
       0,
+    ],
+    "max-statements-per-line": [
+      "off",
     ],
     "multiline-ternary": [
       "off",
@@ -1140,6 +1160,9 @@ exports[`keeps rules stable JSX 1`] = `
         "allowAfterThis": true,
         "allowAfterThisConstructor": false,
         "allowFunctionParams": true,
+        "allowInArrayDestructuring": true,
+        "allowInObjectDestructuring": true,
+        "enforceInClassFields": false,
         "enforceInMethodNames": false,
       },
     ],
@@ -1672,9 +1695,6 @@ exports[`keeps rules stable JSX 1`] = `
     "template-tag-spacing": [
       "off",
     ],
-    "unicode-bom": [
-      "off",
-    ],
     "unicorn/empty-brace-spaces": [
       "off",
     ],
@@ -1683,6 +1703,9 @@ exports[`keeps rules stable JSX 1`] = `
     ],
     "unicorn/number-literal-case": [
       "off",
+    ],
+    "unicorn/template-indent": [
+      0,
     ],
     "use-isnan": [
       "error",
@@ -1710,6 +1733,9 @@ exports[`keeps rules stable JSX 1`] = `
       "off",
     ],
     "vue/array-bracket-spacing": [
+      "off",
+    ],
+    "vue/array-element-newline": [
       "off",
     ],
     "vue/arrow-spacing": [
@@ -1770,6 +1796,9 @@ exports[`keeps rules stable JSX 1`] = `
       0,
     ],
     "vue/multiline-html-element-content-newline": [
+      "off",
+    ],
+    "vue/multiline-ternary": [
       "off",
     ],
     "vue/mustache-interpolation-spacing": [
