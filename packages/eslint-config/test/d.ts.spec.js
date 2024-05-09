@@ -19,50 +19,5 @@ it('checks that the rules are working', async () => {
 it('checks for rule deprecations', async () => {
   const [result] = await getTSEslint().lintFiles([fileName]);
 
-  expect(result.usedDeprecatedRules).toMatchInlineSnapshot(`
-    [
-      {
-        "replacedBy": [],
-        "ruleId": "spaced-comment",
-      },
-      {
-        "replacedBy": [
-          "@stylistic/ts/padding-line-between-statements",
-        ],
-        "ruleId": "@typescript-eslint/padding-line-between-statements",
-      },
-      {
-        "replacedBy": [],
-        "ruleId": "global-require",
-      },
-      {
-        "replacedBy": [
-          "padding-line-between-statements",
-        ],
-        "ruleId": "lines-around-directive",
-      },
-      {
-        "replacedBy": [],
-        "ruleId": "no-buffer-constructor",
-      },
-      {
-        "replacedBy": [
-          "no-object-constructor",
-        ],
-        "ruleId": "no-new-object",
-      },
-      {
-        "replacedBy": [],
-        "ruleId": "no-new-require",
-      },
-      {
-        "replacedBy": [],
-        "ruleId": "no-path-concat",
-      },
-      {
-        "replacedBy": [],
-        "ruleId": "no-return-await",
-      },
-    ]
-  `);
+  expect(result.usedDeprecatedRules).toMatchInlineSnapshot(`[]`);
 });
