@@ -19,6 +19,7 @@ exports[`keeps rules stable 1`] = `
     "sourceType": "module",
   },
   "plugins": [
+    "@stylistic",
     "switch-case",
     "gettext",
     "import",
@@ -35,6 +36,99 @@ exports[`keeps rules stable 1`] = `
     ],
     "@babel/semi": [
       "off",
+    ],
+    "@stylistic/padding-line-between-statements": [
+      "warn",
+      {
+        "blankLine": "always",
+        "next": "return",
+        "prev": "*",
+      },
+      {
+        "blankLine": "always",
+        "next": [
+          "block",
+          "block-like",
+          "class",
+          "const",
+          "let",
+          "var",
+          "interface",
+        ],
+        "prev": "*",
+      },
+      {
+        "blankLine": "always",
+        "next": "*",
+        "prev": [
+          "block",
+          "block-like",
+          "class",
+          "const",
+          "let",
+          "var",
+          "interface",
+        ],
+      },
+      {
+        "blankLine": "any",
+        "next": [
+          "const",
+          "let",
+          "var",
+        ],
+        "prev": [
+          "const",
+          "let",
+          "var",
+        ],
+      },
+      {
+        "blankLine": "any",
+        "next": [
+          "case",
+        ],
+        "prev": [
+          "case",
+        ],
+      },
+      {
+        "blankLine": "always",
+        "next": "*",
+        "prev": "directive",
+      },
+      {
+        "blankLine": "any",
+        "next": "directive",
+        "prev": "directive",
+      },
+    ],
+    "@stylistic/spaced-comment": [
+      "warn",
+      "always",
+      {
+        "block": {
+          "balanced": true,
+          "exceptions": [
+            "-",
+            "+",
+          ],
+          "markers": [
+            "=",
+            "!",
+          ],
+        },
+        "line": {
+          "exceptions": [
+            "-",
+            "+",
+          ],
+          "markers": [
+            "=",
+            "!",
+          ],
+        },
+      },
     ],
     "@typescript-eslint/block-spacing": [
       "off",
@@ -254,9 +348,6 @@ exports[`keeps rules stable 1`] = `
       },
     ],
     "gettext/no-variable-string": [
-      "error",
-    ],
-    "global-require": [
       "error",
     ],
     "guard-for-in": [
@@ -646,13 +737,6 @@ exports[`keeps rules stable 1`] = `
     "lines-around-comment": [
       0,
     ],
-    "lines-around-directive": [
-      "error",
-      {
-        "after": "always",
-        "before": "always",
-      },
-    ],
     "max-classes-per-file": [
       "error",
       1,
@@ -702,9 +786,6 @@ exports[`keeps rules stable 1`] = `
       "error",
     ],
     "no-bitwise": [
-      "error",
-    ],
-    "no-buffer-constructor": [
       "error",
     ],
     "no-caller": [
@@ -899,12 +980,6 @@ exports[`keeps rules stable 1`] = `
     "no-new-func": [
       "error",
     ],
-    "no-new-object": [
-      "error",
-    ],
-    "no-new-require": [
-      "error",
-    ],
     "no-new-symbol": [
       "error",
     ],
@@ -915,6 +990,9 @@ exports[`keeps rules stable 1`] = `
       "error",
     ],
     "no-obj-calls": [
+      "error",
+    ],
+    "no-object-constructor": [
       "error",
     ],
     "no-octal": [
@@ -928,9 +1006,6 @@ exports[`keeps rules stable 1`] = `
       {
         "props": false,
       },
-    ],
-    "no-path-concat": [
-      "error",
     ],
     "no-plusplus": [
       "error",
@@ -1097,9 +1172,6 @@ exports[`keeps rules stable 1`] = `
     "no-return-assign": [
       "error",
       "except-parens",
-    ],
-    "no-return-await": [
-      "error",
     ],
     "no-script-url": [
       "error",
@@ -1289,60 +1361,6 @@ exports[`keeps rules stable 1`] = `
     ],
     "padded-blocks": [
       "off",
-    ],
-    "padding-line-between-statements": [
-      "warn",
-      {
-        "blankLine": "always",
-        "next": "return",
-        "prev": "*",
-      },
-      {
-        "blankLine": "always",
-        "next": [
-          "block",
-          "block-like",
-          "class",
-          "const",
-          "let",
-          "var",
-        ],
-        "prev": "*",
-      },
-      {
-        "blankLine": "always",
-        "next": "*",
-        "prev": [
-          "block",
-          "block-like",
-          "class",
-          "const",
-          "let",
-          "var",
-        ],
-      },
-      {
-        "blankLine": "any",
-        "next": [
-          "const",
-          "let",
-          "var",
-        ],
-        "prev": [
-          "const",
-          "let",
-          "var",
-        ],
-      },
-      {
-        "blankLine": "any",
-        "next": [
-          "case",
-        ],
-        "prev": [
-          "case",
-        ],
-      },
     ],
     "prefer-arrow-callback": [
       "off",
@@ -1637,33 +1655,6 @@ exports[`keeps rules stable 1`] = `
     ],
     "space-unary-word-ops": [
       "off",
-    ],
-    "spaced-comment": [
-      "warn",
-      "always",
-      {
-        "block": {
-          "balanced": true,
-          "exceptions": [
-            "-",
-            "+",
-          ],
-          "markers": [
-            "=",
-            "!",
-          ],
-        },
-        "line": {
-          "exceptions": [
-            "-",
-            "+",
-          ],
-          "markers": [
-            "=",
-            "!",
-          ],
-        },
-      },
     ],
     "standard/array-bracket-even-spacing": [
       "off",
