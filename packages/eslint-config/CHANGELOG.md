@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.9.0](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.8.1...@bigcommerce/eslint-config@2.9.0) (2024-05-13)
+
+
+### Bug Fixes
+
+* add check for non-existing rules and replace @typescript/no-duplicate-imports ([5457e22](https://github.com/bigcommerce/eslint-config/commit/5457e22be76cfa42fb7ee7663dd8f3714c65e353))
+* add replacements for deprecated rules ([b341939](https://github.com/bigcommerce/eslint-config/commit/b34193952c9adc83f95fd2c88902f6b660f93994))
+
+
+
+
+
 ## [2.8.1](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.7.0...@bigcommerce/eslint-config@2.8.1) (2024-04-10)
 
 
