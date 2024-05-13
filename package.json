@@ -15,9 +15,8 @@
   "prettier": "@bigcommerce/eslint-config/prettier",
   "scripts": {
     "lint": "eslint . --ext .js",
-    "release": "lerna publish --sign-git-commit --sign-git-tag --git-remote upstream --pre-dist-tag next",
-    "test": "jest --projects packages/*",
-    "validate-commits": "validate-commits"
+    "release": "lerna publish --sign-git-commit --sign-git-tag --git-remote origin --pre-dist-tag next",
+    "test": "jest --projects packages/*"
   },
   "devDependencies": {
     "eslint": "^8.14.0",
