@@ -649,6 +649,8 @@ exports[`keeps rules stable 1`] = `
         ],
         "li": [
           "menuitem",
+          "menuitemradio",
+          "menuitemcheckbox",
           "option",
           "row",
           "tab",

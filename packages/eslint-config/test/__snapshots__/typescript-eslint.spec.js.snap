@@ -124,6 +124,9 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
     "@typescript-eslint/no-empty-interface": [
       "error",
     ],
+    "@typescript-eslint/no-empty-object-type": [
+      "error",
+    ],
     "@typescript-eslint/no-explicit-any": [
       "error",
     ],
@@ -211,7 +214,13 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
     "@typescript-eslint/no-unnecessary-condition": [
       "error",
     ],
+    "@typescript-eslint/no-unnecessary-parameter-property-assignment": [
+      "error",
+    ],
     "@typescript-eslint/no-unnecessary-qualifier": [
+      "error",
+    ],
+    "@typescript-eslint/no-unnecessary-template-expression": [
       "error",
     ],
     "@typescript-eslint/no-unnecessary-type-arguments": [
@@ -221,6 +230,9 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
       "error",
     ],
     "@typescript-eslint/no-unnecessary-type-constraint": [
+      "error",
+    ],
+    "@typescript-eslint/no-unnecessary-type-parameters": [
       "error",
     ],
     "@typescript-eslint/no-unsafe-argument": [
@@ -236,6 +248,9 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
       "error",
     ],
     "@typescript-eslint/no-unsafe-enum-comparison": [
+      "error",
+    ],
+    "@typescript-eslint/no-unsafe-function-type": [
       "error",
     ],
     "@typescript-eslint/no-unsafe-member-access": [
@@ -262,10 +277,10 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
     "@typescript-eslint/no-useless-empty-export": [
       "error",
     ],
-    "@typescript-eslint/no-useless-template-literals": [
+    "@typescript-eslint/no-var-requires": [
       "error",
     ],
-    "@typescript-eslint/no-var-requires": [
+    "@typescript-eslint/no-wrapper-object-types": [
       "error",
     ],
     "@typescript-eslint/non-nullable-type-assertion-style": [
@@ -331,9 +346,6 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
     "@typescript-eslint/prefer-string-starts-ends-with": [
       "error",
     ],
-    "@typescript-eslint/prefer-ts-expect-error": [
-      "error",
-    ],
     "@typescript-eslint/promise-function-async": [
       "error",
     ],
@@ -350,9 +362,6 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
       "error",
     ],
     "@typescript-eslint/return-await": [
-      "error",
-    ],
-    "@typescript-eslint/sort-type-constituents": [
       "error",
     ],
     "@typescript-eslint/strict-boolean-expressions": [

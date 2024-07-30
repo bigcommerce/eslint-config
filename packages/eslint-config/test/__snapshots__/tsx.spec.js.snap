@@ -433,6 +433,9 @@ exports[`keeps rules stable 1`] = `
     "@typescript-eslint/no-unnecessary-condition": [
       "error",
     ],
+    "@typescript-eslint/no-unnecessary-template-expression": [
+      "error",
+    ],
     "@typescript-eslint/no-unnecessary-type-arguments": [
       "error",
     ],
@@ -481,9 +484,6 @@ exports[`keeps rules stable 1`] = `
     "@typescript-eslint/no-useless-constructor": [
       "error",
     ],
-    "@typescript-eslint/no-useless-template-literals": [
-      "error",
-    ],
     "@typescript-eslint/no-var-requires": [
       "error",
     ],
@@ -530,9 +530,6 @@ exports[`keeps rules stable 1`] = `
       "error",
     ],
     "@typescript-eslint/prefer-string-starts-ends-with": [
-      "error",
-    ],
-    "@typescript-eslint/prefer-ts-expect-error": [
       "error",
     ],
     "@typescript-eslint/quotes": [
@@ -1049,6 +1046,8 @@ exports[`keeps rules stable 1`] = `
         ],
         "li": [
           "menuitem",
+          "menuitemradio",
+          "menuitemcheckbox",
           "option",
           "row",
           "tab",
