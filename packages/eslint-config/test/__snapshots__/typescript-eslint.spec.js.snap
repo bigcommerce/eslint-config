@@ -31,9 +31,6 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
     "@typescript-eslint/ban-tslint-comment": [
       "error",
     ],
-    "@typescript-eslint/ban-types": [
-      "error",
-    ],
     "@typescript-eslint/class-literal-property-style": [
       "error",
     ],
@@ -106,6 +103,9 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
     "@typescript-eslint/no-confusing-void-expression": [
       "error",
     ],
+    "@typescript-eslint/no-deprecated": [
+      "error",
+    ],
     "@typescript-eslint/no-dupe-class-members": [
       "error",
     ],
@@ -119,9 +119,6 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
       "error",
     ],
     "@typescript-eslint/no-empty-function": [
-      "error",
-    ],
-    "@typescript-eslint/no-empty-interface": [
       "error",
     ],
     "@typescript-eslint/no-empty-object-type": [
@@ -158,9 +155,6 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
       "error",
     ],
     "@typescript-eslint/no-loop-func": [
-      "error",
-    ],
-    "@typescript-eslint/no-loss-of-precision": [
       "error",
     ],
     "@typescript-eslint/no-magic-numbers": [
@@ -200,6 +194,9 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
       "error",
     ],
     "@typescript-eslint/no-restricted-imports": [
+      "error",
+    ],
+    "@typescript-eslint/no-restricted-types": [
       "error",
     ],
     "@typescript-eslint/no-shadow": [
@@ -275,9 +272,6 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
       "error",
     ],
     "@typescript-eslint/no-useless-empty-export": [
-      "error",
-    ],
-    "@typescript-eslint/no-var-requires": [
       "error",
     ],
     "@typescript-eslint/no-wrapper-object-types": [
@@ -440,9 +434,6 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
       "off",
     ],
     "no-loop-func": [
-      "off",
-    ],
-    "no-loss-of-precision": [
       "off",
     ],
     "no-magic-numbers": [

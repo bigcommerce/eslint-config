@@ -157,9 +157,6 @@ exports[`keeps rules stable 1`] = `
     "@typescript-eslint/ban-tslint-comment": [
       "error",
     ],
-    "@typescript-eslint/ban-types": [
-      "error",
-    ],
     "@typescript-eslint/block-spacing": [
       "off",
     ],
@@ -336,6 +333,9 @@ exports[`keeps rules stable 1`] = `
         "ignoreArrowShorthand": true,
       },
     ],
+    "@typescript-eslint/no-deprecated": [
+      "error",
+    ],
     "@typescript-eslint/no-duplicate-enum-values": [
       "error",
     ],
@@ -348,7 +348,7 @@ exports[`keeps rules stable 1`] = `
     "@typescript-eslint/no-empty-function": [
       "error",
     ],
-    "@typescript-eslint/no-empty-interface": [
+    "@typescript-eslint/no-empty-object-type": [
       "error",
     ],
     "@typescript-eslint/no-explicit-any": [
@@ -379,9 +379,6 @@ exports[`keeps rules stable 1`] = `
       "error",
     ],
     "@typescript-eslint/no-invalid-void-type": [
-      "error",
-    ],
-    "@typescript-eslint/no-loss-of-precision": [
       "error",
     ],
     "@typescript-eslint/no-meaningless-void-operator": [
@@ -419,6 +416,9 @@ exports[`keeps rules stable 1`] = `
     "@typescript-eslint/no-redundant-type-constituents": [
       "error",
     ],
+    "@typescript-eslint/no-require-imports": [
+      "error",
+    ],
     "@typescript-eslint/no-shadow": [
       "error",
       {
@@ -446,6 +446,9 @@ exports[`keeps rules stable 1`] = `
     "@typescript-eslint/no-unnecessary-type-constraint": [
       "error",
     ],
+    "@typescript-eslint/no-unnecessary-type-parameters": [
+      "error",
+    ],
     "@typescript-eslint/no-unsafe-argument": [
       "error",
     ],
@@ -461,10 +464,16 @@ exports[`keeps rules stable 1`] = `
     "@typescript-eslint/no-unsafe-enum-comparison": [
       "error",
     ],
+    "@typescript-eslint/no-unsafe-function-type": [
+      "error",
+    ],
     "@typescript-eslint/no-unsafe-member-access": [
       "error",
     ],
     "@typescript-eslint/no-unsafe-return": [
+      "error",
+    ],
+    "@typescript-eslint/no-unsafe-unary-minus": [
       "error",
     ],
     "@typescript-eslint/no-unused-expressions": [
@@ -485,7 +494,7 @@ exports[`keeps rules stable 1`] = `
     "@typescript-eslint/no-useless-constructor": [
       "error",
     ],
-    "@typescript-eslint/no-var-requires": [
+    "@typescript-eslint/no-wrapper-object-types": [
       "error",
     ],
     "@typescript-eslint/non-nullable-type-assertion-style": [
@@ -498,6 +507,9 @@ exports[`keeps rules stable 1`] = `
       "error",
     ],
     "@typescript-eslint/prefer-as-const": [
+      "error",
+    ],
+    "@typescript-eslint/prefer-find": [
       "error",
     ],
     "@typescript-eslint/prefer-for-of": [
@@ -525,6 +537,9 @@ exports[`keeps rules stable 1`] = `
       "error",
     ],
     "@typescript-eslint/prefer-reduce-type-parameter": [
+      "error",
+    ],
+    "@typescript-eslint/prefer-regexp-exec": [
       "error",
     ],
     "@typescript-eslint/prefer-return-this-type": [
@@ -557,6 +572,7 @@ exports[`keeps rules stable 1`] = `
     ],
     "@typescript-eslint/return-await": [
       "error",
+      "error-handling-correctness-only",
     ],
     "@typescript-eslint/semi": [
       "off",
@@ -1348,7 +1364,7 @@ exports[`keeps rules stable 1`] = `
       "error",
     ],
     "no-loss-of-precision": [
-      "off",
+      "error",
     ],
     "no-misleading-character-class": [
       "error",
@@ -1575,6 +1591,9 @@ exports[`keeps rules stable 1`] = `
     "no-return-assign": [
       "error",
       "except-parens",
+    ],
+    "no-return-await": [
+      "off",
     ],
     "no-script-url": [
       "error",
@@ -2285,6 +2304,8 @@ exports[`keeps rules stable 1`] = `
       ".tsx",
       ".js",
       ".jsx",
+      ".mjs",
+      ".cjs",
     ],
     "import/external-module-folders": [
       "node_modules",
@@ -2307,6 +2328,8 @@ exports[`keeps rules stable 1`] = `
           ".tsx",
           ".js",
           ".jsx",
+          ".mjs",
+          ".cjs",
         ],
       },
       "typescript": {

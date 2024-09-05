@@ -1,15 +1,17 @@
 /* eslint-disable sort-keys */
-const { ESLintUtils } = require('@typescript-eslint/experimental-utils');
+/* eslint-disable-next-line import/no-unresolved */
+const { RuleTester } = require('@typescript-eslint/rule-tester');
 const endent = require('endent').default;
 
 const rule = require('../rules/jsx-short-circuit-conditionals');
 
-const ruleTester = new ESLintUtils.RuleTester({
-  parser: require.resolve('@typescript-eslint/parser'),
-  parserOptions: {
-    tsconfigRootDir: __dirname,
-    project: '../tsconfig.json',
-    ecmaFeatures: { jsx: true },
+const ruleTester = new RuleTester({
+  languageOptions: {
+    parserOptions: {
+      tsconfigRootDir: __dirname,
+      project: '../tsconfig.json',
+      ecmaFeatures: { jsx: true },
+    },
   },
 });
 
