@@ -1,25 +1,16 @@
-const { basename, dirname } = require('path');
-const { resolveConfigFile } = require('prettier');
+const path = require('path');
 
 const defaultConfig = require('../prettier.config');
 
 function getRules() {
-  const prettierConfigFile = resolveConfigFile.sync(process.cwd());
-  const hasLocalConfig = prettierConfigFile ? dirname(prettierConfigFile) === process.cwd() : false;
+  const pkgPath = path.resolve(process.cwd(), 'package.json');
+  // eslint-disable-next-line import/no-dynamic-require
+  const pkg = require(pkgPath);
 
-  if (!hasLocalConfig) {
+  if (pkg.prettier !== '@bigcommerce/eslint-config/prettier') {
     throw new Error(`
       =================================================================================
       Please add "prettier": "@bigcommerce/eslint-config/prettier" to your package.json
-      =================================================================================
-    `);
-  }
-
-  if (basename(prettierConfigFile) !== 'package.json') {
-    throw new Error(`
-      =================================================================================
-      Please add "prettier": "@bigcommerce/eslint-config/prettier" to your package.json
-      and remove any other prettier config file
       =================================================================================
     `);
   }

@@ -12,7 +12,7 @@ commands:
     parameters:
       cache-version:
         type: string
-        default: v1
+        default: v1.1
         description: Change the cache version if you need to clear the cache for any reason.
 
     steps:
@@ -58,7 +58,7 @@ jobs:
     steps:
       - checkout
       - node/install-yarn:
-          version: 1.22.10
+          version: 1.22.22
       - run: rm yarn.lock
       - run: yarn install
       - run: yarn run test
