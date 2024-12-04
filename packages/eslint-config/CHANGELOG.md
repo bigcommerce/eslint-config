@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.10.0](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.9.1...@bigcommerce/eslint-config@2.10.0) (2024-12-04)
+
+
+### Features
+
+* FE-411 Add testing-library plugins ([1ac2b34](https://github.com/bigcommerce/eslint-config/commit/1ac2b344ec582e88943737a893f461b42566b605))
+
+
+
+
+
 ## [2.9.1](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.9.0...@bigcommerce/eslint-config@2.9.1) (2024-09-05)
 
 **Note:** Version bump only for package @bigcommerce/eslint-config
