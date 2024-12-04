@@ -550,6 +550,9 @@ exports[`keeps rules stable 1`] = `
     "@typescript-eslint/quotes": [
       0,
     ],
+    "@typescript-eslint/related-getter-setter-pairs": [
+      "error",
+    ],
     "@typescript-eslint/require-await": [
       "error",
     ],
@@ -857,6 +860,7 @@ exports[`keeps rules stable 1`] = `
           "sibling",
           "index",
         ],
+        "named": false,
         "newlines-between": "always",
         "warnOnUnassignedImports": false,
       },
@@ -1210,7 +1214,7 @@ exports[`keeps rules stable 1`] = `
       "error",
     ],
     "no-class-assign": [
-      "error",
+      "off",
     ],
     "no-comma-dangle": [
       "off",
