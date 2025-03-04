@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-plugin@1.3.1...@bigcommerce/eslint-plugin@1.4.0) (2025-03-04)
+
+**Note:** Version bump only for package @bigcommerce/eslint-plugin
+
+
+
+
+
 ## [1.3.1](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-plugin@1.3.0...@bigcommerce/eslint-plugin@1.3.1) (2024-09-05)
 
 
