@@ -169,6 +169,9 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
     "@typescript-eslint/no-misused-promises": [
       "error",
     ],
+    "@typescript-eslint/no-misused-spread": [
+      "error",
+    ],
     "@typescript-eslint/no-mixed-enums": [
       "error",
     ],

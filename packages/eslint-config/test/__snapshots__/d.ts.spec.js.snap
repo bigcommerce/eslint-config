@@ -395,6 +395,9 @@ exports[`keeps rules stable 1`] = `
         },
       },
     ],
+    "@typescript-eslint/no-misused-spread": [
+      "error",
+    ],
     "@typescript-eslint/no-mixed-enums": [
       "error",
     ],
