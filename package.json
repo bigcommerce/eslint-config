@@ -18,6 +18,9 @@
     "release": "lerna publish --sign-git-commit --sign-git-tag --git-remote origin --pre-dist-tag next",
     "test": "jest --projects packages/*"
   },
+  "peerDependencies": {
+    "eslint": ">=8.14.0 <10"
+  },
   "devDependencies": {
     "eslint": "^8.14.0",
     "jest": "^29.7.0",
