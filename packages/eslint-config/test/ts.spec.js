@@ -1,23 +1,29 @@
-const { join } = require('path');
+import { join } from 'path';
+import { fileURLToPath } from 'url';
 
-const { getTSEslint } = require('./getEslint');
+import { getTSEslint } from './getEslint.js';
+
+const __dirname = fileURLToPath(new URL('.', import.meta.url));
 
 const fileName = join(__dirname, '__fixtures__', 'file_ts.ts');
 
 it('keeps rules stable', async () => {
-  const output = await getTSEslint().calculateConfigForFile(fileName);
+  const eslint = await getTSEslint();
+  const output = await eslint.calculateConfigForFile(fileName);
 
   expect(output).toMatchSnapshot();
 });
 
 it('checks that the rules are working', async () => {
-  const [result] = await getTSEslint().lintFiles([fileName]);
+  const eslint = await getTSEslint();
+  const [result] = await eslint.lintFiles([fileName]);
 
   expect(result.messages).toEqual([]);
 });
 
 it('checks for rule deprecations', async () => {
-  const [result] = await getTSEslint().lintFiles([fileName]);
+  const eslint = await getTSEslint();
+  const [result] = await eslint.lintFiles([fileName]);
 
   expect(result.usedDeprecatedRules).toMatchInlineSnapshot(`[]`);
 });

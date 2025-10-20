@@ -2,19 +2,23 @@
 
 exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably added new rules. Please check which rules were added/changed and add them to our config when appropriate 1`] = `
 {
-  "env": {},
-  "globals": {},
-  "ignorePatterns": [],
-  "noInlineConfig": undefined,
-  "parser": "<rootDir>/node_modules/@typescript-eslint/parser/dist/index.js",
-  "parserOptions": {
-    "project": "<rootDir>/tsconfig.json",
+  "language": "@/js",
+  "languageOptions": {
+    "ecmaVersion": 2026,
+    "parser": "typescript-eslint/parser@8.26.0",
+    "parserOptions": {
+      "project": "<rootDir>/tsconfig.json",
+    },
     "sourceType": "module",
   },
+  "linterOptions": {
+    "reportUnusedDisableDirectives": 1,
+  },
   "plugins": [
-    "@typescript-eslint",
+    "@",
+    "@typescript-eslint:@typescript-eslint/eslint-plugin@8.26.0",
   ],
-  "reportUnusedDisableDirectives": undefined,
+  "processor": undefined,
   "rules": {
     "@typescript-eslint/adjacent-overload-signatures": [
       2,
@@ -45,6 +49,9 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
     ],
     "@typescript-eslint/consistent-return": [
       2,
+      {
+        "treatUndefinedAsUnspecified": false,
+      },
     ],
     "@typescript-eslint/consistent-type-assertions": [
       2,
@@ -63,6 +70,13 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
     ],
     "@typescript-eslint/dot-notation": [
       2,
+      {
+        "allowIndexSignaturePropertyAccess": false,
+        "allowKeywords": true,
+        "allowPattern": "",
+        "allowPrivateClassPropertyAccess": false,
+        "allowProtectedClassPropertyAccess": false,
+      },
     ],
     "@typescript-eslint/explicit-function-return-type": [
       2,
@@ -120,6 +134,9 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
     ],
     "@typescript-eslint/no-empty-function": [
       2,
+      {
+        "allow": [],
+      },
     ],
     "@typescript-eslint/no-empty-object-type": [
       2,
@@ -150,6 +167,9 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
     ],
     "@typescript-eslint/no-invalid-this": [
       2,
+      {
+        "capIsConstructor": true,
+      },
     ],
     "@typescript-eslint/no-invalid-void-type": [
       2,
@@ -267,6 +287,11 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
     ],
     "@typescript-eslint/no-unused-expressions": [
       2,
+      {
+        "allowShortCircuit": false,
+        "allowTaggedTemplates": false,
+        "allowTernary": false,
+      },
     ],
     "@typescript-eslint/no-unused-vars": [
       2,
@@ -390,21 +415,27 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
     ],
     "class-methods-use-this": [
       0,
+      {
+        "enforceForClassFields": true,
+        "exceptMethods": [],
+        "ignoreOverrideMethods": false,
+      },
     ],
     "consistent-return": [
       0,
-    ],
-    "constructor-super": [
-      0,
+      {
+        "treatUndefinedAsUnspecified": false,
+      },
     ],
     "default-param-last": [
       0,
     ],
     "dot-notation": [
       0,
-    ],
-    "getter-return": [
-      0,
+      {
+        "allowKeywords": true,
+        "allowPattern": "",
+      },
     ],
     "init-declarations": [
       0,
@@ -415,35 +446,23 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
     "no-array-constructor": [
       0,
     ],
-    "no-class-assign": [
-      0,
-    ],
-    "no-const-assign": [
-      0,
-    ],
-    "no-dupe-args": [
-      0,
-    ],
     "no-dupe-class-members": [
-      0,
-    ],
-    "no-dupe-keys": [
       0,
     ],
     "no-empty-function": [
       0,
-    ],
-    "no-func-assign": [
-      0,
+      {
+        "allow": [],
+      },
     ],
     "no-implied-eval": [
       0,
     ],
-    "no-import-assign": [
-      0,
-    ],
     "no-invalid-this": [
       0,
+      {
+        "capIsConstructor": true,
+      },
     ],
     "no-loop-func": [
       0,
@@ -451,17 +470,11 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
     "no-magic-numbers": [
       0,
     ],
-    "no-new-native-nonconstructor": [
-      0,
-    ],
-    "no-new-symbol": [
-      0,
-    ],
-    "no-obj-calls": [
-      0,
-    ],
     "no-redeclare": [
       0,
+      {
+        "builtinGlobals": true,
+      },
     ],
     "no-restricted-imports": [
       0,
@@ -469,61 +482,60 @@ exports[`plugin:@typescript-eslint/all if this test fails, the plugin probably a
     "no-return-await": [
       0,
     ],
-    "no-setter-return": [
-      0,
-    ],
     "no-shadow": [
       0,
-    ],
-    "no-this-before-super": [
-      0,
+      {
+        "allow": [],
+        "builtinGlobals": false,
+        "hoist": "functions",
+        "ignoreFunctionTypeParameterNameValueShadow": true,
+        "ignoreOnInitialization": false,
+        "ignoreTypeValueShadow": true,
+      },
     ],
     "no-throw-literal": [
       0,
     ],
-    "no-undef": [
-      0,
-    ],
-    "no-unreachable": [
-      0,
-    ],
-    "no-unsafe-negation": [
-      0,
-    ],
     "no-unused-expressions": [
       0,
+      {
+        "allowShortCircuit": false,
+        "allowTaggedTemplates": false,
+        "allowTernary": false,
+        "enforceForJSX": false,
+        "ignoreDirectives": false,
+      },
     ],
     "no-unused-vars": [
       0,
     ],
     "no-use-before-define": [
       0,
+      {
+        "allowNamedExports": false,
+        "classes": true,
+        "enums": true,
+        "functions": true,
+        "ignoreTypeReferences": true,
+        "typedefs": true,
+        "variables": true,
+      },
     ],
     "no-useless-constructor": [
       0,
-    ],
-    "no-var": [
-      2,
-    ],
-    "prefer-const": [
-      2,
     ],
     "prefer-destructuring": [
       0,
     ],
     "prefer-promise-reject-errors": [
       0,
-    ],
-    "prefer-rest-params": [
-      2,
-    ],
-    "prefer-spread": [
-      2,
+      {
+        "allowEmptyReject": false,
+      },
     ],
     "require-await": [
       0,
     ],
   },
-  "settings": {},
 }
 `;

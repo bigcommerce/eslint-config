@@ -1,18 +1,17 @@
-/* eslint-disable sort-keys */
-const tsutils = require('tsutils');
-const ts = require('typescript');
+import tsutils from 'tsutils';
+import ts from 'typescript';
 
-module.exports = {
+export default {
   name: 'jsx-short-circuit-conditionals',
   meta: {
     type: 'problem',
     fixable: true,
     hasSuggestions: true,
-  },
-  docs: {
-    description: 'Disallows usage of string / number while short-circuiting jsx',
-    suggestion: true,
-    recommended: true,
+    schema: [], // No options for this rule
+    docs: {
+      description: 'Disallows usage of string / number while short-circuiting jsx',
+      recommended: true,
+    },
   },
   create(context) {
     const { parserServices } = context.sourceCode;
@@ -27,12 +26,10 @@ module.exports = {
       const suggestions = [
         {
           desc: `Make it a boolean by casting it: Boolean(${targetNode.name})`,
-          fix: (fixer) => {
-            return [
-              fixer.insertTextBefore(targetNode, `Boolean(`),
-              fixer.insertTextAfter(targetNode, ')'),
-            ];
-          },
+          fix: (fixer) => [
+            fixer.insertTextBefore(targetNode, `Boolean(`),
+            fixer.insertTextAfter(targetNode, ')'),
+          ],
         },
       ];
 

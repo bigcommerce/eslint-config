@@ -1,9 +1,13 @@
-/* eslint-disable sort-keys */
-/* eslint-disable-next-line import/no-unresolved */
-const { RuleTester } = require('@typescript-eslint/rule-tester');
-const endent = require('endent').default;
+import { RuleTester } from '@typescript-eslint/rule-tester';
+import edentImport from 'endent';
+import { dirname } from 'path';
+import { fileURLToPath } from 'url';
 
-const rule = require('../rules/jsx-short-circuit-conditionals');
+import rule from '../rules/jsx-short-circuit-conditionals.js';
+
+const endent = edentImport.default || edentImport;
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const ruleTester = new RuleTester({
   languageOptions: {
