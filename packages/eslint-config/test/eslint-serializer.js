@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   print(value, serialize) {
     return serialize(value.replace(process.cwd(), '<rootDir>'));
   },
