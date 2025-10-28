@@ -50,7 +50,7 @@ module.exports = {
     'react/no-unsafe': 'error',
     'react/no-unused-state': 'error',
     'react/prefer-es6-class': 'error',
-    'react/prefer-read-only-props': 'error',
+    'react/prefer-read-only-props': 'off',
     'react/prop-types': 'off',
     'react/self-closing-comp': 'error',
     'react/style-prop-object': 'error',

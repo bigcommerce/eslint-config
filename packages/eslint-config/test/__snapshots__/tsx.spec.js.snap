@@ -2016,7 +2016,7 @@ exports[`keeps rules stable 1`] = `
       "error",
     ],
     "react/prefer-read-only-props": [
-      "error",
+      "off",
     ],
     "react/prop-types": [
       "off",
