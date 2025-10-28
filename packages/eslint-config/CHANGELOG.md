@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.12.0](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.11.1...@bigcommerce/eslint-config@2.12.0) (2025-10-28)
+
+
+### Features
+
+* **config:** turn off react/prefer-read-only-props ([93aa8af](https://github.com/bigcommerce/eslint-config/commit/93aa8af6156fe930379f378c22d1d2687aaa27c2))
+
+
+
+
+
 # [2.11.0](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.10.0...@bigcommerce/eslint-config@2.11.0) (2025-03-04)
 
 **Note:** Version bump only for package @bigcommerce/eslint-config
