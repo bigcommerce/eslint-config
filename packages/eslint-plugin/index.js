@@ -1,17 +1,30 @@
-const jsxShortCircuitConditionals = require('./rules/jsx-short-circuit-conditionals');
+import tsParser from '@typescript-eslint/parser';
 
-module.exports = {
-  configs: {
-    recommended: {
-      parser: '@typescript-eslint/parser',
-      parserOptions: { sourceType: 'module' },
-      plugins: ['@bigcommerce'],
-      rules: {
-        '@bigcommerce/jsx-short-circuit-conditionals': 'error',
-      },
-    },
-  },
+import jsxShortCircuitConditionals from './rules/jsx-short-circuit-conditionals.js';
+
+const plugin = {
+  configs: {},
   rules: {
     'jsx-short-circuit-conditionals': jsxShortCircuitConditionals,
   },
 };
+
+// Add recommended config in flat config format
+plugin.configs.recommended = [
+  {
+    languageOptions: {
+      parser: tsParser,
+      parserOptions: {
+        sourceType: 'module',
+      },
+    },
+    plugins: {
+      '@bigcommerce': plugin,
+    },
+    rules: {
+      '@bigcommerce/jsx-short-circuit-conditionals': 'error',
+    },
+  },
+];
+
+export default plugin;

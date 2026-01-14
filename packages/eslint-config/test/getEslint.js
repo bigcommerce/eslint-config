@@ -1,31 +1,32 @@
 /* eslint-env node, jest */
-const { ESLint } = require('eslint');
-const { join } = require('path');
+import { ESLint } from 'eslint';
+import { join } from 'path';
+import { fileURLToPath } from 'url';
 
-const eslintSerializer = require('./eslint-serializer');
+import eslintConfig from '../index.js';
 
-expect.addSnapshotSerializer(eslintSerializer);
+const __dirname = fileURLToPath(new URL('.', import.meta.url));
 
-function getEslint(config = {}) {
+async function getEslint(additionalConfig = []) {
+  // Wait for the config promise to resolve
+  const baseConfig = await eslintConfig;
+
   return new ESLint({
-    cwd: process.cwd(),
-    overrideConfig: {
-      ...config,
-    },
-    overrideConfigFile: join(__dirname, '..', 'index.js'),
-    resolvePluginsRelativeTo: process.cwd(),
-    useEslintrc: false,
+    overrideConfigFile: true, // Don't look for config files
+    baseConfig: [...baseConfig, ...additionalConfig],
   });
 }
 
-const getTSEslint = () =>
-  getEslint({
-    parserOptions: {
-      project: join(__dirname, '__fixtures__', 'tsconfig.json'),
+async function getTSEslint() {
+  return getEslint([
+    {
+      languageOptions: {
+        parserOptions: {
+          project: join(__dirname, '__fixtures__', 'tsconfig.json'),
+        },
+      },
     },
-  });
+  ]);
+}
 
-module.exports = {
-  getEslint: () => getEslint(),
-  getTSEslint,
-};
+export { getEslint, getTSEslint };

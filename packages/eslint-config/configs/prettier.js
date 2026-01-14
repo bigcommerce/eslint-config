@@ -1,11 +1,13 @@
-const path = require('path');
+import prettierConfig from 'eslint-config-prettier';
+import prettierPlugin from 'eslint-plugin-prettier';
+import { readFileSync } from 'fs';
+import path from 'path';
 
-const defaultConfig = require('../prettier.config');
+import defaultPrettierConfig from '../prettier.config.js';
 
 function getRules() {
   const pkgPath = path.resolve(process.cwd(), 'package.json');
-  // eslint-disable-next-line import/no-dynamic-require
-  const pkg = require(pkgPath);
+  const pkg = JSON.parse(readFileSync(pkgPath, 'utf-8'));
 
   if (pkg.prettier !== '@bigcommerce/eslint-config/prettier') {
     throw new Error(`
@@ -17,12 +19,18 @@ function getRules() {
 
   return {
     curly: ['error', 'all'],
-    'prettier/prettier': ['warn', defaultConfig, { usePrettierrc: false }],
+    'prettier/prettier': ['warn', defaultPrettierConfig, { usePrettierrc: false }],
   };
 }
 
-/** @type {import("eslint").Linter.Config} */
-module.exports = {
-  extends: ['plugin:prettier/recommended'],
-  rules: getRules(),
-};
+export default [
+  {
+    plugins: {
+      prettier: prettierPlugin,
+    },
+    rules: {
+      ...prettierConfig.rules,
+      ...getRules(),
+    },
+  },
+];
