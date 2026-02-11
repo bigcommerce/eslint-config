@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.13.0](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.12.0...@bigcommerce/eslint-config@2.13.0) (2026-02-11)
+
+
+### Bug Fixes
+
+* **config:** address PR feedback on peerDependencies ([32e5b5f](https://github.com/bigcommerce/eslint-config/commit/32e5b5f5cda28857fb951f75466291e8ba38a68f))
+
+
+### Features
+
+* **config:** add typescript-eslint/parser and import-resolver to peerDependencies ([fb5d8e3](https://github.com/bigcommerce/eslint-config/commit/fb5d8e300b71c4b57932c205f5922bebf056205a))
+
+
+
+
+
 # [2.12.0](https://github.com/bigcommerce/eslint-config/compare/@bigcommerce/eslint-config@2.11.1...@bigcommerce/eslint-config@2.12.0) (2025-10-28)
 
 
